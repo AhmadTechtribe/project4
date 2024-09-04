@@ -1,0 +1,50 @@
+<svg width="1872" height="952" viewBox="0 0 1872 952" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_1_30" fill="white">
+<path d="M0 0H312V952H0V0Z"/>
+</mask>
+<path d="M1 952V0H-1V952H1Z" fill="white" fill-opacity="0.1" mask="url(#path-1-inside-1_1_30)"/>
+<mask id="path-3-inside-2_1_30" fill="white">
+<path d="M312 0H624V952H312V0Z"/>
+</mask>
+<path d="M313 952V0H311V952H313Z" fill="white" fill-opacity="0.1" mask="url(#path-3-inside-2_1_30)"/>
+<mask id="path-5-inside-3_1_30" fill="white">
+<path d="M624 0H936V952H624V0Z"/>
+</mask>
+<path d="M625 952V0H623V952H625Z" fill="white" fill-opacity="0.1" mask="url(#path-5-inside-3_1_30)"/>
+<mask id="path-7-inside-4_1_30" fill="white">
+<path d="M936 0H1248V952H936V0Z"/>
+</mask>
+<path d="M937 952V0H935V952H937Z" fill="white" fill-opacity="0.1" mask="url(#path-7-inside-4_1_30)"/>
+<mask id="path-9-inside-5_1_30" fill="white">
+<path d="M1248 0H1560V952H1248V0Z"/>
+</mask>
+<path d="M1249 952V0H1247V952H1249Z" fill="white" fill-opacity="0.1" mask="url(#path-9-inside-5_1_30)"/>
+<mask id="path-11-inside-6_1_30" fill="white">
+<path d="M1560 0H1872V952H1560V0Z"/>
+</mask>
+<path d="M1871 0V952H1873V0H1871ZM1561 952V0H1559V952H1561Z" fill="white" fill-opacity="0.1" mask="url(#path-11-inside-6_1_30)"/>
+<mask id="path-13-inside-7_1_30" fill="white">
+<path d="M0 0H1872V158.667H0V0Z"/>
+</mask>
+<path d="M0 1H1872V-1H0V1Z" fill="white" fill-opacity="0.1" mask="url(#path-13-inside-7_1_30)"/>
+<mask id="path-15-inside-8_1_30" fill="white">
+<path d="M0 158.667H1872V317.333H0V158.667Z"/>
+</mask>
+<path d="M0 159.667H1872V157.667H0V159.667Z" fill="white" fill-opacity="0.1" mask="url(#path-15-inside-8_1_30)"/>
+<mask id="path-17-inside-9_1_30" fill="white">
+<path d="M0 317.333H1872V476H0V317.333Z"/>
+</mask>
+<path d="M0 318.333H1872V316.333H0V318.333Z" fill="white" fill-opacity="0.1" mask="url(#path-17-inside-9_1_30)"/>
+<mask id="path-19-inside-10_1_30" fill="white">
+<path d="M0 476H1872V634.667H0V476Z"/>
+</mask>
+<path d="M0 477H1872V475H0V477Z" fill="white" fill-opacity="0.1" mask="url(#path-19-inside-10_1_30)"/>
+<mask id="path-21-inside-11_1_30" fill="white">
+<path d="M0 634.667H1872V793.333H0V634.667Z"/>
+</mask>
+<path d="M0 635.667H1872V633.667H0V635.667Z" fill="white" fill-opacity="0.1" mask="url(#path-21-inside-11_1_30)"/>
+<mask id="path-23-inside-12_1_30" fill="white">
+<path d="M0 793.333H1872V952H0V793.333Z"/>
+</mask>
+<path d="M0 794.333H1872V792.333H0V794.333ZM1872 951H0V953H1872V951Z" fill="white" fill-opacity="0.1" mask="url(#path-23-inside-12_1_30)"/>
+</svg>
