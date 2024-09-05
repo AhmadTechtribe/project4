@@ -885,16 +885,7 @@ margin: 0 auto;
 
 
 }
-.layoutE{
-  background-image: url(/images/layoutdimg1.svg);
-  width: 100%;
-  max-width: 1920px;
-  min-height: 100vh;
-  margin: 0 auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:contain;
-}
+
 .blackalgo {
   border: 1px solid gray;
   max-width: 1920px;
@@ -965,4 +956,693 @@ margin: 0 auto;
   margin-top: 420px;
   height: fit-content;
 
+}
+.etxt1{
+  max-width: 647px;
+  font-family:serif;
+font-size: 72px;
+font-weight: 400;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+color: white;
+
+}
+.etxt2{
+
+
+font-size: 72px;
+font-style: italic;
+font-weight: 100;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+font-style: italic;
+color: white;
+
+
+}
+.etxt3{
+  padding-top: 19px;
+  max-width: 647px;
+  width: 100%;
+  font-family: serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+  
+}
+.mainlayoute {
+  max-width: 139px;
+  width: 100%;
+  display: flex;
+  gap: 52px;
+  padding-top: 20px;
+  /* padding-left: 102px; */
+  /* padding-bottom: 84px; */
+}
+.layoutetxt5 {
+  max-width: 102px;
+  width: 100%;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  /* font-style: italic; */
+}
+.layoutetxt4{
+  max-width: 139px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  /* font-style: italic; */
+}
+.layoutecard1{
+  max-width: 647px;
+width: 100%;
+padding-left: 102px;
+padding-top: 184px;
+
+}
+.layoutecard2{
+  max-width: 647px;
+width: 100%;
+padding-right: 102px;
+padding-top: 20%;
+
+}
+.Ecards12{
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.layoutE{
+  margin: 100px;
+    background-image: url(/images/layoutdimg1.svg);
+    width: 100%;
+    max-width: 1920px;
+    min-height: 1000px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: 1px solid gray;
+    
+  }
+  .cardemain{
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .layoutF{
+      background-image: url(images/cardf1.svg);
+      max-width: 1920px;
+      width: 100%;
+      min-height: 1000px;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 1px solid gray;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+
+    }
+
+    .txtf1{
+      max-width: 546px;
+      font-family: sans-serif;
+font-size: 72px;
+font-weight: 400;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+color: white;
+
+
+    }
+    .txtf2{
+      font-family: Denton Condensed Test;
+font-size: 72px;
+font-style: italic;
+font-weight: 100;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+font-style:italic;
+color: white;
+opacity: 90%;
+
+    }
+.ftxt3{
+  max-width:155px ;
+  width: 100%;
+  font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: white;
+opacity: 50%;
+
+}
+.ftxt4{
+  max-width:311px ;
+  width: 100%;
+  color: white;
+  font-family: serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+letter-spacing: -0.02em;
+text-align: left;
+opacity: 90%;
+padding-top: 32px;
+
+}
+.maindivAB{
+  display: flex;
+  justify-content: space-between;
+}
+.ftxtA{
+  padding-top: 93px;
+  padding-left: 102px;
+}
+.ftxtB{
+  padding-top: 50px;
+  padding-right: 102px;
+}
+.card1txt1{
+  max-width: 266px;
+  width: 100%;
+  font-family: sans-serif;
+font-size: 48px;
+font-weight: 400;
+line-height: 57.6px;
+text-align: left;
+color: white;
+opacity: 100%;
+padding-left: 24px;
+
+}
+.card1txt2{
+  max-width:500px ;
+  width: 100%;
+  min-height: 88px;
+  color: white;
+  opacity: 50%;
+  font-family: sans-serif;
+font-size: 16px;
+padding-top: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+padding-left: 24px;
+
+}
+.card1txt3{
+  padding-top: 18px;
+  max-width: 95px;
+  width: 100%;
+  font-family: serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+opacity: 50%;
+color: white;
+padding-left: 24px;
+}
+.card1txt4{
+  max-width: 55px;
+  width: 100%;
+  /* font-family: sans-serif; */
+  color: white;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+padding-left: 24px;
+
+
+}
+.card1txt4a{
+  max-width: 55px;
+  width: 100%;
+  /* font-family: sans-serif; */
+  color: rgba(3, 155, 112, 1);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+padding-left: 24px;
+
+
+}
+.card1part2{
+  max-width: 513px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.card1part3{
+  max-width: 513px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 16px;
+  
+
+
+}
+.cardfimg6{
+  padding-top: 12px ;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  
+}
+.card1txt8{
+  max-width: 40px;
+  width: 100%;
+  border: 1px solid rgba(235, 235, 255, 0.1);
+  border-radius: 100px;
+  
+}
+.card1txt6{
+  max-width:68px ;
+  width: 100%;
+  font-family:serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+color: white;
+padding-left: 24px;
+
+}
+.card1part4{
+  max-width:513px;
+  width: 100%;
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.card1{
+  max-width: 558px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+
+}
+.cardimg2{
+  max-width: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 24px;
+}
+.card2{
+  max-width: 558px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+
+}
+.card3{
+  max-width: 558px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  /* background: rgba(0, 0, 0, 0.01); */
+
+
+}
+.cardofFlayout{
+  max-width: 1920px;
+  display: flex;
+ padding-left: 102px;
+ gap: 16px;
+ padding-top: 134px;
+}
+.layoutG{
+  max-width: 1920px;
+width: 100%;
+border: 1px solid gray;
+background-image: url(images/cardg\ img1.svg);
+background-position: center;
+min-height: 1000px;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+
+}
+.layoutg1{
+  background-image: url(/images/layoutdimg1.svg);
+  min-height: 1000px;
+}
+.Gtxt1{
+  color: white;
+  max-width:858px ;
+  width: 100%;
+  font-family:serif;
+font-size: 170px;
+font-weight: 400;
+line-height: 187px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.Gtxt2{
+  font-family: serif;
+font-size: 170px;
+font-style: italic;
+font-weight: 100;
+line-height: 187px;
+letter-spacing: -0.03em;
+text-align: left;
+color: white;
+font-style: italic;
+
+}
+
+.Gtxt3{
+max-width:43px ;
+width: 100%;
+font-family: sans-serif;
+font-size: 90px;
+font-weight: 400;
+line-height: 126px;
+letter-spacing: -0.02em;
+text-align: left;
+color: white;
+padding-left: 70px;
+}
+.Gtxt4{
+  max-width:491px ;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+font-size: 32px;
+font-weight: 400;
+line-height: 44.8px;
+letter-spacing: -0.02em;
+text-align: left;
+padding-left: 60px;
+/* z-index: 30px; */
+
+}
+.Gtxt5{
+  max-width:507px;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family:serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: -0.02em;
+text-align: left;
+padding-left: 60px;
+}
+.gtext45{
+  max-width: 507px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.layoutg3{
+  max-width: 610px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maindivlayoutg{
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.maindivlayoutg3{
+  display: flex;
+  flex-direction: column;
+  padding-right: 102px;
+  padding-top: 345px;
+}
+.layoutgtxt12{
+  display: flex;
+  flex-direction: column;
+  padding-left: 102px;
+  padding-top: 345px;
+}
+.layoutH{
+   max-width: 1920px;
+   width: 100%;
+   background-image: url(images/layouthimg1.png);
+   min-height: 1000px;
+   background-position: center;
+   background-repeat: no-repeat;
+   border: 1px solid gray;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+}
+
+
+.htxt1{
+max-width: 131px;
+font-family:sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: white;
+opacity: 50%;
+padding-top: 50px;
+
+
+
+}
+
+.htxt2{
+  max-width: 624px;
+  padding-top: 32px;
+  width: 100%;
+  color: white;
+  font-family: serif;
+font-size: 72px;
+font-weight: 400;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.htxt3{
+  max-width: 624px;
+  /* padding-top: 32px; */
+  width: 100%;
+  color: white;
+  font-family: serif;
+font-size: 72px;
+font-weight: 400;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+.htxt4{
+  max-width: 624px;
+  /* font-family: serif; */
+font-size: 72px;
+font-style: italic;
+font-weight: 100;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+/* text-align: left; */
+
+color: white;
+
+}
+.layouthtexts{
+  padding-left: 102px;
+
+}
+.cardhtxt1{
+  max-width:508px ;
+  width: 100%;
+  color: white;
+  font-family: serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 38.4px;
+text-align: left;
+padding-left: 24px;
+
+}
+.cardhtxt2{
+  max-width:508px ;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+padding-top: 18px;
+padding-left: 24px;
+padding-bottom: 24px;
+
+}
+.Hcard1{
+
+  max-width:556px ;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  /* margin-left: 102px; */
+
+}
+.Hcard1A{
+
+  max-width:556px ;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  margin-left: 102px;
+
+}
+.maindivcardsh{
+  max-width: 1920px;
+  width: 100%;
+  /* padding-left: 102px; */
+  /* padding-right: 102px; */
+  display: flex;
+  gap: 24px;
+  padding-top: 344px;
+  padding-bottom: 80px;
+}
+.layoutI{
+  max-width: 1920px;
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.txtI1{
+
+max-width: 134px;
+width: 100%;
+font-family: PP Neue Montreal;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: white;
+opacity: 50%;
+
+
+}
+.txtI2a{
+  max-width:337px ;
+  width: 100%;
+  color: white;
+  /* font-family: serif; */
+font-size: 72px;
+font-weight: 400;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+
+  
+}
+.txtI2b{
+  /* font-family: serif; */
+font-size: 72px;
+font-style: italic;
+font-weight: 100;
+line-height: 86.4px;
+letter-spacing: -0.03em;
+text-align: left;
+color: white;
+
+}
+.txtIAB{
+  max-width: 358px;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  padding-top: 93px;
+}
+
+
+
+.txtI3{
+  max-width: 468px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+font-size: 32px;
+font-weight: 400;
+line-height: 38.4px;
+text-align: left;
+color: white;
+}
+.txtI4{
+  max-width: 468px;
+  width: 100%;
+  color: rgba(163, 163, 163, 1);
+  font-family: PP Neue Montreal;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+opacity: 50%;
+text-align: left;
+
+
+}
+.cardI2{
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;
+  justify-content: space-between;
+}
+.txtIcd{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 133px;
+}
+.layoutIimg1{
+  padding-left: 102px;
+  padding-top: 121px;
 }
