@@ -4,31 +4,34 @@ body {
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
+}
+.mainbodyalgo {
+  max-width: 1920px;
+  width: 100%;
 }
 
-.layoutB{
+.layoutB {
   margin-top: 101px;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-
 }
-.layoutC{
+.layoutC {
   margin-top: 100px;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  
-
+  overflow: hidden;
 }
-.layoutD{
+.layoutD {
   margin-top: 110px;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
   /* border-radius: 4px;  */
@@ -36,16 +39,12 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-
-
 }
-
 
 .MAINNAVBAR {
   display: flex;
   justify-content: center;
 }
-
 
 .containerNAV1 {
   padding-top: 20px;
@@ -216,19 +215,14 @@ body {
 }
 .hedtxt {
   max-width: 339px;
+  width: 100%;
   color: rgba(255, 255, 255, 1);
   opacity: 50%;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   cursor: pointer;
   padding-left: 102px;
 }
-/* .mainheaderb{
-  max-width: 1920px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 102px;
-} */
+
 .hedtxt1 {
   color: rgba(255, 255, 255, 1);
   font-family: sans-serif;
@@ -269,7 +263,7 @@ body {
   justify-content: space-evenly;
   cursor: pointer;
   /* border: 1px  solid gray ; */
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 .header3 {
   margin-right: 102px;
@@ -312,6 +306,14 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
+}
+.header2a{
+  max-width: 768px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .bdytxt1 {
@@ -382,7 +384,7 @@ body {
   width: 100%;
 }
 .mainbdyab {
-  max-width: 139px;
+  max-width: 273px;
   width: 100%;
   display: flex;
   gap: 52px;
@@ -397,7 +399,9 @@ body {
   opacity: 0.2;
 }
 .bodyimg4 {
-  /* padding-top: 193px; */
+  max-width: 1660px;
+  width: 100%;
+  min-height: 720;
 }
 .bdytxt2 {
   margin-right: 102px;
@@ -544,7 +548,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 .layoutctxt12 {
   max-width: 79px;
@@ -570,18 +573,11 @@ body {
   padding-bottom: 24px;
   padding-top: 24px;
 
-
   bottom: 10px;
 }
-.bodyimg6{
-  padding-top:0%;
+.bodyimg6 {
+  padding-top: 0%;
 }
-
-
-
-
-
-  
 
 .maincontainer2 {
   max-width: 312px;
@@ -595,7 +591,6 @@ body {
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
-
 }
 .maincontainer3 {
   max-width: 312px;
@@ -611,12 +606,9 @@ body {
   padding-top: 24px;
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
-
- 
 }
 
-
-.maincontainer4{
+.maincontainer4 {
   max-width: 312px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -628,14 +620,10 @@ body {
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
-  
 
   opacity: 20px;
- 
-
- 
 }
-.maincontainer5{
+.maincontainer5 {
   max-width: 312px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -647,12 +635,8 @@ body {
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
-
- 
-
- 
 }
-.maincontainer6{
+.maincontainer6 {
   max-width: 312px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -664,10 +648,8 @@ body {
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
-
- 
 }
-.maincontainer7{
+.maincontainer7 {
   max-width: 312px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -679,62 +661,54 @@ body {
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
-
-
- 
 }
 
-.layoudimg2{
+.layoudimg2 {
   max-width: 647px;
   width: 100%;
   /* margin-top: -900px; */
 }
-.layoutdtxt1{
+.layoutdtxt1 {
   font-family: sans-serif;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-
-
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
 }
-.layoutdtxt2{
+.layoutdtxt2 {
   font-family: serif;
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
 }
-.layoutdtxt3{
+.layoutdtxt3 {
   font-family: serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 33.6px;
-letter-spacing: -0.02em;
-text-align: left;
-opacity: 50%;
-color: white;
-padding-top: 40px;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 50%;
+  color: white;
+  padding-top: 40px;
 }
 
-.layoutdtxt4{
+.layoutdtxt4 {
   font-family: serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 33.6px;
-letter-spacing: -0.02em;
-text-align: left;
-/* opacity: 50%; */
-color: white;
-/* padding-top: 40px; */
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  /* opacity: 50%; */
+  color: white;
+  /* padding-top: 40px; */
 }
 .mainbdylayoutd {
   max-width: 273px;
@@ -762,15 +736,13 @@ color: white;
   margin-top: -124%;
   padding-left: 102px;
 }
-.layouTdDimg3{
+.layouTdDimg3 {
   max-width: 647px;
   width: 100%;
   margin-top: -124%;
   padding-left: 1202px;
-margin-top: -40%;
-
+  margin-top: -40%;
 }
-
 
 .mainlayoutda {
   max-width: 139px;
@@ -780,8 +752,7 @@ margin-top: -40%;
   gap: 19px;
   align-items: center;
 }
-.mainlayoutb{
-
+.mainlayoutb {
   max-width: 102px;
   width: 100%;
   display: flex;
@@ -789,7 +760,7 @@ margin-top: -40%;
   gap: 19px;
   align-items: center;
 }
-.layoutdtxt5{
+.layoutdtxt5 {
   max-width: 102px;
   width: 100%;
   font-family: sans-serif;
@@ -799,28 +770,25 @@ margin-top: -40%;
   letter-spacing: -0.03em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
-
 }
-.layoutdpart1{
+.layoutdpart1 {
   max-width: 647px;
   width: 100%;
 }
-.maincontainersoflayoutc{
-
+.maincontainersoflayoutc {
   max-width: 1482px;
   width: 100%;
   inset: 0;
   /* top: 200px !important; */
-  height:fit-content;
-margin: 0 auto;
+  height: fit-content;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns:312px 312px 312px 312px ;
+  grid-template-columns: 312px 312px 312px 312px;
   gap: 78px;
   position: absolute;
-  top: 1px;
-  
+  top: 1%;
 }
-.layoutdimg6{
+.layoutdimg6 {
   display: flex;
   justify-content: center;
   margin-top: -92px;
@@ -832,12 +800,10 @@ margin: 0 auto;
   flex-direction: column;
   position: relative;
 }
-.Layoutdtxt1maindiv{
+.Layoutdtxt1maindiv {
   display: flex;
   justify-content: center;
-  
 }
-
 
 .layoutctxt1 {
   max-width: 825.07px;
@@ -851,143 +817,94 @@ margin: 0 auto;
   color: white;
   opacity: 50%;
   padding-top: 266px;
-
-  
- 
 }
-.mainlayoutD1{
+.mainlayoutD1 {
   max-width: 647px;
   width: 100%;
- 
-  
 }
-.layoutdimg2{
+.layoutdimg2 {
   max-width: 120px;
   width: 100%;
 }
 
-.mainlayoutD2{
+.mainlayoutD2 {
   max-width: 647px;
   width: 100%;
-
-  
-
 }
-.mainlayoutD{
+.mainlayoutD {
   max-width: 1920px;
   width: 100%;
-
-  
-
-  
-
 }
-.maindivofpag4{
+.maindivofpag4 {
   max-width: 1920px;
   width: 100%;
-
-
 }
 
 .blackalgo {
   margin-top: 100px;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-
-
 }
-.mainheaderA{
+.mainheaderA {
   display: flex;
   flex-direction: column;
-  background-image: url(/images/layoutaimg1.png);
   width: 100%;
   max-width: 1920px;
-  min-height: 920px;
   margin: 0 auto;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gridmaina{
+.gridmaina {
   display: grid;
   row-gap: 67px;
   margin-top: 110px;
   height: fit-content;
-
 }
-.gridmainc{
+.gridmainc {
   display: grid;
   row-gap: 67px;
   margin-top: 320px;
-
 }
-.gridmaind{
+.gridmaind {
   display: grid;
   row-gap: 67px;
   margin-top: 40px;
   height: fit-content;
   z-index: 20px;
-  
-
-
-
 }
-.gridmainb{
+.gridmainb {
   display: grid;
   row-gap: 67px;
   margin-top: 420px;
   height: fit-content;
-
 }
-.etxt1{
+.etxt1 {
   max-width: 647px;
-  font-family:serif;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-
+  font-family: serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
 }
-.etxt2{
-
-
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-font-style: italic;
-color: white;
-
-
+.etxt2 {
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  font-style: italic;
+  color: white;
 }
-.etxt3{
+.etxt3 {
   padding-top: 19px;
   max-width: 647px;
   width: 100%;
@@ -999,7 +916,6 @@ color: white;
   text-align: left;
   color: white;
   opacity: 50%;
-  
 }
 .mainlayoute {
   max-width: 139px;
@@ -1022,7 +938,7 @@ color: white;
   color: rgba(255, 255, 255, 1);
   /* font-style: italic; */
 }
-.layoutetxt4{
+.layoutetxt4 {
   max-width: 139px;
   width: 100%;
   font-family: sans-serif;
@@ -1034,239 +950,230 @@ color: white;
   color: rgba(255, 255, 255, 1);
   /* font-style: italic; */
 }
-.layoutecard1{
+.layoutecard1 {
   max-width: 647px;
-width: 100%;
-padding-left: 102px;
-padding-top: 184px;
-
+  width: 100%;
+  padding-left: 102px;
+  margin-top: 173px;
 }
-.layoutecard2{
+.layoutecard2 {
   max-width: 647px;
-width: 100%;
-padding-right: 102px;
-padding-top: 20%;
-
+  width: 100%;
+  padding-right: 102px;
+  margin-top: 21%;
 }
-.Ecards12{
+.Ecards12 {
   max-width: 1920px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.layoutE{
-  margin: 100px;
-    background-image: url(/images/layoutdimg1.svg);
-    width: 100%;
-    max-width: 1920px;
-    min-height: 1000px;
-    margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 14px; 
-    
-  }
-  .cardemain{
-    max-width: 1920px;
-    width: 100%;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-    .layoutF{
-      background-image: url(images/cardF1.svg);
-      max-width: 1920px;
-      width: 100%;
-      min-height: 1000px;
-      background-repeat: no-repeat;
-      background-position: center;
-      border: 0.1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 44px; 
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 100px;
+.layoutE {
+  margin-top: 100px;
+  background-image: url(/images/layoutdimg1.svg);
+  width: 100%;
+  max-width: 1920px;
+  min-height: 1000px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+}
+.cardemain {
+  max-width: 1920px;
+  width: 100%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.layoutF {
+  background-image: url(images/cardF1.svg);
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
 
-    }
-
-    .txtf1{
-      max-width: 546px;
-      font-family: sans-serif;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-
-
-    }
-    .txtf2{
-      font-family: Denton Condensed Test;
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-font-style:italic;
-color: white;
-opacity: 90%;
-
-    }
-.ftxt3{
-  max-width:155px ;
+.txtf1 {
+  max-width: 546px;
+  font-family: sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+}
+.txtf2 {
+  font-family: Denton Condensed Test;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  font-style: italic;
+  color: white;
+  opacity: 90%;
+}
+.ftxt3 {
+  max-width: 155px;
   width: 100%;
   font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+}
+.ftxt3a{
+  max-width: 235px;
+  width: 100%;
+  font-family: PP Neue Montreal;
 font-size: 16px;
 font-weight: 400;
 line-height: 22.4px;
 text-align: left;
-color: white;
-opacity: 50%;
+
+  color: white;
+  opacity: 50%;
 
 }
-.ftxt4{
-  max-width:311px ;
+.ftxt4 {
+  max-width: 311px;
   width: 100%;
   color: white;
   font-family: serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 28.8px;
-letter-spacing: -0.02em;
-text-align: left;
-opacity: 90%;
-padding-top: 32px;
-
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 90%;
+  padding-top: 32px;
 }
-.maindivAB{
+.maindivAB {
   display: flex;
   justify-content: space-between;
 }
-.ftxtA{
+.ftxtA {
   padding-top: 93px;
   padding-left: 102px;
 }
-.ftxtB{
+.ftxtB {
   padding-top: 50px;
   padding-right: 102px;
 }
-.card1txt1{
+.card1txt1 {
   max-width: 266px;
   width: 100%;
   font-family: sans-serif;
-font-size: 48px;
-font-weight: 400;
-line-height: 57.6px;
-text-align: left;
-color: white;
-opacity: 100%;
-padding-left: 24px;
-
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  text-align: left;
+  color: white;
+  opacity: 100%;
+  padding-left: 24px;
 }
-.card1txt2{
-  max-width:500px ;
+.card1txt2 {
+  max-width: 500px;
   width: 100%;
   min-height: 88px;
   color: white;
   opacity: 50%;
   font-family: sans-serif;
-font-size: 16px;
-padding-top: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-padding-left: 24px;
-
+  font-size: 16px;
+  padding-top: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  padding-left: 24px;
 }
-.card1txt3{
+.card1txt3 {
   padding-top: 18px;
   max-width: 95px;
   width: 100%;
   font-family: serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 19.6px;
-text-align: left;
-opacity: 50%;
-color: white;
-padding-left: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  opacity: 50%;
+  color: white;
+  padding-left: 24px;
 }
-.card1txt4{
+.card1txt4 {
   max-width: 55px;
   width: 100%;
   /* font-family: sans-serif; */
   color: white;
-font-size: 14px;
-font-weight: 400;
-line-height: 19.6px;
-text-align: left;
-padding-left: 24px;
-
-
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  padding-left: 24px;
 }
-.card1txt4a{
+.card1txt4a {
   max-width: 55px;
   width: 100%;
   /* font-family: sans-serif; */
   color: rgba(3, 155, 112, 1);
 
-font-size: 14px;
-font-weight: 400;
-line-height: 19.6px;
-text-align: left;
-padding-left: 24px;
-
-
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  padding-left: 24px;
 }
-.card1part2{
+.card1part2 {
   max-width: 513px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.card1part3{
+.card1part3 {
   max-width: 513px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 16px;
-  
-
-
 }
-.cardfimg6{
-  padding-top: 12px ;
+.cardfimg6 {
+  padding-top: 12px;
   padding-left: 12px;
   padding-bottom: 8px;
-  
 }
-.card1txt8{
+.card1txt8 {
   max-width: 40px;
   width: 100%;
   border: 1px solid rgba(235, 235, 255, 0.1);
   border-radius: 100px;
-  
 }
-.card1txt6{
-  max-width:68px ;
+.card1txt6 {
+  max-width: 68px;
   width: 100%;
-  font-family:serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 19.6px;
-text-align: left;
-color: white;
-padding-left: 24px;
-
+  font-family: serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: white;
+  padding-left: 24px;
 }
-.card1part4{
-  max-width:513px;
+.card1part4 {
+  max-width: 513px;
   width: 100%;
   padding-top: 16px;
   display: flex;
@@ -1274,31 +1181,29 @@ padding-left: 24px;
   justify-content: space-between;
   padding-bottom: 24px;
 }
-.card1{
+.card1 {
   max-width: 558px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
   display: flex;
   flex-direction: column;
-
 }
-.cardimg2{
+.cardimg2 {
   max-width: 100px;
   width: 100%;
   padding-left: 20px;
   padding-top: 24px;
 }
-.card2{
+.card2 {
   max-width: 558px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
   display: flex;
   flex-direction: column;
-
 }
-.card3{
+.card3 {
   max-width: 558px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1306,105 +1211,99 @@ padding-left: 24px;
   display: flex;
   flex-direction: column;
   /* background: rgba(0, 0, 0, 0.01); */
-
-
 }
-.cardofFlayout{
+.cardofFlayout {
   max-width: 1920px;
   display: flex;
- padding-left: 102px;
- gap: 16px;
- padding-top: 134px;
+  padding-left: 102px;
+  gap: 16px;
+  padding-top: 134px;
 }
-.layoutG{
+.layoutG {
   max-width: 1920px;
-width: 100%;
-border: 0.1px solid rgba(255, 255, 255, 0.1);
-border-radius: 8px; 
-background-image: url(images/LAYOUTG.svg);
-background-position: center;
-min-height: 1000px;
-background-repeat: no-repeat;
-margin-left: auto;
-margin-right: auto;
-margin-top: 100px;
-
+  width: 100%;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background-image: url(images/LAYOUTG.svg);
+  background-position: center;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
-.layoutg1{
+.layoutg1 {
   background-image: url(/images/layoutdimg1.svg);
   min-height: 1000px;
 }
-.Gtxt1{
+.Gtxt1 {
   color: white;
-  max-width:858px ;
+  max-width: 858px;
   width: 100%;
-  font-family:serif;
-font-size: 170px;
-font-weight: 400;
-line-height: 187px;
-letter-spacing: -0.03em;
-text-align: left;
-
-}
-.Gtxt2{
   font-family: serif;
-font-size: 170px;
-font-style: italic;
-font-weight: 100;
-line-height: 187px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-font-style: italic;
-
+  font-size: 170px;
+  font-weight: 400;
+  line-height: 187px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.Gtxt2 {
+  font-family: serif;
+  font-size: 170px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 187px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+  font-style: italic;
 }
 
-.Gtxt3{
-max-width:43px ;
-width: 100%;
-font-family: sans-serif;
-font-size: 90px;
-font-weight: 400;
-line-height: 126px;
-letter-spacing: -0.02em;
-text-align: left;
-color: white;
-/* padding-left: 70px; */
+.Gtxt3 {
+  max-width: 43px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 126px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  /* padding-left: 70px; */
 }
-.Gtxt4{
-  max-width:491px ;
+.Gtxt4 {
+  max-width: 491px;
   width: 100%;
   color: white;
   font-family: PP Neue Montreal;
-font-size: 32px;
-font-weight: 400;
-line-height: 44.8px;
-letter-spacing: -0.02em;
-text-align: left;
-padding-left: 60px;
-/* z-index: 30px; */
-
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-left: 35px;
+  /* z-index: 30px; */
 }
-.Gtxt5{
-  max-width:507px;
+.Gtxt5 {
+  max-width: 507px;
   width: 100%;
   color: white;
   opacity: 50%;
-  font-family:serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-letter-spacing: -0.02em;
-text-align: left;
-padding-left: 60px;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-left: 35px;
 }
-.gtext45{
+.gtext45 {
   max-width: 507px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.layoutg3{
+.layoutg3 {
   max-width: 610px;
   width: 100%;
   display: flex;
@@ -1412,144 +1311,136 @@ padding-left: 60px;
   align-items: center;
 }
 
-.maindivlayoutg{
+.maindivlayoutg {
   max-width: 1920px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.maindivlayoutg3{
+.maindivlayoutg3 {
   display: flex;
   flex-direction: column;
   padding-right: 102px;
   padding-top: 345px;
 }
-.layoutgtxt12{
+.layoutgtxt12 {
   display: flex;
   flex-direction: column;
   padding-left: 102px;
   padding-top: 345px;
 }
-.layoutH{
-   max-width: 1920px;
-   width: 100%;
-   background-image: url(images/layouthimg1.svg);
-   min-height: 1000px;
-   background-position: center;
-   background-repeat: no-repeat;
-   border: 0.1px solid rgba(255, 255, 255, 0.1);
-   border-radius: 44px; 
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 100px;
-}
-
-
-.htxt1{
-max-width: 131px;
-font-family:sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-color: white;
-opacity: 50%;
-padding-top: 50px;
-
-
-
-}
-
-.htxt2{
-  max-width: 624px;
-  padding-top: 32px;
+.layoutH {
+  max-width: 1920px;
   width: 100%;
-  color: white;
-  font-family: serif;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-
+  background-image: url(images/layouthimg1.svg);
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
-.htxt3{
+
+.htxt1 {
+  max-width: 131px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+  padding-top: 50px;
+}
+
+.htxt2 {
   max-width: 624px;
   /* padding-top: 32px; */
   width: 100%;
   color: white;
   font-family: serif;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
-.htxt4{
+.htxt3 {
   max-width: 624px;
-  /* font-family: serif; */
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-/* text-align: left; */
-
-color: white;
-
-}
-.layouthtexts{
-  padding-left: 102px;
-
-}
-.cardhtxt1{
-  max-width:508px ;
   width: 100%;
   color: white;
   font-family: serif;
-font-size: 32px;
-font-weight: 400;
-line-height: 38.4px;
-text-align: left;
-padding-left: 24px;
-
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
-.cardhtxt2{
-  max-width:508px ;
+.hcardimg1{
+  padding-top: 24px;
+  max-width:107px ;
+  width: 100%;
+  padding-left: 10px;
+}
+.htxt4 {
+  max-width: 624px;
+  /* font-family: serif; */
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  /* text-align: left; */
+
+  color: white;
+}
+.layouthtexts {
+  padding-left: 102px;
+}
+.cardhtxt1 {
+  max-width: 508px;
+  width: 100%;
+  color: white;
+  font-family: serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  padding-left: 24px;
+}
+.cardhtxt2 {
+  max-width: 508px;
   width: 100%;
   color: white;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-padding-top: 18px;
-padding-left: 24px;
-padding-bottom: 24px;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  padding-top: 18px;
+  padding-left: 24px;
+  padding-bottom: 24px;
 }
-.Hcard1{
-
-  max-width:556px ;
+.Hcard1 {
+  max-width: 556px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(21, 21, 30, 0.3);
   border-radius: 24px;
   /* margin-left: 102px; */
-
 }
-.Hcard1A{
-
-  max-width:556px ;
+.Hcard1A {
+  max-width: 556px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(21, 21, 30, 0.3);
   border-radius: 24px;
   margin-left: 102px;
-
 }
-.maindivcardsh{
+
+.maindivcardsh {
   max-width: 1920px;
   width: 100%;
   /* padding-left: 102px; */
@@ -1559,55 +1450,49 @@ padding-bottom: 24px;
   padding-top: 344px;
   padding-bottom: 80px;
 }
-.layoutI{
+.layoutI {
   max-width: 1920px;
   width: 100%;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
 }
-.txtI1{
-
-max-width: 134px;
-width: 100%;
-font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-color: white;
-opacity: 50%;
-
-
+.txtI1 {
+  max-width: 134px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: white;
+  opacity: 50%;
 }
-.txtI2a{
-  max-width:337px ;
+.txtI2a {
+  max-width: 337px;
   width: 100%;
   color: white;
   /* font-family: serif; */
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-
-  
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
-.txtI2b{
+.txtI2b {
   /* font-family: serif; */
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
 }
-.txtIAB{
+.txtIAB {
   max-width: 358px;
   width: 100%;
   display: flex;
@@ -1615,48 +1500,46 @@ color: white;
   padding-top: 93px;
 }
 
-
-
-.txtI3{
+.txtI3 {
   max-width: 468px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 32px;
-font-weight: 400;
-line-height: 38.4px;
-text-align: left;
-color: white;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  color: white;
 }
-.txtI4{
+.txtI4 {
   max-width: 468px;
   width: 100%;
   color: rgba(163, 163, 163, 1);
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-opacity: 50%;
-text-align: left;
-
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  opacity: 50%;
+  text-align: left;
 }
-.cardI2{
+.cardI2 {
   display: flex;
   flex-direction: column;
   min-height: 1000px;
   justify-content: space-between;
 }
-.txtIcd{
+.txtIcd {
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding-bottom: 133px;
 }
-.layoutIimg1{
+.layoutIimg1 {
+  max-width: 1170px;
+  width: 100%;
   padding-left: 102px;
   padding-top: 121px;
 }
-.layoutJ{
+.layoutJ {
   max-width: 1920px;
   width: 100%;
   background-image: url(images/layoutjimg1.svg);
@@ -1664,96 +1547,88 @@ text-align: left;
   background-position: center;
   background-repeat: no-repeat;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-
 }
-.Jtxt1{
+.Jtxt1 {
   max-width: 186px;
   width: 100%;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-padding-top: 50px;
-padding-left: 102px;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 102px;
 }
-.Jtxt2{
+.Jtxt2 {
   max-width: 545px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
 }
-.Jtxt3{
+.Jtxt3 {
   color: white;
   font-family: Denton Condensed Test;
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
-.Jtxta{
+.Jtxta {
   max-width: 1450px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.layoutj1{
+.layoutj1 {
   padding-top: 50px;
 }
-.Jtxt4{
-  
-  max-width:417px ;
+.Jtxt4 {
+  max-width: 417px;
   width: 100%;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-letter-spacing: -0.02em;
-text-align: left;
-padding-right: 102px;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-right: 102px;
 }
-.txt4Jmain{
+.txt4Jmain {
   max-width: 1920px;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding-top: 350px;
-
 }
-.cardJtxt1{
+.cardJtxt1 {
   max-width: 256px;
   width: 100%;
   color: white;
- 
-font-size: 30px;
-font-weight: 400;
-line-height: 48px;
-text-align: left;
-padding-left: 24px;
 
-padding-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  padding-left: 24px;
 
+  padding-top: 10px;
 }
-.jcard1{
+.jcard1 {
   max-width: 415px;
   width: 100%;
   background: rgba(21, 21, 30, 0.3);
@@ -1764,7 +1639,7 @@ padding-top: 10px;
   margin-left: 102px;
 }
 
-.jcard2{
+.jcard2 {
   max-width: 415px;
   width: 100%;
   background: rgba(21, 21, 30, 0.3);
@@ -1772,107 +1647,102 @@ padding-top: 10px;
   border-radius: 24px;
   padding-top: 30px;
   padding-bottom: 22px;
- 
 }
 
-
-
-.layoutjimg2{
+.layoutjimg2 {
+  max-width: 100px;
+  width: 100%;
   padding-left: 24px;
   /* padding-top: 32px; */
 }
-.jmaincarddiv{
+.jmaincarddiv {
   max-width: 1920px;
   width: 100%;
   display: flex;
   gap: 16px;
   padding-bottom: 54px;
- 
+
   padding-top: 85px;
 }
-.layoutk{
+.layoutk {
   max-width: 1920px;
   width: 100%;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
 }
-.ktxt1{
+.ktxt1 {
   max-width: 186px;
-  width: 100%;color: white;
+  width: 100%;
+  color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
 }
-.layoutkcard1{
+.layoutkcard1 {
   max-width: 273px;
   display: flex;
   flex-direction: column;
- 
+
   /* padding-top: 50px; */
 }
-.ktxt3{
+.ktxt3 {
   max-width: 746px;
   width: 100%;
- 
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
-opacity: 90%;
-padding-bottom: 21px;
-padding-top: 21px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+  opacity: 90%;
+  padding-bottom: 21px;
+  padding-top: 21px;
 }
- .kcard2{
+.kcard2 {
   max-width: 780px;
   width: 100%;
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}  
+}
 
-
-.kcard2a{
+.kcard2a {
   max-width: 780px;
   width: 100%;
   display: flex;
   align-items: center;
-  gap:30px;
+  gap: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-
-.imgk1{
+.imgk1 {
   max-width: 24px;
   width: 100%;
 }
-.ktxt2{
+.ktxt2 {
   max-width: 65px;
   width: 100%;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
 }
-.maincard2{
-
+.maincard2 {
   /* padding-bottom: 50px; */
 }
-.layoutkmaincard1{
+.layoutkmaincard1 {
   max-width: 780px;
   min-height: 900px;
   display: flex;
@@ -1882,156 +1752,79 @@ text-align: left;
   padding-left: 102px;
   padding-bottom: 100px;
 }
-.ktxt4{
-max-width: 149px;
-width: 100%;
-color: white;
-opacity: 50%;
-font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-
-
-
-
+.ktxt4 {
+  max-width: 149px;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family: PP Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
 }
-.ktxt5{
+.ktxt5 {
   padding-top: 85px;
 
   max-width: 780px;
   width: 100%;
   color: white;
   font-family: PP Neue Montreal;
-font-size: 70px;
-font-weight: 400;
-line-height: 88.2px;
-letter-spacing: -0.03em;
-text-align: left;
-
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 88.2px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
 
-.ktxt6{
+.ktxt6 {
   max-width: 780px;
   width: 100%;
   color: white;
   opacity: 50%;
 }
-.layoutkcard3{
+.layoutkcard3 {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
   padding-right: 102px;
   padding-bottom: 100px;
 }
-.layoutL{
+.layoutL {
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   margin-top: 100px;
   background-image: url(images/layoutlimg3.png);
   background-position: top;
   background-repeat: no-repeat;
 }
-.txtl1{
+.txtl1 {
   width: 100%;
-font-family: PP Neue Montreal;
-font-size: 72px;
-font-weight: 400;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: center;
-color: white;
-padding-top: 50px;
-
+  font-family: PP Neue Montreal;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
 }
-.txtl2{
+.txtl2 {
   font-family: Denton Condensed Test;
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: center;
-color: white;
-
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
 }
-.txtl3{
+.txtl3 {
   max-width: 131px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-font-size: 40px;
-font-weight: 500;
-line-height: 48px;
-letter-spacing: -0.03em;
-text-align: left;
-
-}
-.maindivl34{
-  max-width: 1716px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.txtl5{
-  max-width: 982px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-font-size: 24px;
-font-weight: 400;
-line-height: 28.8px;
-letter-spacing: -0.03em;
-text-align: left;
-padding-bottom: 29px;
-padding-top: 29px;
-
-}
-.maindivl5{
-  max-width:1014px ;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.ltxt7{
-  color: white;
-  max-width: 1014px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-opacity: 50%;
-border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-padding-bottom: 29px;
-
-}
-.maindivl6{
-  max-width:1014px ;
-  display: flex;
-  justify-content: space-between;
-
-}
-.maindivcardl1{
- 
-  padding-left: 102px;
-  padding-top: 79px;
-  padding-bottom: 100px;
-}
-.maindivl7{
-  max-width:1716px ;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.txtl6{
-  max-width:471px ;
   width: 100%;
   color: white;
   font-family: PP Neue Montreal;
@@ -2040,117 +1833,175 @@ padding-bottom: 29px;
   line-height: 48px;
   letter-spacing: -0.03em;
   text-align: left;
-  
-padding-bottom: 29px;
-padding-top: 29px;
-
 }
-.layoutM{
+.maindivl34 {
+  max-width: 1716px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.txtl5 {
+  max-width: 982px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-bottom: 29px;
+  padding-top: 29px;
+}
+.maindivl5 {
+  max-width: 1014px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ltxt7 {
+  color: white;
+  max-width: 1014px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  opacity: 50%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 29px;
+}
+.maindivl6 {
+  max-width: 1014px;
+  display: flex;
+  justify-content: space-between;
+}
+.maindivcardl1 {
+  padding-left: 102px;
+  padding-top: 79px;
+  padding-bottom: 100px;
+}
+.maindivl7 {
+  max-width: 1716px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.txtl6 {
+  max-width: 471px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  padding-bottom: 29px;
+  padding-top: 29px;
+}
+.layoutM {
   max-width: 1920px;
   width: 100%;
   border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px; 
+  border-radius: 44px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
 }
-.mtxt2{
+.mtxt2 {
   /* max-width: 63px; */
   width: 100%;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.2px;
-letter-spacing: -0.02em;
-text-align: left;
-color: white;
-opacity: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
 }
-.cardm1{
+.cardm1 {
   max-width: 203px;
   display: flex;
   align-items: center;
-  
 }
-.mtxt1{
+.mtxt1 {
   max-width: 89px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 22px;
-font-weight: 400;
-line-height: 26.4px;
-letter-spacing: -0.03em;
-text-align: left;
-color: white;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
 }
-.Mmaincard1{
-  max-width:608px ;
+.Mmaincard1 {
+  max-width: 608px;
   width: 100%;
-  min-height:159px;
+  min-height: 159px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 32px;
-
 }
-.cardm2{
+.cardm2 {
   max-width: 156px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
 }
-.cardm3{
+.cardm3 {
   max-width: 156px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
- 
 }
 
-.mtxt4{
+.mtxt4 {
   max-width: 111px;
   width: 100px;
   color: white;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.2px;
-letter-spacing: -0.02em;
-text-align: left;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.mtxt3{
+.mtxt3 {
   max-width: 111px;
   width: 100px;
   color: white;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.2px;
-letter-spacing: -0.02em;
-text-align: left;
-opacity: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 50%;
 }
-.mtxt5{
+.mtxt5 {
   max-width: 111px;
   width: 100px;
   color: white;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.2px;
-letter-spacing: -0.02em;
-text-align: left;
-padding-bottom: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-bottom: 35px;
 }
-.maincardM23{
+.maincardM23 {
   max-width: 468px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-bottom: 32px;
 }
-.maincardofM{
+.maincardofM {
   max-width: 1716px;
   display: flex;
   justify-content: space-between;
@@ -2159,167 +2010,143 @@ padding-bottom: 35px;
   padding-top: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.mbordordiv{
-  padding-left:102px ;
+.mbordordiv {
+  padding-left: 102px;
 }
-.mtxt9{
+.mtxt9 {
   max-width: 1719px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.2px;
-letter-spacing: -0.02em;
-text-align: left;
-color: white;
-opacity: 50%;
-padding-top: 32px;
-padding-bottom: 40px;
-padding-left: 102px;
-}
-.layoutN{
-  background-image: url(images/layoutn-img-1.svg);
-max-width: 1920px;
-width: 100%;
-min-height: 1400px;
-background-position: center;
-background-repeat: no-repeat;
-border: 0.1px solid rgba(255, 255, 255, 0.1);
-border-radius: 44px; 
-margin-left: auto;
-margin-right: auto;
-margin-top: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  padding-left: 102px;
 }
 
-.layoutntxt1{
+.layoutntxt1 {
   /* max-width: 463px; */
   width: 100%;
   color: white;
   font-family: PP Neue Montreal;
-font-size: 48px;
-font-weight: 400;
-line-height: 57.6px;
-letter-spacing: -0.03em;
-text-align: center;
-/* text-align: center; */
-
-
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  /* text-align: center; */
 }
-.layoutntxt2{
+.layoutntxt2 {
   /* max-width: 463px; */
   width: 100%;
   color: white;
   font-family: Denton Condensed Test;
-font-size: 48px;
-font-style: italic;
-font-weight: 100;
-line-height: 57.6px;
-letter-spacing: -0.03em;
-text-align: center;
-
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: center;
 }
-.maindivNA{
+.ecard2img1 {
+  max-width: 100px;
+  width: 100%;
+}
+.maindivNA {
   max-width: 1920px;
   width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 34px;
 }
-.layoutntxt3{
+.layoutntxt3 {
   max-width: 235px;
   width: 100%;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
 }
-.layoutntxt4{
+.layoutntxt4 {
   max-width: 241px;
   width: 100%;
   color: white;
   font-family: PP Neue Montreal;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: -0.03em;
-text-align: left;
-
-
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
 
-.mainDivNb{
+.mainDivNb {
   max-width: 1092px;
   /* width: 100%;- */
   display: flex;
   justify-content: flex-end;
 }
-.Nlayouttable{
+.Nlayouttable {
   max-width: 1920px;
   width: 100%;
- 
- 
-
-   /* background: rgba(21, 21, 30, 0.3);
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 24px;  */
 }
-.nimg2{
- 
+.nimg2 {
   max-width: 20px;
   width: 100%;
-
 }
-.layoutntxt51{
+.layoutntxt51 {
   max-width: 84px;
   width: 100%;
   color: white;
   font-family: sans-serif;
-font-size: 18.2px;
-font-weight: 400;
-line-height: 21.84px;
-letter-spacing: -0.03em;
-text-align: left;
+  font-size: 18.2px;
+  font-weight: 400;
+  line-height: 21.84px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
 
-.layoutntxt6{
+.layoutntxt6 {
   color: white;
 }
-.NmainDiv1{
+.NmainDiv1 {
   max-width: 242px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.layoutntxt6{
+.layoutntxt6 {
   max-width: 86px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 13.87px;
-font-weight: 400;
-line-height: 20.8px;
-letter-spacing: -0.02em;
-text-align: left;
-color: white;
-opacity: 50%;
+  font-size: 13.87px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
 }
-.Ncard1{
+.Ncard1 {
   max-width: 242px;
   display: flex;
   align-items: center;
   gap: 10px;
   padding-top: 12px;
   padding-bottom: 12px;
-  /* padding-left: 15px; */
 
   padding-left: 15px;
 }
-.layoutntxt7{
+.layoutntxt7 {
   max-width: 86px;
   width: 100%;
   font-family: sans-serif;
@@ -2328,103 +2155,98 @@ opacity: 50%;
   line-height: 20.8px;
   letter-spacing: -0.02em;
   text-align: left;
-  
-color: white;
-/* opacity: 50%; */
+
+  color: white;
+  /* opacity: 50%; */
 }
-.nimg3{
+.nimg3 {
   max-width: 20px;
 }
-.Ncardmaindiv7{
+.Ncardmaindiv7 {
   max-width: 240px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   /* border: 1px solid gray; */
-
 }
-.Ncardmaindiv7:hover{
+.Ncardmaindiv7:hover {
   cursor: pointer;
-  border: 0.87px solid rgba(255, 255, 255, 0.10);
+  border: 0.87px solid rgba(255, 255, 255, 0.1);
   border-radius: 27px;
   background-color: rgba(194, 189, 189, 0.1);
 }
-.ncardAB{
+.ncardAB {
   max-width: 242px;
   min-height: 552px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.ncardA{
+.ncardA {
   padding-top: 13px;
 }
-.nimg4{
+.nimg4 {
   max-width: 20px;
-  padding-right:13px ;
+  padding-right: 13px;
 }
-.nimg11{
+.nimg11 {
   max-width: 34px;
   width: 100%;
   padding-left: 13px;
 }
-.nimg12{
+.nimg12 {
   max-width: 17px;
   width: 100%;
   padding-left: 20px;
 }
-.nlayouttxt9{
+.nlayouttxt9 {
   max-width: 145px;
   width: 100%;
   color: white;
-  font-family:sans-serif;
-font-size: 13.87px;
-font-weight: 500;
-line-height: 20.8px;
-letter-spacing: -0.02em;
-text-align: left;
-
+  font-family: sans-serif;
+  font-size: 13.87px;
+  font-weight: 500;
+  line-height: 20.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.nlayouttxt10{
-  max-width:145px ;
+.nlayouttxt10 {
+  max-width: 145px;
   width: 100%;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 12.13px;
-font-weight: 400;
-line-height: 14.56px;
-letter-spacing: -0.02em;
-text-align: left;
-
+  font-size: 12.13px;
+  font-weight: 400;
+  line-height: 14.56px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.nmaindiv9{
+.nmaindiv9 {
   display: flex;
   flex-direction: column;
   padding-left: 7px;
 }
-.Ncardc{
+.Ncardc {
   margin-top: 13px;
   max-width: 242px;
   width: 100%;
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
-  border: 0.87px solid rgba(255, 255, 255, 0.10);
+  border: 0.87px solid rgba(255, 255, 255, 0.1);
   padding-top: 19px;
   padding-bottom: 19px;
   border-radius: 20px;
-
-  
 }
-.Ncardc:hover{
+.Ncardc:hover {
   cursor: pointer;
   background-color: rgba(194, 189, 189, 0.1);
 }
-.ncardD{
+.ncardD {
   padding-top: 13px;
 }
-.ncardD:hover{
+.ncardD:hover {
   max-width: 242px;
   width: 100%;
   cursor: pointer;
@@ -2432,59 +2254,52 @@ text-align: left;
   border-radius: 29px;
   /* background-color: rgba(194, 189, 189, 0.1); */
 }
-.nlayouttxt12{
-  max-width:263px ;
+.nlayouttxt12 {
+  max-width: 263px;
   width: 100%;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-font-size: 12.13px;
-font-weight: 400;
-line-height: 14.56px;
-letter-spacing: -0.02em;
-text-align: left;
-
+  font-size: 12.13px;
+  font-weight: 400;
+  line-height: 14.56px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.nlayouttxt13{
+.nlayouttxt13 {
   max-width: 124px;
   width: 100%;
-  color:  white;
+  color: white;
   font-family: PP Neue Montreal;
-font-size: 27.73px;
-font-weight: 400;
-line-height: 20.8px;
-letter-spacing: -0.02em;
-text-align: left;
-
-  
+  font-size: 27.73px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.nlayouttxt14{
-  max-width:46px;
+.nlayouttxt14 {
+  max-width: 46px;
   width: 100%;
   color: rgba(3, 155, 112, 1);
   font-family: PP Neue Montreal;
-font-size: 10.4px;
-font-weight: 400;
-line-height: 14.56px;
-text-align: left;
-padding-top: 4px;
-padding-bottom: 3px;
-padding-left: 6px;
-padding-right: 6px;
-
-
-  
+  font-size: 10.4px;
+  font-weight: 400;
+  line-height: 14.56px;
+  text-align: left;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
-.maindivn14{
+.maindivn14 {
   max-width: 59px;
   width: 100%;
-  border: 0.87px solid rgba(255, 255, 255, 0.10);
+  border: 0.87px solid rgba(255, 255, 255, 0.1);
   background-color: rgba(194, 189, 189, 0.1);
   border-radius: 52px;
   text-align: center;
-
 }
-.maindiv14An{
+.maindiv14An {
   max-width: 184px;
   width: 100%;
   display: flex;
@@ -2492,129 +2307,1321 @@ padding-right: 6px;
   gap: 10px;
   padding-top: 13px;
 }
-.ncarddbordor{
+.ncarddbordor {
   max-width: 305px;
   width: 100%;
-  border: 0.87px solid rgba(255, 255, 255, 0.10);
+  border: 0.87px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
 }
-.ncardwidth{
+.ncardwidth {
   max-width: 263px;
   width: 100%;
   padding: 20px 20px 20px 20px;
 }
-.maindivn14a{
+.maindivn14a {
   max-width: 37px;
   width: 100%;
-  border: 0.87px solid rgba(255, 255, 255, 0.10);
+  border: 0.87px solid rgba(255, 255, 255, 0.1);
   background-color: rgba(194, 189, 189, 0.1);
   border-radius: 52px;
   text-align: center;
-
 }
-.nlayouttxt14b{
-  max-width:46px;
+.nlayouttxt14b {
+  max-width: 46px;
   width: 100%;
   color: rgba(3, 155, 112, 1);
   font-family: PP Neue Montreal;
-font-size: 10.4px;
-font-weight: 400;
-line-height: 14.56px;
-text-align: left;
-padding: 3px 3px 3px 3px;
-
-
-  
+  font-size: 10.4px;
+  font-weight: 400;
+  line-height: 14.56px;
+  text-align: left;
+  padding: 3px 3px 3px 3px;
 }
-.maindiv14Ana{
+.maindiv14Ana {
   max-width: 184px;
   width: 100%;
   display: flex;
   align-items: center;
- gap: 15px;
+  gap: 15px;
   padding-top: 13px;
 }
-.nlayouttxt13a{
+.nlayouttxt13a {
   max-width: 99px;
   width: 100%;
-  color:  white;
+  color: white;
   font-family: PP Neue Montreal;
-font-size: 27.73px;
-font-weight: 400;
-line-height: 20.8px;
-letter-spacing: -0.02em;
-text-align: left;
-
-  
+  font-size: 27.73px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.nlayouttxt13b{
+.nlayouttxt13b {
   max-width: 91px;
   width: 100%;
-  color:  white;
+  color: white;
   font-family: PP Neue Montreal;
-font-size: 27.73px;
-font-weight: 400;
-line-height: 20.8px;
-letter-spacing: -0.02em;
-text-align: left;
-
-  
+  font-size: 27.73px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
-.maindiv14Anb{
+.maindiv14Anb {
   max-width: 184px;
   width: 100%;
   display: flex;
   align-items: center;
- gap: 5px;
+  gap: 5px;
   padding-top: 13px;
 }
-.layoutntxt15{
+.layoutntxt15 {
   max-width: 139px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 17.33px;
-font-weight: 400;
-line-height: 20.8px;
-letter-spacing: -0.02em;
-text-align: left;
-color: white;
-
+  font-size: 17.33px;
+  font-weight: 400;
+  line-height: 20.8px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
 }
-.layoutntxt16{
+.layoutntxt16 {
   max-width: 235px;
   width: 100%;
   font-family: PP Neue Montreal;
-font-size: 12.13px;
-font-weight: 400;
-line-height: 14.56px;
-letter-spacing: -0.02em;
-text-align: left;
-color: white;
-opacity: 50%;
-padding-top: 10px;
+  font-size: 12.13px;
+  font-weight: 400;
+  line-height: 14.56px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+  padding-top: 10px;
 }
-.mainlayout15{
+.mainlayout15 {
   max-width: 235px;
   width: 100%;
   display: flex;
 }
-.nalyoutarrow{
+.nalyoutarrow {
   max-width: 235px;
   width: 100%;
 }
-.maindivarrow{
+.maindivarrow {
   max-width: 263px;
   width: 100%;
   display: flex;
   align-items: center;
-  border: 0.87px solid rgba(255, 255, 255, 0.10);
+  border: 0.87px solid rgba(255, 255, 255, 0.1);
   padding: 20px 20px 20px 20px;
   border-radius: 20px;
-  
 }
-.layoutncard3maindiv{
+.layoutncard3maindiv {
   max-width: 942px;
   width: 100%;
   display: flex;
   gap: 13px;
+}
+.layoutN {
+  background-image: url(images/layoutNimg1.jpg);
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1400px;
+  background-position: top;
+  background-repeat: no-repeat;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.layoutNtxt1 {
+  padding-top: 50px;
+  max-width: 512px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
+}
+
+.layoutNtxt2 {
+  width: 100%;
+  font-family: Denton Condensed Test;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: white;
+}
+.maindivNtxt {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.layoutnimg2 {
+  max-width: 1248px;
+  width: 100%;
+  padding-top: 46px;
+}
+.nimg2 {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.layoutnimg3 {
+  max-width: 235;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family: PP Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  z-index: 30px;
+}
+
+.layoutnimg4 {
+  max-width: 311px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.02em;
+}
+.maindivimg34 {
+  max-width: 311px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mainlayoutN34 {
+  max-width: 1540px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen  and (max-width:1280px) {
+  .ftxt3 {
+    display: none;
+  }
+}
+@media only screen  and (min-width:1280px) {
+  .ftxt3a {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hedtxt {
+    max-width: 235px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    /* font-family: sans-serif; */
+    cursor: pointer;
+    padding-left: 102px;
+  }
+  .header3 {
+    /* margin-right: 102px; */
+    max-width: 234px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 52px;
+    box-shadow: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
+  }
+  .hedtxt5 {
+    max-width: 225px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 24px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    opacity: 50%;
+  }
+  .header2 {
+    max-width: 780px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    /* padding-left: 15px; */
+  }
+
+  .mainbdyab {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    gap: 52px;
+    padding-left: 102px;
+    padding-bottom: 84px;
+  }
+  .bdytxt2 {
+    margin-right: 102px;
+    max-width: 357px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+  }
+
+  .bodyimg3 {
+    bottom: -0.6%;
+    opacity: 0.2;
+  }
+
+  .bodyimg4 {
+    max-width: 81.24vw;
+  }
+  .maincontainersoflayoutc {
+    max-width: 1280px;
+    width: 100%;
+    inset: 0;
+    /* top: 100px !important; */
+    height: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 54px;
+    /* position: absolute; */
+    top: 53%;
+  }
+  .maincontainer6 {
+    max-width: 272px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+  .maincontainer4 {
+    max-width: 272px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    opacity: 20px;
+  }
+  .maincontainer3 {
+    max-width: 272px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    opacity: 20px;
+  }
+  .maincontainer1 {
+    max-width: 272px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    opacity: 20px;
+  }
+  .container1 {
+    max-width: 224px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .layoutctxt4 {
+    max-width: 224px;
+    width: 100%;
+    color: aliceblue;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    padding-top: 98px;
+    padding-bottom: 16px;
+    /* padding-left:24px; */
+  }
+  .container2 {
+    padding-top: 18px;
+    max-width: 224px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container3 {
+    padding-top: 18px;
+    max-width: 224px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .gridmaina {
+    max-width: 272px;
+    display: grid;
+    row-gap: 67px;
+    margin-top: 230px;
+    height: fit-content;
+  }
+  .gridmainb {
+    display: grid;
+    row-gap: 67px;
+    margin-top: 400px;
+    height: fit-content;
+  }
+  .gridmainc {
+    display: grid;
+    row-gap: 67px;
+    margin-top: 295px;
+    height: fit-content;
+  }
+  .gridmaind {
+    display: grid;
+    row-gap: 67px;
+    margin-top: 90px;
+    height: fit-content;
+    z-index: 20px;
+  }
+  .etxt1 {
+    max-width: 452px;
+    font-family: serif;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+  }
+  .etxt2 {
+    max-width: 452px;
+    font-family: Denton Condensed Test;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+  }
+  .etxt3 {
+    padding-top: 19px;
+    max-width: 452px;
+    width: 100%;
+    /* font-family: serif; */
+    font-family: PP Neue Montreal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    color: white;
+    opacity: 50%;
+  }
+  .mainlayoute {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    /* gap: 52px; */
+    padding-top: 20px;
+    /* padding-left: 102px; */
+    /* padding-bottom: 84px; */
+  }
+  .ecard2img1 {
+    max-width: 80px;
+    width: 100%;
+  }
+  .layoutecard1 {
+    max-width: 452px;
+    width: 100%;
+    padding-left: 94px;
+    margin-top: 121px;
+  }
+  .layoutecard2 {
+    max-width: 452px;
+    width: 100%;
+    padding-right: 102px;
+    padding-top: -1%;
+  }
+
+  .layoutE {
+    /* margin-top: 64px; */
+    background-image: url(/images/layoutdimg1.svg);
+    width: 100%;
+    max-width: 1247px;
+    min-height: 790px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+  }
+  .cardemain {
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .layoutNtxt1 {
+    padding-top: 64px;
+    max-width: 436px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    color: white;
+  }
+  .layoutNtxt2 {
+    /* width: 100%; */
+    font-family: Denton Condensed Test;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+  }
+  .layoutnimg4 {
+    max-width: 241px;
+    width: 100%;
+    color: white;
+
+    font-family: PP Neue Montreal;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .layoutnimg3 {
+    max-width: 235px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.4px;
+    z-index: 30px;
+  }
+
+  .mainlayoutN34 {
+    max-width: 1486px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .txtf1 {
+    max-width: 326px;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+  }
+  .txtf2 {
+    font-family: Denton Condensed Test;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    font-style: italic;
+    color: white;
+    opacity: 90%;
+  }
+  .ftxtA {
+    padding-top: 64px;
+    padding-left: 102px;
+  }
+  .ftxt3 {
+    max-width: 235px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+font-family: sans-serif;    
+    color: white;
+    opacity: 50%;
+  }
+  .ftxt4 {
+    max-width: 235px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;    
+    opacity: 90%;
+    /* padding-top: 24px; */
+}
+.card1 {
+  max-width: 356px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.card1txt1 {
+  max-width: 177px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 57.6px;
+  text-align: left;
+  color: white;
+  opacity: 100%;
+  padding-left: 24px;
+}
+.card2 {
+  max-width: 356px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.card3{
+  max-width: 356px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.cardofFlayout {
+  max-width: 1280px;
+  display: flex;
+  padding-left: 94px;
+  padding-right: 94px;
+  gap: 16px;
+  padding-top: 70px;
+  padding-bottom: 64px;
+}
+.cardimg2 {
+  max-width: 80px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 24px;
+}
+.card1txt2 {
+  max-width: 308px;
+  width: 100%;
+  min-height: 88px;
+  color: white;
+  opacity: 50%;
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;  
+  padding-left: 24px;
+}
+
+.card1part2 {
+  max-width: 308px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1part3 {
+  max-width: 308px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 16px;
+}
+
+.card1part4 {
+  max-width: 308px;
+  width: 100%;
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.layoutF {
+  background-image: url(images/cardF1.svg);
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: top;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.Gtxt1 {
+  color: white;
+  max-width: 616px;
+  width: 100%;
+  font-family: serif;
+  font-family: PP Neue Montreal;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+}
+.Gtxt2 {
+  font-family: Denton Condensed Test;
+font-size: 100px;
+font-style: italic;
+font-weight: 100;
+line-height: 110px;
+letter-spacing: -0.03em;
+text-align: left;
+
+  color: white;
+  font-style: italic;
+}
+.Gtxt4 {
+  max-width: 368px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+font-size: 24px;
+font-weight: 400;
+line-height: 33.6px;
+letter-spacing: -0.02em;
+text-align: left;
+  /* padding-left: 60px; */
+  padding-top: 60px;
+}
+.Gtxt5 {
+  max-width: 390px;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family: serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-left: 35px;
+}.maindivlayoutg3 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 7px;
+  padding-top: 269px;
+}
+.layoutgtxt12 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 94px;
+  padding-top: 345px;
+}
+.layoutG {
+  max-width: 1280px;
+  width: 100%;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background-image: url(images/LAYOUTG.svg);
+  background-position: top;
+  /* min-height: 900px; */
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+.Gtxt3 {
+  max-width: 38px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 112px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+  text-align: left;
+  color: white;
+  padding-top: 60px;
+  /* padding-left: 70px; */
+}
+.htxt2 {
+  max-width: 460px;
+  padding-top: 32px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+}
+.htxt3 {
+  max-width: 460px;
+  /* padding-top: 32px; */
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.hcardimg1{
+  padding-top: 24px;
+  max-width:67px;
+  width: 100%;
+  padding-left: 10px;
+}
+.htxt4 {
+  max-width: 460px;
+  width: 100%;
+  font-family: Denton Condensed Test;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 57.6px;
+  letter-spacing: -0.11em;
+  text-align: left;
+  
+}
+.cardhtxt1 {
+  max-width: 305px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;  
+  padding-left: 24px;
+}
+.cardhtxt2 {
+  max-width: 305px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;  
+  padding-top: 18px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+.Hcard1A {
+  max-width: 353px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  margin-left: 94px;
+}
+.maindivcardsh {
+  max-width: 1280px;
+  width: 100%;
+  /* padding-left: 102px; */
+  /* padding-right: 102px; */
+  display: flex;
+  gap: 24px;
+  padding-top: 344px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Hcard1 {
+  max-width: 353px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  
+}
+.layoutIimg1 {
+  max-width: 702px;
+  width: 100%;
+  padding-left: 94px;
+  padding-top: 80px;
+  min-height: 500px;
+}
+.txtI2a {
+  max-width: 225px;
+  width: 100%;
+  color: white;
+  /* font-family: serif; */
+  font-family: PP Neue Montreal;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+}
+.txtI2b {
+    /* font-family: serif; */
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  color: white;
+}
+.txtIAB {
+  max-width: 246px;
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  padding-top: 93px;
+}
+.txtI3 {
+  max-width: 312px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;  
+  color: white;
+}
+.cardI2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 11px;
+  padding-left: 40px;
+  
+}
+.txtIcd {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 58px;
+}
+.txtI4 {
+  max-width: 312px;
+  width: 100%;
+  color: rgba(163, 163, 163, 1);
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  opacity: 50%;
+
+}
+.Jtxt2 {
+  max-width: 432px;
+  width: 100%;
+
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+  color: white;
+}
+ .Jtxt3 {
+  max-width: 432px;
+  width: 100%;
+  font-family: Denton Condensed Test;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  /* text-align: left; */
+color: white;  
+} 
+.Jtxta {
+  max-width: 1050px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.layoutJ {
+  max-width: 1280px;
+  width: 100%;
+  background-image: url(images/layoutjimg1.svg);
+  /* min-height: 1000px; */
+  background-position: top;
+  background-repeat: no-repeat;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+.Jtxt4 {
+  max-width: 261px;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;  
+  padding-right: 80px;
+}
+
+.layoutjimg2 {
+  max-width:  80px;
+  width: 100%;
+  padding-left: 24px;
+  /* padding-top: 32px; */
+}
+.cardJtxt1 {
+  max-width: 154px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  
+}
+.jcard2 {
+  max-width: 261px;
+  width: 100%;
+  background: rgba(21, 21, 30, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+}
+.jcard1 {
+  max-width: 261px;
+  width: 100%;
+  background: rgba(21, 21, 30, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  margin-left: 94px;
+}
+.Jtxt1 {
+  max-width: 186px;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family: PP Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;  
+  padding-top: 50px;
+  padding-left: 94px;
+}
+.ktxt3 {
+  max-width: 520px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-family: PP Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.03em;
+  text-align: left;  
+  opacity: 90%;
+  padding-bottom: 21px;
+  padding-top: 21px;
+}
+.kcard2 {
+  max-width: 468px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ktxt5 {
+  padding-top: 65px;
+  max-width: 468px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60.48px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+}
+.maincard2 {
+  max-width: 468px;
+  width: 100%;
+  /* padding-bottom: 50px; */
+}
+.layoutkmaincard1 {
+  max-width: 780px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 94px;
+  /* padding-bottom: 100px; */
+}
+.layoutkcard3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-right: 94px;
+  padding-bottom: 100px;
+}
+.layoutk {
+  max-width: 1280px;
+  width: 100%;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.txtl1 {
+  max-width: px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: center;  
+  color: white;
+  padding-top: 64px;
+}
+.txtl2 {
+
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-family: Denton Condensed Test;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 57.6px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  
+}
+.txtl3 {
+  max-width: 105px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  
+}
+.maindivl34 {
+  max-width: 1096px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.txtl5 {
+  max-width: 834px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: -0.03em;
+  text-align: left;  
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.maindivl5 {
+  max-width: 858px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ltxt7 {
+  color: white;
+  max-width: 848px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;  
+  opacity: 50%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 25px;
+}
+.maindivl6 {
+  max-width: 854px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.txtl6 {
+  max-width: 377px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  letter-spacing: -0.03em;
+  text-align: left;  
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.maindivl7 {
+  max-width: 1092px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.mtxt9 {
+  max-width: 1092px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  padding-left: 102px;
+}
+.layoutF {
+  background-image: url(images/cardF1.svg);
+  max-width: 1920px;
+  width: 100%;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: top;
+  border: 0.1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+}
+@media only screen and (min-width:  768px) and (max-width:1280px) { 
+ 
+  .containerNAV1 {
+    padding-top: 20px;
+    max-width: 728px;
+    width: 100%;
+}
+.navbar {
+  max-width: 728px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 44px;
+  background: rgba(0, 0, 0, 1);
+ 
+  /* justify-content: center; */
+}
+.layout1img{
+  max-width: 735px;
+max-height: 502px; 
+  width: 100%;
+  display: flex;
+   justify-content:center; 
+   margin-top:130px;
+}
+.hedprt2 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+} 
+@media (max-width: 768px)  {
+  .header2{
+    display: none;
+  }
+  .header2a {
+    display: flex !important;
+  }
+}
+
+.header2a {
+  display: none;
 }
