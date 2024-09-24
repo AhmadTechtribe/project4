@@ -19,8 +19,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   margin-top: 101px;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
@@ -28,8 +27,7 @@ body {
 }
 .layoutC {
   margin-top: 100px;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+ 
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
@@ -43,7 +41,7 @@ body {
 }
 .layoutD {
   margin-top: 110px;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
+
   /* border-radius: 4px;  */
   max-width: 1920px;
   width: 100%;
@@ -869,8 +867,7 @@ body {
 
 .blackalgo {
   margin-top: 100px;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
@@ -1027,8 +1024,8 @@ body {
   min-height: 1000px;
   background-repeat: no-repeat;
   background-position: center;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -1375,8 +1372,7 @@ justify-content: center;
   min-height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -1501,8 +1497,7 @@ justify-content: center;
 .layoutI {
   max-width: 1920px;
   width: 100%;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -1596,8 +1591,7 @@ justify-content: center;
   min-height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -1719,7 +1713,7 @@ justify-content: center;
 .layoutk {
   max-width: 1823px;
   width: 100%;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
+ 
   border-radius: 44px;
   margin-top: 100px;
   margin-left: auto;
@@ -1835,6 +1829,9 @@ justify-content: center;
   color: white;
   opacity: 50%;
 }
+.layouthtextsResponsive{
+  display: none;
+}
 .layoutkcard3 {
   display: flex;
   flex-direction: column;
@@ -1847,8 +1844,7 @@ justify-content: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   margin-top: 100px;
   background-image: url(images/layoutlimg3.png);
   background-position: top;
@@ -1957,8 +1953,7 @@ justify-content: center;
 .layoutM {
   max-width: 1920px;
   width: 100%;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -2484,8 +2479,7 @@ justify-content: center;
   min-height: 1400px;
   background-position: top;
   background-repeat: no-repeat;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -4358,8 +4352,7 @@ text-align: left;
   .layoutIRes{
     max-width: 768px;
     width: 100%;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 44px;
+  
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -4497,8 +4490,7 @@ text-align: left;
     min-height: 768px;
     background-position: top;
     background-repeat: no-repeat;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 44px;
+ 
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
@@ -5869,8 +5861,7 @@ display: none;
     background-image: url(images/section5res.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 44px;
+   
     margin-left: auto;
     margin-right: auto;
     margin-top: 65px;
