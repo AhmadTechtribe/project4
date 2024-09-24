@@ -6550,7 +6550,7 @@ padding-top: 27px;
   margin-right: 0px;
 }
 .jmaincarddiv {
-  max-width: 375px;
+  max-width: 350px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -6852,7 +6852,7 @@ text-align: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .maincardM23 {
-  max-width: 375px;
+  max-width: 350px;
   width: 100%;
   display: flex;
   justify-content: start;
