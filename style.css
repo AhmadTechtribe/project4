@@ -1,6 +1,8 @@
-body {
+html, body {
   background: #000;
+  scroll-behavior: smooth;
 }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -79,6 +81,7 @@ body {
   width: 100%;
   justify-content: space-between;
   padding-top: 11px;
+  cursor: pointer;
   padding-bottom: 13px;
 }
 .nav2 {
@@ -87,6 +90,8 @@ body {
   padding-top: 13px;
   padding-bottom: 13px;
   display: flex;
+  align-items: center;
+  cursor: pointer;
   justify-content: space-between;
 }
 .navimg1 {
@@ -374,6 +379,7 @@ body {
   text-align: left;
   color: rgba(255, 255, 255, 1);
   font-style: italic;
+  cursor: pointer;
 }
 .bdytxt3 {
   max-width: 139px;
@@ -386,6 +392,7 @@ body {
   text-align: left;
   color: rgba(255, 255, 255, 1);
   font-style: italic;
+  cursor: pointer;
 }
 .mainbody2 {
   max-width: 102px;
@@ -957,6 +964,7 @@ body {
   line-height: 28.8px;
   letter-spacing: -0.03em;
   text-align: left;
+  cursor: pointer;
   color: rgba(255, 255, 255, 1);
   /* font-style: italic; */
 }
@@ -969,6 +977,7 @@ body {
   line-height: 28.8px;
   letter-spacing: -0.03em;
   text-align: left;
+  cursor: pointer;
   color: rgba(255, 255, 255, 1);
   /* font-style: italic; */
 }
@@ -1200,6 +1209,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 24px;
+  cursor: pointer;
 }
 .card1 {
   max-width: 558px;
@@ -1579,6 +1589,7 @@ justify-content: center;
   max-width: 1170px;
   width: 100%;
   padding-left: 0px;
+  cursor: pointer;
   padding-top: 121px;
 }
 .layoutJ {
@@ -1679,6 +1690,7 @@ justify-content: center;
   padding-top: 30px;
   padding-bottom: 22px;
   margin-left: 0px;
+  cursor: pointer;
 }
 
 .jcard2 {
@@ -1689,6 +1701,7 @@ justify-content: center;
   border-radius: 24px;
   padding-top: 30px;
   padding-bottom: 22px;
+  cursor: pointer;
 }
 
 .layoutjimg2 {
@@ -1747,6 +1760,7 @@ justify-content: center;
   text-align: left;
   color: white;
   opacity: 90%;
+  cursor: pointer;
   padding-bottom: 21px;
   padding-top: 21px;
 }
@@ -2016,6 +2030,7 @@ justify-content: center;
   line-height: 19.2px;
   letter-spacing: -0.02em;
   text-align: left;
+  cursor: pointer;
 }
 .mtxt3 {
   max-width: 111px;
@@ -2027,6 +2042,30 @@ justify-content: center;
   letter-spacing: -0.02em;
   text-align: left;
   opacity: 50%;
+
+}
+.mtxt3:hover{
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
+border-radius: 15px;
+}
+.mtxt4:hover{
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
+  border-radius: 15px;
+}
+.mtxt5:hover{
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
+  border-radius: 15px;
+}
+.anchor1{
+
+  text-decoration: none;
+}
+
+.layoutC,mtxt3{
+  scroll-behavior: smooth;
 }
 .mtxt5 {
   max-width: 111px;
@@ -2037,7 +2076,7 @@ justify-content: center;
   line-height: 19.2px;
   letter-spacing: -0.02em;
   text-align: left;
-  padding-bottom: 35px;
+margin-bottom: 35px;
 }
 .maincardM23 {
   max-width: 468px;
@@ -2470,7 +2509,7 @@ justify-content: center;
   gap: 13px;
 }
 .layoutN {
-  background-image: url(images/layoutNimg1.jpg);
+  background-image: url(images/ballres\ crop.png);
   max-width: 1920px;
   width: 100%;
   min-height: 1400px;
@@ -2532,6 +2571,21 @@ justify-content: center;
   font-weight: 400;
   line-height: 22.4px;
   z-index: 30px;
+}
+.cursorm1{
+  max-width: 50px;
+  width: 100%;
+}
+.cursorm1:hover{
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
+  border-radius: 50px;
+}
+.cursor12{
+  max-width: 108px;
+  width: 100%;
+  display: flex;
+  gap: 8px;
 }
 
 .layoutnimg4 {
@@ -3192,6 +3246,7 @@ justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 24px;
+    cursor: pointer;
   }
   .layoutF {
     background-image: url(images/cardF1.svg);
@@ -3396,6 +3451,7 @@ justify-content: center;
     padding-left: 0px;
     padding-top: 80px;
     min-height: 500px;
+    cursor: pointer;
   }
   .txtI2a {
     max-width: 225px;
@@ -3548,6 +3604,7 @@ justify-content: center;
     border-radius: 24px;
     padding-top: 30px;
     padding-bottom: 22px;
+    cursor: pointer;
     margin-left: 0px;
   }
   .Jtxt1 {
@@ -3576,6 +3633,7 @@ justify-content: center;
     opacity: 90%;
     padding-bottom: 21px;
     padding-top: 21px;
+    cursor: pointer;
   }
   .kcard2 {
     max-width: 468px;
@@ -3831,6 +3889,7 @@ justify-content: center;
   padding-top: 20px;
   max-width: 624px;
   width: 100%;
+  cursor: pointer;
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -4456,6 +4515,7 @@ text-align: left;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 24px;
+    cursor: pointer;
   }
   .card1txt2 {
     max-width: 308px;
@@ -4834,6 +4894,7 @@ padding-left: 0px;
     width: 100%;
     padding-left: 3px;
     padding-top: 40px;
+    cursor: pointer;
   }
   .txtIcd {
     display: none;
@@ -4957,6 +5018,7 @@ padding-left: 0px;
     text-align: left;
     color: white;
     opacity: 90%;
+    cursor: pointer;
     padding-bottom: 21px;
     padding-top: 21px;
   }
@@ -5756,7 +5818,7 @@ display: none;
     line-height: 24px;
     letter-spacing: -0.03em;
     text-align: left;
-
+      cursor: pointer;
     color: rgba(255, 255, 255, 1);
     /* font-style: italic; */
   }
@@ -6349,6 +6411,7 @@ color: white;
     width: 100%;
     padding-left: 0px;
     padding-top: 38px;
+    cursor: pointer;
 }
 .txtI2a {
   max-width: 335px;
@@ -6401,6 +6464,7 @@ padding-bottom: 34px;
   max-width: 335px;
   width: 100%;
   padding-left: 0px;
+  cursor: pointer;
   padding-top: 38px;
 }
 .txtI3 {
@@ -6538,6 +6602,7 @@ padding-top: 27px;
   padding-bottom: 16px;
 margin-left: 0px;
   display: flex;
+  cursor: pointer;
   align-items: center;
 }
 .jcard2 {
@@ -6547,6 +6612,7 @@ margin-left: 0px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
   padding-top: 16px;
+  cursor: pointer;
  
   padding-bottom: 22px;
   display: flex;
@@ -6664,6 +6730,7 @@ text-align: left;
   line-height: 21.6px;
   letter-spacing: -0.03em;
   text-align: left;
+  cursor: pointer;
   
   color: white;
   opacity: 90%;
