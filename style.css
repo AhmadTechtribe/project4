@@ -2595,7 +2595,11 @@ mtxt3 {
 .layoutnimg2 {
   max-width: 1248px;
   width: 100%;
-  padding-top: 46px;
+  margin-top:32px;
+  backdrop-filter: blur(46.24999237060547px);
+
+
+
 }
 .nimg2 {
   max-width: 1920px;
@@ -4164,6 +4168,9 @@ mtxt3 {
     padding-top: 32px;
     padding-left: 20px;
     padding-bottom: 64px;
+}
+.nextstep{
+  display: none;
 }
 }
 
@@ -6119,7 +6126,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   .layoutnimg2 {
     max-width: 375px;
     width: 100%;
-    padding-top: 142px;
+    margin-top: 142px;
   }
   .card3 {
     display: none;
