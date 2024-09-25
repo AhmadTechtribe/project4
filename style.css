@@ -1729,6 +1729,10 @@ body {
   padding-bottom: 22px;
   margin-left: 0px;
   cursor: pointer;
+  backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .jcard2 {
@@ -1740,6 +1744,10 @@ body {
   padding-top: 30px;
   padding-bottom: 22px;
   cursor: pointer;
+  backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .layoutjimg2 {
@@ -2083,18 +2091,15 @@ body {
 }
 .mtxt3:hover {
   cursor: pointer;
-  background-color: rgb(20, 20, 20);
-  border-radius: 15px;
+
 }
 .mtxt4:hover {
   cursor: pointer;
-  background-color: rgb(20, 20, 20);
-  border-radius: 15px;
+
 }
 .mtxt5:hover {
   cursor: pointer;
-  background-color: rgb(20, 20, 20);
-  border-radius: 15px;
+
 }
 .anchor1 {
   text-decoration: none;
