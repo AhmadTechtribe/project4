@@ -1406,7 +1406,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 102px;
-  padding-top: 345px;
+  padding-top: 284px;
 }
 .layoutH {
   max-width: 1920px;
@@ -2653,7 +2653,11 @@ mtxt3 {
   padding-top: 0px;
   justify-content: flex-end;
 }
-
+.nextstep{
+  color: white;
+  padding-top: 50px;
+  padding-left: 102px;
+}
 @media (min-width: 1920px) {
   .ftxt3a {
     display: none;
@@ -4152,9 +4156,43 @@ mtxt3 {
     opacity: 90%;
     padding-top: 20px;
   }
+  .mainbdyabc {
+    max-width: 273px;
+    width: 100%;
+    display: flex;
+    gap: 52px;
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-bottom: 64px;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
+  .layoutM {
+    max-width: 1920px;
+    width: 100%;
+  
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+  }
+  .maindivcardl1 {
+    padding-left: 102px;
+    padding-top: 79px;
+    padding-bottom: 100px;
+  }
+  .layoutH {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(images/layouthimg1hres.png);
+    min-height: 768px;
+    background-position: top;
+    background-repeat: no-repeat;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
   .layoutF {
     background-image: url(images/layoutfres2.png);
     max-width: 1280px;
@@ -4703,9 +4741,9 @@ mtxt3 {
     padding-top: 24px;
   }
   .layoutg1 {
-    background-image: url(images/pcrse21280.png);
+    background-image: url(images/gridg.png);
     background-position: center;
-    min-height: 768px;
+    min-height: 1000px;
   }
   .card1txt2 {
     max-width: 308px;
@@ -4797,14 +4835,14 @@ mtxt3 {
   .maindivlayoutg3 {
     display: flex;
     flex-direction: column;
-    padding-right: 77px;
-    padding-top: 211px;
+    padding-right: 92px;
+    padding-top: 145px;
   }
   .layoutgtxt12 {
     display: flex;
     flex-direction: column;
     padding-left: 94px;
-    padding-top: 278px;
+    padding-top: 227px;
   }
   .layoutG {
     max-width: 1280px;
@@ -4835,7 +4873,7 @@ mtxt3 {
   }
   .htxt2 {
     max-width: 460px;
-    padding-top: 32px;
+    padding-top: 24px;
     width: 100%;
     color: white;
     font-family: PP Neue Montreal;
@@ -4845,6 +4883,12 @@ mtxt3 {
     letter-spacing: -0.03em;
     text-align: left;
   }
+  .maindivlayoutg {
+    max-width: 1666px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
   .htxt3 {
     max-width: 460px;
     /* padding-top: 32px; */
@@ -4903,6 +4947,13 @@ mtxt3 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(21, 21, 30, 0.3);
     border-radius: 24px;
+    backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
+
+
+
   }
   .Hcard12 {
     max-width: 353px;
@@ -4910,6 +4961,10 @@ mtxt3 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(21, 21, 30, 0.3);
     border-radius: 24px;
+    backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
   }
   .maindivcardsh {
     max-width: 1280px;
@@ -4918,7 +4973,7 @@ mtxt3 {
     /* padding-right: 102px; */
     display: flex;
     gap: 24px;
-    padding-top: 344px;
+    padding-top: 156px;
     padding-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -4929,6 +4984,10 @@ mtxt3 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(21, 21, 30, 0.3);
     border-radius: 24px;
+    backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
   }
   .layoutIimg1 {
     max-width: 702px;
@@ -5152,7 +5211,7 @@ mtxt3 {
     justify-content: space-between;
     padding-top: 50px;
     padding-left: 94px;
-    /* padding-bottom: 100px; */
+    padding-bottom: 60px;
   }
   .layoutkcard3 {
     display: flex;
@@ -5181,7 +5240,7 @@ mtxt3 {
     letter-spacing: -0.03em;
     text-align: center;
     color: white;
-    padding-top: 64px;
+    padding-top: 6px;
   }
   .txtl2 {
     width: 100%;
