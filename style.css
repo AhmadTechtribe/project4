@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   background: #000;
   scroll-behavior: smooth;
 }
@@ -29,7 +30,7 @@ html, body {
 }
 .layoutC {
   margin-top: 100px;
- 
+
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
@@ -174,7 +175,6 @@ html, body {
 }
 
 .txtc {
-
   font-size: 88px;
   font-style: italic;
   font-weight: 100;
@@ -200,11 +200,11 @@ html, body {
   padding-bottom: 22px;
   /* padding-left: -90px; */
 }
-.maindivtxtca{
-display: flex;
-max-width: 528px;
-width: 100%;
-gap: 20px;
+.maindivtxtca {
+  display: flex;
+  max-width: 528px;
+  width: 100%;
+  gap: 20px;
 }
 
 .body2 {
@@ -429,7 +429,7 @@ gap: 20px;
   gap: 52px;
   padding-top: 32px;
   padding-left: 102px;
-  padding-bottom: 42px;
+  padding-bottom: 64px;
 }
 .bodyimg3 {
   position: absolute;
@@ -439,9 +439,8 @@ gap: 20px;
   opacity: 0.2;
 }
 .bodyimg4 {
-  max-width: 81.24vw;
+  max-width: 1600px;
   width: 100%;
-  min-height: 720;
 }
 .bdytxt2 {
   margin-right: 102px;
@@ -570,7 +569,6 @@ gap: 20px;
   line-height: 19.6px;
   text-align: left;
   font-style: italic;
-
 }
 .layoutctxt11 {
   max-width: 50px;
@@ -650,10 +648,8 @@ gap: 20px;
   backdrop-filter: blur(60px);
 
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-  
 
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
 .maincontainer4 {
@@ -669,9 +665,9 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   padding-bottom: 24px;
   padding-top: 24px;
 
-backdrop-filter: blur(60px);
+  backdrop-filter: blur(60px);
 
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 
   opacity: 20px;
 }
@@ -688,8 +684,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   padding-bottom: 24px;
   padding-top: 24px;
   backdrop-filter: blur(60px);
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
 .maincontainer6 {
   max-width: 312px;
@@ -836,7 +831,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   inset: 0;
   /* top: 200px !important; */
   height: fit-content;
-  margin: 0 auto;
+  margin-left: 180px;
   display: grid;
   grid-template-columns: 312px 312px 312px 312px;
   gap: 78px;
@@ -871,7 +866,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   text-align: center;
   color: white;
   opacity: 50%;
-  
+
   padding-top: 266px;
 }
 .italic {
@@ -936,7 +931,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 .gridmainc {
   display: grid;
   row-gap: 67px;
-  margin-top: 320px;
+  margin-top: 372px;
 }
 .gridmaind {
   display: grid;
@@ -948,7 +943,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 .gridmainb {
   display: grid;
   row-gap: 67px;
-  margin-top: 420px;
+  margin-top: 450px;
   height: fit-content;
 }
 .etxt1 {
@@ -1022,13 +1017,13 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 .layoutecard1 {
   max-width: 647px;
   width: 100%;
-  margin-left: 102px;
+  margin-left: 0px;
   margin-top: 173px;
 }
 .layoutecard2 {
   max-width: 647px;
   width: 100%;
-  margin-right: 102px;
+  margin-right: 0px;
   margin-top: 21%;
 }
 .Ecards12 {
@@ -1043,7 +1038,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   margin-top: 100px;
   width: 100%;
   max-width: 1920px;
-  background-image: url(images/responsive.png);
+  background-image: url(images/gridsectione.png);
   min-height: 1000px;
   margin: 0 auto;
   background-position: center;
@@ -1069,7 +1064,6 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   min-height: 1000px;
   background-repeat: no-repeat;
   background-position: top;
-
 
   margin-left: auto;
   margin-right: auto;
@@ -1274,7 +1268,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   margin-right: 20px;
   backdrop-filter: blur(110px);
 
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 
   flex-direction: column;
 }
@@ -1292,14 +1286,14 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 .cardofFlayout {
   max-width: 1920px;
   display: flex;
-justify-content: center;
+  justify-content: center;
   gap: 16px;
   padding-top: 134px;
 }
 .layoutG {
   max-width: 1920px;
   width: 100%;
- 
+
   background-image: url(images/LAYOUTG.svg);
   background-position: center;
   min-height: 1000px;
@@ -1468,7 +1462,6 @@ justify-content: center;
   width: 100%;
 }
 .htxt4 {
-
   font-family: Denton Condensed Test;
   font-size: 72px;
   font-style: italic;
@@ -1476,13 +1469,12 @@ justify-content: center;
   line-height: 86.4px;
   letter-spacing: -8px;
   text-align: left;
-  
 
   color: white;
 }
 .layouthtexts {
-max-width: 624px;
-width: 100%;
+  max-width: 624px;
+  width: 100%;
   margin-left: 102px;
 }
 .cardhtxt1 {
@@ -1523,7 +1515,7 @@ width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(21, 21, 30, 0.3);
   border-radius: 24px;
- 
+
   padding-left: 24px;
 }
 .Hcard12 {
@@ -1673,8 +1665,6 @@ width: 100%;
   text-align: left;
   color: white;
   text-shadow: 0px 4px 20px 0px rgba(255, 255, 255, 0.45);
-
-  
 }
 .Jtxt3 {
   color: white;
@@ -1694,9 +1684,6 @@ width: 100%;
 }
 .layoutj1 {
   padding-top: 50px;
-
-
-
 }
 .Jtxt4 {
   max-width: 417px;
@@ -1774,7 +1761,7 @@ width: 100%;
 .layoutk {
   max-width: 1823px;
   width: 100%;
- 
+
   border-radius: 44px;
   margin-top: 100px;
   margin-left: auto;
@@ -1891,7 +1878,7 @@ width: 100%;
   color: white;
   opacity: 50%;
 }
-.layouthtextsResponsive{
+.layouthtextsResponsive {
   display: none;
 }
 .layoutkcard3 {
@@ -2093,29 +2080,28 @@ width: 100%;
   letter-spacing: -0.02em;
   text-align: left;
   opacity: 50%;
-
 }
-.mtxt3:hover{
-  cursor: pointer;
-  background-color: rgb(20, 20, 20);
-border-radius: 15px;
-}
-.mtxt4:hover{
+.mtxt3:hover {
   cursor: pointer;
   background-color: rgb(20, 20, 20);
   border-radius: 15px;
 }
-.mtxt5:hover{
+.mtxt4:hover {
   cursor: pointer;
   background-color: rgb(20, 20, 20);
   border-radius: 15px;
 }
-.anchor1{
-
+.mtxt5:hover {
+  cursor: pointer;
+  background-color: rgb(20, 20, 20);
+  border-radius: 15px;
+}
+.anchor1 {
   text-decoration: none;
 }
 
-.layoutC,mtxt3{
+.layoutC,
+mtxt3 {
   scroll-behavior: smooth;
 }
 .mtxt5 {
@@ -2127,7 +2113,7 @@ border-radius: 15px;
   line-height: 19.2px;
   letter-spacing: -0.02em;
   text-align: left;
-margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 .maincardM23 {
   max-width: 468px;
@@ -2569,10 +2555,10 @@ margin-bottom: 35px;
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .layoutNtxt1 {
-  padding-top: 50px;
+  padding-top: 0px;
   max-width: 512px;
   width: 100%;
   font-family: PP Neue Montreal;
@@ -2623,16 +2609,16 @@ margin-bottom: 35px;
   line-height: 22.4px;
   z-index: 30px;
 }
-.cursorm1{
+.cursorm1 {
   max-width: 50px;
   width: 100%;
 }
-.cursorm1:hover{
+.cursorm1:hover {
   cursor: pointer;
   background-color: rgb(20, 20, 20);
   border-radius: 50px;
 }
-.cursor12{
+.cursor12 {
   max-width: 108px;
   width: 100%;
   display: flex;
@@ -2684,16 +2670,20 @@ margin-bottom: 35px;
   }
   .layoutgtxtab {
     display: none;
-}
-.header3G{display: none;}
-.gtxtres{display: none;}
-.layoutGres{
-  display: none;
   }
-  .layoutHres{
+  .header3G {
     display: none;
   }
-  .layoutMA{
+  .gtxtres {
+    display: none;
+  }
+  .layoutGres {
+    display: none;
+  }
+  .layoutHres {
+    display: none;
+  }
+  .layoutMA {
     display: none;
   }
   .mainlayouteaa {
@@ -2727,27 +2717,30 @@ margin-bottom: 35px;
   }
   .layoutgtxtab {
     display: none;
-}
-.header3G{display: none;}
-.layoutGres{
-  display: none;
   }
-.gtxtres{display: none;}
-.layoutHres{
-  display: none;
-}
-.ftxt4{
-  display: none;
-}
-.layoutMA{
-  display: none;
-}
-.mainlayouteaa {
-  display: none;
-}
+  .header3G {
+    display: none;
+  }
+  .layoutGres {
+    display: none;
+  }
+  .gtxtres {
+    display: none;
+  }
+  .layoutHres {
+    display: none;
+  }
+  .ftxt4 {
+    display: none;
+  }
+  .layoutMA {
+    display: none;
+  }
+  .mainlayouteaa {
+    display: none;
+  }
 }
 @media (min-width: 1280px) and (max-width: 1920px) {
- 
   .layoutIRes {
     display: none;
   }
@@ -2763,31 +2756,1399 @@ margin-bottom: 35px;
   .layoutBa {
     display: none;
   }
+
   .layouthtextsResponsive {
     display: none;
   }
- 
+
   .Layoutdtxt1maindivRes {
     display: none;
   }
   .layoutgtxtab {
     display: none;
-}
-.header3G{display: none;}
-.gtxtres{display: none;}
-.layoutGres{
-  display: none;
   }
-  .layoutHres{
+  .header3G {
     display: none;
   }
-  .layoutMA{
+  .gtxtres {
+    display: none;
+  }
+  .layoutGres {
+    display: none;
+  }
+  .layoutHres {
+    display: none;
+  }
+  .layoutMA {
     display: none;
   }
   .mainlayouteaa {
-    display:none;
+    display: none;
   }
 }
+@media (min-width: 376px) and (max-width: 768px) {
+  .italic {
+    font-family: Denton Condensed Test;
+    font-size: 102px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 102px;
+    letter-spacing: -4px;
+    text-align: center;
+    opacity: 100%;
+  }
+
+  .layoutctxt1 {
+    max-width: 600px;
+    width: 100%;
+    /* font-family: sans-serif; */
+    font-family: PP Neue Montreal;
+    font-size: 102px;
+    font-weight: 400;
+    line-height: 102px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+    padding-top: 80px;
+  }
+  .containerNAV1 {
+    padding-top: 20px;
+    max-width: 728px;
+    width: 100%;
+  }
+  .layout1resimg {
+    display: none;
+  }
+  .header2 {
+    display: none;
+  }
+  .header2a {
+    display: flex !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar {
+    max-width: 728px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 44px;
+    background: rgba(0, 0, 0, 1);
+
+    /* justify-content: center; */
+  }
+  .navbarA {
+    display: none;
+  }
+  .layout1img {
+    max-width: 735px;
+    max-height: 502px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+  }
+  .hedprt2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+  .hedprt2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .hedtxt {
+    max-width: 290px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+
+    /* padding-top: 27px; */
+  }
+  .header3 {
+    margin-right: 20px;
+    max-width: 234px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 52px;
+    box-shadow: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
+  }
+  .maindivtxtca {
+    display: flex;
+    max-width: 432px;
+    width: 100%;
+    gap: 10px;
+  }
+  .hedtxt5 {
+    max-width: 160px;
+    width: 100%;
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 1);
+    padding-left: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    opacity: 50%;
+  }
+  .arrow1 {
+    max-width: 38px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 53px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    margin-left: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .header1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 56px;
+    padding-top: 37px;
+    padding-left: 20px;
+  }
+  .bdytxt1 {
+    max-width: 186px;
+    width: 100%;
+    opacity: 50%;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 20px;
+  }
+  .mainbdyab {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    gap: 52px;
+    padding-left: 20px;
+    padding-bottom: 42px;
+  }
+  .bdytxt2 {
+    margin-right: 20px;
+    max-width: 289px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+  }
+
+  .bodyimg4 {
+    max-width: 728px;
+    padding-top: 265px;
+  }
+  .layoutB {
+    max-width: 768px;
+    background-image: url(images/body\ img\ 3.png);
+    background-size: 728px;
+    /* min-height: 700px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 48px;
+
+    /* max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+  }
+  .maincontainersoflayoutc {
+    max-width: 768px;
+    width: 100%;
+    inset: 0;
+    /* top: 200px !important; */
+    height: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    top: 12%;
+    gap: 20px;
+  }
+  .maincontainer1 {
+    box-sizing: content-box;
+    max-width: 302px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+  .container1 {
+    max-width: 302px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .maincontainer2 {
+    max-width: 352px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-left: 20px;
+  }
+  .container2 {
+    padding-top: 18px;
+    max-width: 304px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .layoutctxt12 {
+    max-width: 79px;
+    width: 100%;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: rgba(3, 155, 112, 1);
+  }
+  .container3 {
+    padding-top: 18px;
+    max-width: 304px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .maincontainer3 {
+    max-width: 352px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .maincontainer2 {
+    max-width: 352px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-left: 20px;
+    backdrop-filter: blur(60px);
+
+    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
+    margin-top: -40px;
+  }
+  .gridmainb {
+    display: grid;
+    row-gap: 20px;
+    margin-top: 110px;
+    height: fit-content;
+  }
+  .maincontainer6 {
+    max-width: 352px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    /* padding-left: 24px; */
+    /* padding-bottom: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-top: -130%;
+    backdrop-filter: blur(60px);
+
+    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
+    height: fit-content;
+  }
+  .layoutC {
+    margin-top: 100px;
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 44px;
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/bodyimg6.svg);
+    min-height: 1094px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    /* position: relative;
+  overflow: hidden; */
+  }
+
+  .layoutctxt4 {
+    max-width: 302px;
+    width: 100%;
+    color: aliceblue;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    padding-top: 85px;
+    padding-bottom: 16px;
+  }
+  .container2 {
+    padding-top: 12px;
+    max-width: 304px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container3 {
+    padding-top: 12px;
+    max-width: 304px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Ecards12 {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .layoutecard2 {
+    max-width: 452px;
+    width: 100%;
+    margin-left: 102px;
+    margin-top: 21%;
+  }
+  .etxt1 {
+    max-width: 452px;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+  }
+  .etxt2 {
+    font-family: Denton Condensed Test;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+  }
+  .etxt3 {
+    padding-top: 19px;
+    max-width: 452px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+  }
+  .layoutecard1 {
+    max-width: 452px;
+    width: 100%;
+    margin-left: 102px;
+    margin-top: 84px;
+  }
+
+  .ecard2img1 {
+    max-width: 100px;
+    width: 100%;
+    margin-left: 170px;
+  }
+  .layoutecard2 {
+    max-width: 452px;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 21%;
+  }
+  .layoutecard1 {
+    max-width: 452px;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 84px;
+  }
+  .layoutE {
+    margin-top: 100px;
+  }
+  .cardemain {
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .layoutE {
+    /* margin-top: 64px; */
+    background-image: url(/images/pcrsponsiv2.png);
+    width: 100%;
+    max-width: 1247px;
+
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 14px;
+  }
+  .dell {
+    display: none;
+  }
+  .layoutIRes {
+    max-width: 768px;
+    width: 100%;
+
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .layoutNtxt1 {
+    padding-top: 50px;
+    max-width: 327px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+  }
+  .layoutNtxt2 {
+    padding-top: 50px;
+    max-width: 327px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+  }
+  .mainlayoutN34 {
+    max-width: 1540px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+  }
+  .layoutnimg3 {
+    max-width: 286px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+  }
+  .layoutnimg4 {
+    max-width: 286px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    padding-top: 24px;
+  }
+  .cardofFlayout {
+    max-width: 1920px;
+    display: flex;
+    padding-left: 20px;
+    gap: 12px;
+    padding-top: 114px;
+  }
+  .card3 {
+    max-width: 558px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    display: flex;
+    padding-left: 24px;
+
+    flex-direction: column;
+    /* background: rgba(0, 0, 0, 0.01); */
+    display: none;
+  }
+  .card1txt1 {
+    max-width: 177px;
+    width: 100%;
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: left;
+    text-align: left;
+    color: white;
+    opacity: 100%;
+  }
+  .card1part2 {
+    max-width: 308px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card1part3 {
+    max-width: 308px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 16px;
+  }
+  .card1part4 {
+    max-width: 308px;
+    width: 100%;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    cursor: pointer;
+  }
+  .card1txt2 {
+    max-width: 308px;
+    width: 100%;
+
+    color: white;
+    opacity: 50%;
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    padding-top: 8px;
+  }
+  .layoutN {
+    background-image: url(images/layoutNimg1.jpg);
+    max-width: 1920px;
+    width: 100%;
+    min-height: 768px;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .ftxtA {
+    padding-top: 1px;
+    padding-left: 20px;
+  }
+  .txtf1 {
+    padding-top: 64px;
+    max-width: 337px;
+
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+  }
+  .txtf2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    font-style: italic;
+    color: white;
+    opacity: 90%;
+  }
+  .ftxtB {
+    padding-top: 64px;
+    padding-right: 1px;
+  }
+  .ftxt4a {
+    max-width: 237px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    opacity: 90%;
+    padding-top: 32px;
+  }
+  .ftxt4 {
+    max-width: 237px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    opacity: 90%;
+    padding-top: 32px;
+  }
+  .ftxt3 {
+    max-width: 155px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+    display: none;
+  }
+  .layoutg3 {
+    max-width: 466px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+    align-items: center;
+  }
+  .maindivlayoutg {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Gtxta {
+    max-width: 616px;
+    color: white;
+    max-width: 759px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 61.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .Gtxtb {
+    color: white;
+    max-width: 759px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 61.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+    font-style: italic;
+  }
+  .layoutgtxt12 {
+    display: none;
+  }
+  .layoutgtxtab {
+    padding-top: 153px;
+  }
+
+  .maindivlayoutg3 {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 102px; */
+    padding-top: 42px;
+    row-gap: 21px;
+    margin-left: 137px;
+  }
+  .Gtxt4 {
+    max-width: 368px;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-left: 01px;
+  }
+  .layoutg1 {
+    background-image: url(/images/layoutdimg1.vg);
+    min-height: 900px;
+  }
+  .layoutG {
+    width: 100%;
+
+    background-image: url(images/rescardg.png);
+    background-position: center;
+    min-height: 768px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .Gtxt3 {
+    max-width: 38px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 112px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    text-align: left;
+    color: white;
+
+    /* padding-left: 70px; */
+  }
+  .layouthtexts {
+    margin-left: 20px;
+  }
+  .htxt2a {
+    padding-top: 1px;
+    max-width: 387px;
+    padding-top: 64px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .htxt3 {
+    max-width: 387px;
+    /* padding-top: 32px; */
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .htxt4 {
+    max-width: 387px;
+    /* padding-top: 32px; */
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 39px;
+    font-weight: 200;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    font-style: italic;
+  }
+  .htxt1 {
+    display: none;
+  }
+  .Hcard1A {
+    max-width: 331px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(21, 21, 30, 0.3);
+    border-radius: 24px;
+    margin-left: 0px;
+  }
+  .Hcard1 {
+    display: none;
+  }
+  .Hcard12 {
+    max-width: 331px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(21, 21, 30, 0.3);
+    border-radius: 24px;
+    padding-left: 24px;
+  }
+  .cardhtxt1 {
+    max-width: 283px;
+    width: 100%;
+    /* color: white; */
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+  }
+  .cardhtxt2 {
+    max-width: 283px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+
+    padding-top: 18px;
+
+    padding-bottom: 24px;
+  }
+  .layoutH {
+    max-width: 1280px;
+    width: 100%;
+    background-image: url(images/layouthimg1.svg);
+    min-height: 768px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .hcardimg1 {
+    padding-top: 24px;
+    max-width: 85px;
+    width: 100%;
+  }
+  .ftxt4a {
+    display: none;
+  }
+  .mainreponsiveh {
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+  .layouthtexts {
+    display: none;
+  }
+  .layouthtextsResponsiveh {
+    margin-top: 64px;
+  }
+  .maindivcardsh {
+    max-width: 735px;
+    width: 100%;
+    /* padding-left: 102px; */
+    /* padding-right: 102px; */
+    display: flex;
+    gap: 30px;
+    padding-top: 207px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+  }
+  .layoutH {
+    background-image: url(images/hresponsivebg.png);
+    min-height: 735px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+
+  .layoutI {
+    display: none;
+  }
+  .txtI2a {
+    max-width: 768px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .txtI2b {
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    font-style: italic;
+  }
+  .txtIABa {
+    max-width: 702px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cardI2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
+  .layoutIimg1 {
+    max-width: 702px;
+    width: 100%;
+    padding-left: 3px;
+    padding-top: 40px;
+    cursor: pointer;
+  }
+  .txtIcd {
+    display: none;
+  }
+  .txtIcda {
+    max-width: 702px;
+    width: 100%;
+    display: flex;
+    padding-left: 33px;
+    justify-content: space-between;
+  }
+  .pcrespbd {
+    max-width: 702px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    padding: 0px;
+    text-align: center;
+  }
+  .txtI3 {
+    max-width: 327px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+    color: white;
+  }
+  .txtI4 {
+    max-width: 327px;
+    width: 100%;
+    color: rgba(163, 163, 163, 1);
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    opacity: 50%;
+  }
+  .layoutk {
+    display: none;
+  }
+  .ktxt5 {
+    padding-top: 24px;
+    max-width: 313px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .layoutkmaincard1 {
+    max-width: 780px;
+    min-height: 0px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .layoutkcard3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .mainlayoute {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    padding-top: 29px;
+    padding-left: 90px;
+    /* padding-bottom: 84px; */
+  }
+  .mainlayouteaa {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    padding-top: 29px;
+    padding-left: 0px;
+    /* padding-bottom: 84px; */
+  }
+  .mainlayoutea {
+    max-width: 139px;
+    width: 100%;
+    display: flex;
+    gap: 52px;
+    padding-top: 20px;
+    padding-left: 90px;
+    /* padding-bottom: 84px; */
+  }
+  .responsc1c3 {
+    max-width: 708px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 64px;
+    padding-left: 20px;
+  }
+  .ktxt3 {
+    max-width: 694px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+    opacity: 90%;
+    cursor: pointer;
+    padding-bottom: 21px;
+    padding-top: 21px;
+  }
+  .kcard2a {
+    max-width: 722px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .kcard2 {
+    max-width: 728px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .maincard2 {
+    padding-left: 20px;
+    padding-top: 100px;
+  }
+  layoutka {
+    max-width: 768px;
+    width: 100%;
+
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .maindivcardl1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 179px;
+    padding-bottom: 0px;
+  }
+  .txtl3 {
+    max-width: 79px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .txtl5 {
+    max-width: 704px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding-bottom: 21px;
+    padding-top: 21px;
+    padding-left: 0px;
+  }
+  .ltxt7 {
+    color: white;
+    max-width: 705px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    opacity: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 16px;
+  }
+  .txtl6 {
+    max-width: 283px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    padding-bottom: 19px;
+    padding-top: 19px;
+    margin-left: 0px;
+  }
+  .txtl1 {
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+  .txtl2 {
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+  }
+  .mbordordiv {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mtxt9 {
+    max-width: 768px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  .cardm3 {
+    max-width: 121px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .maincardM23 {
+    max-width: 364px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+  .Mmaincard1 {
+    max-width: 363px;
+    width: 100%;
+    min-height: 159px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+  .card1 {
+    max-width: 358px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    display: flex;
+    padding-left: 24px;
+    backdrop-filter: blur(50px);
+
+    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
+    flex-direction: column;
+  }
+  .layoutJ {
+    display: none;
+  }
+
+  .txta {
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 86.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-left: 84px;
+    color: white;
+    text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
+  }
+  .txta1 {
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 86.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+    color: white;
+    text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
+  }
+  .txtb {
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 86.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+    font-style: italic;
+  }
+  .txtc {
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 86.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+  }
+
+  .body2 {
+    max-width: 601px;
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    gap: 17px;
+    justify-content: center;
+  }
+  .header1a2 {
+    display: none;
+  }
+  .layoutBa {
+    display: none;
+  }
+  .Layoutdtxt1maindivRes {
+    display: none;
+  }
+  .layoutGres {
+    display: none;
+  }
+  .layoutHres {
+    display: none;
+  }
+  .layoutMA {
+    display: none;
+  }
+  .layoutF {
+    background-image: url(images/3layoutf.png);
+    max-width: 768px;
+    width: 100%;
+    min-height: 768px;
+    background-repeat: no-repeat;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-position: center;
+    padding-top: 150px;
+  }
+  .ftxt4b {
+    max-width: 237px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    opacity: 90%;
+    padding-top: 20px;
+  }
+}
+
 @media (min-width: 769px) and (max-width: 1280px) {
   .layoutF {
     background-image: url(images/layoutfres2.png);
@@ -2796,13 +4157,33 @@ margin-bottom: 35px;
     min-height: 1000px;
     background-repeat: no-repeat;
     background-position: top;
-  
-  
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
   }
-  
+  .mainbdyabc {
+    max-width: 273px;
+    width: 100%;
+    display: flex;
+    gap: 52px;
+    padding-top: 32px;
+    padding-left: 102px;
+    padding-bottom: 0px;
+  }
+
+  .layoutB {
+    background-image: url(images/layoutbres2.png);
+    background-position: top;
+   background-size: 500px 600px ;
+   
+  }
+  .bodyimg4 {
+    max-width: 91.24vw;
+    padding-top: 49px;
+   
+  }
+
   .layoutBa {
     display: none;
   }
@@ -2827,12 +4208,12 @@ margin-bottom: 35px;
     color: white;
     opacity: 50%;
   }
-  .maindivtxtca{
+  .maindivtxtca {
     display: flex;
     max-width: 432px;
     width: 100%;
     gap: 10px;
-    }
+  }
 
   .hedtxt {
     max-width: 235px;
@@ -2903,7 +4284,7 @@ margin-bottom: 35px;
   }
   .layoutC {
     margin-top: 50px;
-   
+
     max-width: 1920px;
     width: 100%;
     margin-left: auto;
@@ -2916,10 +4297,7 @@ margin-bottom: 35px;
     overflow: hidden;
   }
 
-  .bodyimg4 {
-    max-width: 81.24vw;
-    /* padding-top: 49px; */
-  }
+  
   .maincontainersoflayoutc {
     max-width: 1280px;
     width: 100%;
@@ -2986,9 +4364,9 @@ margin-bottom: 35px;
     letter-spacing: -0.02em;
     text-align: center;
     color: white;
-  opacity: 100%; 
+    opacity: 100%;
     padding-top: 150px;
-}
+  }
   .italic {
     max-width: 825.07px;
     width: 100%;
@@ -3002,7 +4380,7 @@ margin-bottom: 35px;
     color: white;
     opacity: 100%;
     padding-top: 208px;
-}
+  }
   .maincontainer1 {
     max-width: 272px;
     width: 100%;
@@ -3154,7 +4532,6 @@ margin-bottom: 35px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-
   }
   .cardemain {
     max-width: 1280px;
@@ -3521,7 +4898,6 @@ margin-bottom: 35px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(21, 21, 30, 0.3);
     border-radius: 24px;
-   
   }
   .Hcard12 {
     max-width: 353px;
@@ -3783,7 +5159,7 @@ margin-bottom: 35px;
   .layoutk {
     max-width: 1240px;
     width: 100%;
- 
+
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -3887,7 +5263,6 @@ margin-bottom: 35px;
     text-align: left;
     padding-bottom: 25px;
     padding-top: 25px;
-    
   }
   .maindivl7 {
     max-width: 1092px;
@@ -3910,7 +5285,7 @@ margin-bottom: 35px;
     padding-bottom: 40px;
     padding-left: 102px;
   }
- 
+
   .bdytxt1 {
     max-width: 186px;
     width: 100%;
@@ -3955,13 +5330,17 @@ margin-bottom: 35px;
   }
   .layoutgtxtab {
     display: none;
-}
-.header3G{display: none;}
-.gtxtres{display: none;}
-.layoutGres{
-  display: none;
   }
-  .layoutHres{
+  .header3G {
+    display: none;
+  }
+  .gtxtres {
+    display: none;
+  }
+  .layoutGres {
+    display: none;
+  }
+  .layoutHres {
     display: none;
   }
   .jmaincarddiv {
@@ -3972,1359 +5351,35 @@ margin-bottom: 35px;
     justify-content: center;
     padding-bottom: 54px;
     padding-top: 85px;
-}
-.layoutMA{
-  display: none;
-}
+  }
+  .layoutMA {
+    display: none;
+  }
 
-.mainlayouteaa {
-  display: none;
-}
-.containerNAV1 {
-  padding-top: 20px;
-  max-width: 624px;
-  width: 100%;
-  cursor: pointer;
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
-.body1 {
-  max-width: 601px;
-  width: 100%;
-  display: flex;
-  padding-bottom: 16px;
-  /* justify-content: center; */
-  align-items: left;
-  padding-top: 80px;
-  gap: 20px;
-  margin: 0 auto;
-}
-.txta {
-  font-family: PP Neue Montreal;
-  font-size: 72px;
-  font-weight: 500;
-  line-height: 86.4px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  
-  color: white;
-  text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
-}
-.txtb {
-  font-family: PP Neue Montreal;
-  font-size: 72px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 86.4px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  
-  color: white;
-}
-.txtc {
-
-font-size: 72px;
-font-style: italic;
-font-weight: 100;
-line-height: 86.4px;
-letter-spacing: -0.03em;
-text-align: left;
-
-  color: white;
-  font-style: italic;
-}
-.txta1 {
-  font-family: PP Neue Montreal;
-  font-size: 72px;
-  font-weight: 500;
-  line-height: 86.4px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  
-  color: white;
-  text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
-}
-}
-
-@media (min-width: 376px) and (max-width: 768px) {
-
-  .italic {
-    font-family: Denton Condensed Test;
-    font-size: 102px;
-    font-style: italic;
-    font-weight: 100;
-    line-height: 102px;
-    letter-spacing: -4px;
-    text-align: center;
-    opacity: 100%;
-    
-}
-
-  .layoutctxt1 {
-    max-width: 600px;
-    width: 100%;
-    /* font-family: sans-serif; */
-    font-family: PP Neue Montreal;
-    font-size: 102px;
-    font-weight: 400;
-    line-height: 102px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: white;
-    opacity: 100%;
-    padding-top: 80px;
-}
+  .mainlayouteaa {
+    display: none;
+  }
   .containerNAV1 {
     padding-top: 20px;
-    max-width: 728px;
+    max-width: 624px;
     width: 100%;
-  }
-  .layout1resimg {
-    display: none;
-  }
-  .header2 {
-    display: none;
-  }
-  .header2a {
-    display: flex !important;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .navbar {
-    max-width: 728px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 44px;
-    background: rgba(0, 0, 0, 1);
-
+    cursor: pointer;
+    /* display: flex; */
     /* justify-content: center; */
   }
-  .navbarA {
-    display: none;
-  }
-  .layout1img {
-    max-width: 735px;
-    max-height: 502px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 130px;
-  }
-  .hedprt2 {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
-  }
-  .hedprt2 {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
-  }
 
-  .hedtxt {
-    max-width: 290px;
-    width: 100%;
-    color: rgba(255, 255, 255, 1);
-    opacity: 50%;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align: left;
-
-    /* padding-top: 27px; */
-  }
-  .header3 {
-    margin-right: 20px;
-    max-width: 234px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 52px;
-    box-shadow: rgba(255, 255, 255, 0.1);
-    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
-  }
-  .maindivtxtca{
-    display: flex;
-    max-width: 432px;
-    width: 100%;
-    gap: 10px;
-    }
-  .hedtxt5 {
-    max-width: 160px;
-    width: 100%;
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: center;
-
-    color: rgba(255, 255, 255, 1);
-    padding-left: 24px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    opacity: 50%;
-  }
-  .arrow1 {
-    max-width: 38px;
-    padding-top: 12px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 53px;
-    background-color: rgba(255, 255, 255, 0.1);
-    cursor: pointer;
-    margin-left: 6px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-  }
-  .header1 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 56px;
-    padding-top: 37px;
-    padding-left: 20px;
-  }
-  .bdytxt1 {
-    max-width: 186px;
-    width: 100%;
-    opacity: 50%;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    margin-left: 20px;
-  }
-  .mainbdyab {
-    max-width: 244px;
+  .body1 {
+    max-width: 601px;
     width: 100%;
     display: flex;
-    gap: 52px;
-    padding-left: 20px;
-    padding-bottom: 42px;
-  }
-  .bdytxt2 {
-    margin-right: 20px;
-    max-width: 289px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    opacity: 50%;
-  }
-
-  .bodyimg4 {
-    max-width: 728px;
-    padding-top: 265px;
-  }
-  .layoutB {
-    max-width: 768px;
-    background-image: url(images/body\ img\ 3.png);
-    background-size: 728px;
-    /* min-height: 700px; */
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 48px;
-   
-    /* max-width: 1920px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-} */
-  }
-  .maincontainersoflayoutc {
-    max-width: 768px;
-    width: 100%;
-    inset: 0;
-    /* top: 200px !important; */
-    height: fit-content;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: absolute;
-    top: 12%;
+    padding-bottom: 16px;
+    /* justify-content: center; */
+    align-items: left;
+    padding-top: 80px;
     gap: 20px;
-  }
-  .maincontainer1 {
-    box-sizing: content-box;
-    max-width: 302px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 20px;
-    margin-left: 20px;
-    margin-top: 80px;
-  }
-  .container1 {
-    max-width: 302px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .maincontainer2 {
-    max-width: 352px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    /* padding-left: 24px; */
-    /* padding-bottom: 24px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    margin-left: 20px;
-  }
-  .container2 {
-    padding-top: 18px;
-    max-width: 304px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .layoutctxt12 {
-    max-width: 79px;
-    width: 100%;
-    font-family: serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: left;
-    color: rgba(3, 155, 112, 1);
-  }
-  .container3 {
-    padding-top: 18px;
-    max-width: 304px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .maincontainer3 {
-    max-width: 352px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    /* padding-left: 24px; */
-    /* padding-bottom: 24px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .maincontainer2 {
-    max-width: 352px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    /* padding-left: 24px; */
-    /* padding-bottom: 24px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    margin-left: 20px;
-    backdrop-filter: blur(60px);
-
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-
-    margin-top: -40px;
-  }
-  .gridmainb {
-    display: grid;
-    row-gap: 20px;
-    margin-top: 110px;
-    height: fit-content;
-  }
-  .maincontainer6 {
-    max-width: 352px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    /* padding-left: 24px; */
-    /* padding-bottom: 24px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
-    margin-top: -130%;
-    backdrop-filter: blur(60px);
-
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-
-    height: fit-content;
-  }
-  .layoutC {
-    margin-top: 100px;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 44px;
-    max-width: 1920px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(images/bodyimg6.svg);
-    min-height: 1094px;
-    background-repeat: no-repeat;
-    background-position: bottom;
-
-    /* position: relative;
-  overflow: hidden; */
-  }
- 
-  .layoutctxt4 {
-    max-width: 302px;
-    width: 100%;
-    color: aliceblue;
-    font-family: PP Neue Montreal;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: left;
-    padding-top: 85px;
-    padding-bottom: 16px;
-  }
-  .container2 {
-    padding-top: 12px;
-    max-width: 304px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .container3 {
-    padding-top: 12px;
-    max-width: 304px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .Ecards12 {
-    max-width: 768px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .layoutecard2 {
-    max-width: 452px;
-    width: 100%;
-    margin-left: 102px;
-    margin-top: 21%;
-  }
-  .etxt1 {
-    max-width: 452px;
-    font-family: PP Neue Montreal;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-  }
-  .etxt2 {
-    font-family: Denton Condensed Test;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 100;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-  }
-  .etxt3 {
-    padding-top: 19px;
-    max-width: 452px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25.2px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: white;
-    opacity: 50%;
-  }
-  .layoutecard1 {
-    max-width: 452px;
-    width: 100%;
-    margin-left: 102px;
-    margin-top: 84px;
-  }
-
-  .ecard2img1 {
-    max-width: 100px;
-    width: 100%;
-    margin-left: 170px;
-  }
-  .layoutecard2 {
-    max-width: 452px;
-    width: 100%;
-    margin-left: 150px;
-    margin-top: 21%;
-  }
-  .layoutecard1 {
-    max-width: 452px;
-    width: 100%;
-    margin-left: 150px;
-    margin-top: 84px;
-  }
-  .layoutE {
-    margin-top: 100px;
-
-  }
-  .cardemain {
-    max-width: 1920px;
-    width: 100%;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .layoutE {
-    /* margin-top: 64px; */
-    background-image: url(/images/pcrsponsiv2.png);
-    width: 100%;
-    max-width: 1247px;
-
     margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    border-radius: 14px;
   }
-  .dell {
-    display: none;
-  }
-  .layoutIRes{
-    max-width: 768px;
-    width: 100%;
-  
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-
-  }
-  .layoutNtxt1 {
-    padding-top: 50px;
-    max-width: 327px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-  }
-  .layoutNtxt2 {
-    padding-top: 50px;
-    max-width: 327px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-  }
-  .mainlayoutN34 {
-    max-width: 1540px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 64px;
-  }
-  .layoutnimg3 {
-    max-width: 286px;
-    width: 100%;
-    color: white;
-    opacity: 50%;
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: center;
-  }
-  .layoutnimg4 {
-    max-width: 286px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    padding-top: 24px;
-  }
-  .cardofFlayout {
-    max-width: 1920px;
-    display: flex;
-    padding-left: 20px;
-    gap: 12px;
-    padding-top: 114px;
-  }
-  .card3 {
-    max-width: 558px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 24px;
-    display: flex;
-    padding-left: 24px;
-
-    flex-direction: column;
-    /* background: rgba(0, 0, 0, 0.01); */
-    display: none;
-  }
-  .card1txt1 {
-    max-width: 177px;
-    width: 100%;
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 38.4px;
-    text-align: left;
-    text-align: left;
-    color: white;
-    opacity: 100%;
-  }
-  .card1part2 {
-    max-width: 308px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .card1part3 {
-    max-width: 308px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 16px;
-  }
-  .card1part4 {
-    max-width: 308px;
-    width: 100%;
-    padding-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 24px;
-    cursor: pointer;
-  }
-  .card1txt2 {
-    max-width: 308px;
-    width: 100%;
-
-    color: white;
-    opacity: 50%;
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: left;
-    padding-top: 8px;
-  }
-  .layoutN {
-    background-image: url(images/layoutNimg1.jpg);
-    max-width: 1920px;
-    width: 100%;
-    min-height: 768px;
-    background-position: top;
-    background-repeat: no-repeat;
- 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
-  }
-  .ftxtA {
-    padding-top: 1px;
-    padding-left: 20px;
-  }
-  .txtf1 {
-    padding-top: 64px;
-    max-width: 337px;
-
-    font-family: PP Neue Montreal;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: left;
-
-    color: white;
-  }
-  .txtf2 {
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    font-style: italic;
-    color: white;
-    opacity: 90%;
-  }
-  .ftxtB {
-    padding-top: 64px;
-    padding-right: 1px;
-  }
-  .ftxt4a {
-    max-width: 237px;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    opacity: 90%;
-    padding-top: 32px;
-  }
-  .ftxt4 {
-    max-width: 237px;
-    width: 100%;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    opacity: 90%;
-    padding-top: 32px;
-  }
-  .ftxt3 {
-    max-width: 155px;
-    width: 100%;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-    text-align: left;
-    color: white;
-    opacity: 50%;
-    display: none;
-  }
-  .layoutg3 {
-    max-width: 466px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 43px;
-    align-items: center;
-  }
-  .maindivlayoutg {
-    max-width: 768px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .Gtxta {
-    max-width: 616px;
-    color: white;
-    max-width: 759px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 61.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-  }
-  .Gtxtb {
-    color: white;
-    max-width: 759px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 61.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-
-    font-style: italic;
-  }
-  .layoutgtxt12 {
-    display: none;
-  }
-  .layoutgtxtab {
-    padding-top: 153px;
-  }
-
-  .maindivlayoutg3 {
-    
-    display: flex;
-    flex-direction: column;
-    /* padding-right: 102px; */
-    padding-top: 42px;
-    row-gap: 21px;
-    margin-left: 137px;
-  }
-  .Gtxt4 {
-    max-width: 368px;
-    width: 100%;
-    color: white;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 33.6px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    padding-left: 01px;
-  }
-  .layoutg1 {
-    background-image: url(/images/layoutdimg1.vg);
-    min-height: 900px;
-  }
-  .layoutG {
-    width: 100%;
-
-    background-image: url(images/rescardg.png);
-    background-position: center;
-    min-height: 768px;
-    background-repeat: no-repeat;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
-  }
-  .Gtxt3 {
-    max-width: 38px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 112px;
-    letter-spacing: -0.02em;
-    text-align: left;
-
-    text-align: left;
-    color: white;
-
-    /* padding-left: 70px; */
-  }
-  .layouthtexts {
-    margin-left: 20px;
-  }
-  .htxt2a {
-    padding-top: 1px;
-    max-width: 387px;
-    padding-top: 64px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 47px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
-  .htxt3 {
-    max-width: 387px;
-    /* padding-top: 32px; */
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 45px;
-    font-weight: 400;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
-  .htxt4 {
-    max-width: 387px;
-    /* padding-top: 32px; */
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 39px;
-    font-weight: 200;
-    line-height: 57.6px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    font-style: italic;
-  }
-  .htxt1 {
-    display: none;
-  }
-  .Hcard1A {
-    max-width: 331px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(21, 21, 30, 0.3);
-    border-radius: 24px;
-    margin-left: 0px;
-  }
-  .Hcard1 {
-    display: none;
-  }
-  .Hcard12 {
-    max-width: 331px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: rgba(21, 21, 30, 0.3);
-    border-radius: 24px;
-    padding-left: 24px;
-  }
-  .cardhtxt1 {
-    max-width: 283px;
-    width: 100%;
-    /* color: white; */
-    font-family: PP Neue Montreal;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: left;
-  }
-  .cardhtxt2 {
-    max-width: 283px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: left;
-
-    padding-top: 18px;
-
-    padding-bottom: 24px;
-  }
-  .layoutH {
-    max-width: 1280px;
-    width: 100%;
-    background-image: url(images/layouthimg1.svg);
-    min-height: 768px;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
-  }
-  .hcardimg1 {
-    padding-top: 24px;
-    max-width: 85px;
-    width: 100%;
-  }
-  .ftxt4a{
-    display: none;
-  }
-  .mainreponsiveh {
-    max-width: 768px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-  }
-  .layouthtexts {
-    display: none;
-  }
-  .layouthtextsResponsiveh {
-    margin-top: 64px;
-  }
-  .maindivcardsh {
-    max-width:735px;
-    width: 100%;
-    /* padding-left: 102px; */
-    /* padding-right: 102px; */
-    display: flex;
-    gap: 30px;
-    padding-top: 207px;
-    padding-bottom: 80px;
-padding-left: 0px;
-  }
-  .layoutH {
-    background-image: url(images/hresponsivebg.png);
-    min-height: 735px;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
-  }
-
-  .layoutI {
-    display: none;
-  }
-  .txtI2a {
-    max-width: 768px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: -0.03em;
-    text-align: center;
-  }
-  .txtI2b {
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    font-style: italic;
-  }
-  .txtIABa {
-    max-width: 702px;
-    width: 100%;
-    justify-content: center;
-    padding-top: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .cardI2 {
-    display: flex;
-    flex-direction: column;
-    min-height: 1px;
-    justify-content: space-between;
-    padding-left: 0px;
-  }
-  .layoutIimg1 {
-    max-width: 702px;
-    width: 100%;
-    padding-left: 3px;
-    padding-top: 40px;
-    cursor: pointer;
-  }
-  .txtIcd {
-    display: none;
-  }
-  .txtIcda {
-    max-width: 702px;
-    width: 100%;
-    display: flex;
-    padding-left: 33px;
-    justify-content: space-between;
-  }
-  .pcrespbd {
-    max-width: 702px;
-    width: 100%;
-    color: white;
-    opacity: 50%;
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    padding:0px;
-    text-align: center;
-  }
-  .txtI3 {
-    max-width: 327px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28.8px;
-    text-align: left;
-
-    color: white;
-  }
-  .txtI4 {
-    max-width: 327px;
-    width: 100%;
-    color: rgba(163, 163, 163, 1);
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.6px;
-    text-align: left;
-    opacity: 50%;
-  }
-  .layoutk {
-    display: none;
-  }
-  .ktxt5 {
-    padding-top: 24px;
-    max-width: 313px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 40.32px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
-  .layoutkmaincard1 {
-    max-width: 780px;
-    min-height: 0px;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-  }
-  .layoutkcard3 {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-  }
-  .mainlayoute {
-    max-width: 244px;
-    width: 100%;
-    display: flex;
-    gap: 60px;
-    padding-top: 29px;
-    padding-left: 90px;
-    /* padding-bottom: 84px; */
-  }
-  .mainlayouteaa {
-    max-width: 244px;
-    width: 100%;
-    display: flex;
-    gap: 60px;
-    padding-top: 29px;
-    padding-left: 0px;
-    /* padding-bottom: 84px; */
-  }
-  .mainlayoutea {
-    max-width: 139px;
-    width: 100%;
-    display: flex;
-    gap: 52px;
-    padding-top: 20px;
-    padding-left: 90px;
-    /* padding-bottom: 84px; */
-  }
-  .responsc1c3 {
-    max-width: 708px;
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    padding-top: 64px;
-    padding-left: 20px;
-  }
-  .ktxt3 {
-    max-width: 694px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    color: white;
-    opacity: 90%;
-    cursor: pointer;
-    padding-bottom: 21px;
-    padding-top: 21px;
-  }
-  .kcard2a {
-    max-width: 722px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  .kcard2 {
-    max-width: 728px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  .maincard2 {
-    padding-left: 20px;
-    padding-top: 100px;
-  }
-  layoutka {
-    max-width: 768px;
-    width: 100%;
-
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .maindivcardl1 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 179px;
-    padding-bottom: 0px;
-  }
-  .txtl3 {
-    max-width: 79px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28.8px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
-  .txtl5 {
-    max-width: 704px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.6px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    padding-bottom: 21px;
-    padding-top: 21px;
-    padding-left: 0px;
-  }
-  .ltxt7 {
-    color: white;
-    max-width: 705px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align: left;
-    opacity: 50%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 16px;
-  }
-  .txtl6 {
-    max-width: 283px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28.8px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    padding-bottom: 19px;
-    padding-top: 19px;
-    margin-left: 0px;
-  }
-  .txtl1 {
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-  }
-  .txtl2 {
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-  }
-  .mbordordiv {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .mtxt9 {
-    max-width: 768px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.2px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: white;
-    opacity: 50%;
-    padding-top: 32px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-  }
-  .cardm3 {
-    max-width: 121px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  .maincardM23 {
-    max-width: 364px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 32px;
-  }
-  .Mmaincard1 {
-    max-width: 363px;
-    width: 100%;
-    min-height: 159px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 32px;
-  }
-  .card1 {
-    max-width: 358px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 24px;
-    display: flex;
-    padding-left: 24px;
-    backdrop-filter: blur(50px);
-
-box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-
-    flex-direction: column;
-}
-  .layoutJ {
-    display: none;
-  }
-
   .txta {
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
-    font-size: 72px;
-    font-weight: 500;
-    line-height: 86.4px;
-    letter-spacing: -0.03em;
-    text-align: left;
-    margin-left: 84px;
-    color: white;
-    text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
-  }
-  .txta1 {
-    font-family: sans-serif;
     font-family: PP Neue Montreal;
     font-size: 72px;
     font-weight: 500;
@@ -5336,139 +5391,56 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
   .txtb {
-    font-family: sans-serif;
     font-family: PP Neue Montreal;
     font-size: 72px;
-    font-weight: 500;
+    font-style: italic;
+    font-weight: 400;
     line-height: 86.4px;
     letter-spacing: -0.03em;
     text-align: left;
+
     color: white;
-    font-style: italic;
   }
   .txtc {
-
     font-size: 72px;
     font-style: italic;
     font-weight: 100;
     line-height: 86.4px;
     letter-spacing: -0.03em;
     text-align: left;
+
     color: white;
+    font-style: italic;
   }
+  .txta1 {
+    font-family: PP Neue Montreal;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 86.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
 
-  .body2 {
-    max-width: 601px;
-    width: 100%;
-    display: flex;
-    white-space: nowrap;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    gap: 17px;
-    justify-content: center;
-  }
-  .header1a2 {
-    display: none;
-  }
-  .layoutBa {
-    display: none;
-  }
-  .Layoutdtxt1maindivRes {
-    display: none;
-  }
-  .layoutGres{
-    display: none;
-    }
-    .layoutHres{
-      display: none;
-    }
-    .layoutMA{
-      display: none;
-    }
-    .layoutF {
-      background-image: url(images/3layoutf.png);
-      max-width: 768px;
-      width: 100%;
-      min-height: 768px;
-      background-repeat: no-repeat;
-      
-
-
- 
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0px;
-      background-position:center;
-      padding-top: 150px;
- 
-     
-    }
-    .ftxt4b {
-      max-width: 237px;
-      width: 100%;
-      color: white;
-      font-family: PP Neue Montreal;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: -0.03em;
-      text-align: left;      
-      opacity: 90%;
-      padding-top: 20px;
+    color: white;
+    text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
 }
+
+
 @media (min-width: 1921px) and (max-width: 2346px) {
-  .layouthtextsResponsive{
+  .layouthtextsResponsive {
     display: none;
   }
   .ftxtB {
     padding-top: 50px;
     padding-right: 102px;
     display: none;
-}
-.layoutMA{
-  display: none;
+  }
+  .layoutMA {
+    display: none;
+  }
 }
 
-}
 
-@media (min-width: 1281px) and (max-width: 1919px) {
-  .layout1resimg {
-    display: none;
-  }
-  .header2a {
-    display: none;
-  }
-  .ftxtB {
-    padding-top: 50px;
-    padding-right: 102px;
-    display: none;
-}
-  .Layoutdtxt1maindivRes {
-    display: none;
-  }
-  .hedprt3b {
-   display: none;
-  }
-  .divre{
-    display: none;
-  }
-  .ftxt3{
-    display: none;
-  }
-.layoutGres{
-display: none;
-}
-.layoutHres{
-  display: none;
-}
-.layoutMA{
-  display: none;
-}
-}
 
 @media (max-width: 375px) {
   .nav2 {
@@ -5538,7 +5510,6 @@ display: none;
     font-style: italic;
   }
   .txtc {
-
     font-size: 48px;
     font-style: italic;
     font-weight: 100;
@@ -5673,8 +5644,6 @@ display: none;
     justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 18px;
-
-    
   }
   .header3 {
     margin-right: 0px;
@@ -5766,7 +5735,6 @@ display: none;
     background-repeat: no-repeat;
     background-position: bottom;
     margin-top: 46px;
- 
 
     margin-left: auto;
     margin-right: auto;
@@ -5806,7 +5774,7 @@ display: none;
   .Layoutdtxt1maindiv {
     display: none;
   }
-  .arrow1a{
+  .arrow1a {
     max-width: 48px;
     padding-top: 12px;
     padding-left: 12px;
@@ -5836,7 +5804,6 @@ display: none;
   }
   .layoutC {
     margin-top: 65px;
-
 
     margin-left: auto;
     margin-right: auto;
@@ -5985,7 +5952,7 @@ display: none;
     line-height: 24px;
     letter-spacing: -0.03em;
     text-align: left;
-      cursor: pointer;
+    cursor: pointer;
     color: rgba(255, 255, 255, 1);
     /* font-style: italic; */
   }
@@ -6072,7 +6039,7 @@ display: none;
     background-image: url(images/section5res.png);
     background-position: bottom;
     background-repeat: no-repeat;
-   
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 65px;
@@ -6091,7 +6058,7 @@ display: none;
   .cardofFlayout {
     max-width: 375px;
     display: flex;
-   
+
     gap: 16px;
     padding-top: 49px;
   }
@@ -6231,17 +6198,15 @@ display: none;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 340px;
-   
 
     margin-top: 65px;
-   
   }
   .maindivtxtca {
     display: flex;
     max-width: 228px;
     width: 100%;
     gap: 5px;
-}
+  }
   .card1 {
     max-width: 295px;
     width: 100%;
@@ -6254,334 +6219,318 @@ display: none;
     backdrop-filter: blur(110px);
 
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-    
-  
-
   }
   .layoutgtxt12 {
     display: flex;
     justify-content: center;
     padding-left: 0px;
-    padding-top:0px;
-}
-.maindivlayoutg {
-  max-width: 375px;
-  width: 100%;
-  justify-content: center;
+    padding-top: 0px;
+  }
+  .maindivlayoutg {
+    max-width: 375px;
+    width: 100%;
+    justify-content: center;
+  }
+  .layoutgtxtab {
+    display: none;
+  }
+  .layoutgtxt12 {
+  }
 
-}
-.layoutgtxtab{
-  display: none;
-}
-.layoutgtxt12{
+  .Gtxt4 {
+    max-width: 301px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .layoutg3 {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .Gtxt3 {
+    max-width: 16px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    letter-spacing: -0.02em;
+    text-align: left;
 
-}
+    color: white;
+    /* padding-left: 70px; */
+  }
+  .Gtxt5 {
+    max-width: 301px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
 
-.Gtxt4 {
-  max-width: 301px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  
-}
-.layoutg3 {
-  max-width: 375px;
-  width: 100%;
-  display: flex;
-  gap: 18px;
-  justify-content: space-between;
-text-align: start;
-}
-.Gtxt3 {
-  max-width: 16px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 44.8px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  
-  color: white;
-  /* padding-left: 70px; */
-}
-.Gtxt5 {
-  max-width: 301px;
-  width: 100%;
-  color: white;
-  opacity: 50%;
-  font-family: PP Neue Montreal;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.6px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  
-}
+  .hedtxt5a {
+    max-width: 225px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 54px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    opacity: 50%;
+  }
+  .layoutgtxtab {
+    max-width: 335px;
+    width: 100%;
+    padding-top: 0px;
+    color: white;
+  }
+  .Gtxt1 {
+    max-width: 375px;
+    color: white;
 
-.hedtxt5a {
-  max-width: 225px;
-  font-family: sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 22px;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
-  padding-left: 54px;
-  padding-top: 19px;
-  padding-bottom: 19px;
-  opacity: 50%;
-}
-.layoutgtxtab {
-  max-width: 335px;
-  width: 100%;
-  padding-top: 0px;
-  color: white;
-}
-.Gtxt1{
-  max-width: 375px;
-  color: white;
- 
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  text-align: center;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .Gtxt2 {
+    color: white;
 
-}
-.Gtxt2 {
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
 
-  color: white;
- 
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  text-align: center;
+    font-style: italic;
+  }
+  .maindivlayoutg3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 80px;
+    row-gap: 30px;
+  }
+  .maindivlayoutg {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .layoutGres {
+    max-width: 375px;
+    width: 100%;
 
+    background-image: url(images/secgrespon2.pnujug);
+    background-position: center;
+    min-height: 812px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+  .layoutg1 {
+    background-image: url(images/secgrespon2.png);
+    min-height: 812px;
+    background-position: center;
+  }
+  .layoutgtxtab {
+    display: none;
+  }
+  .gtxtres {
+    max-width: 375px;
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    padding-top: 56px;
+    padding-bottom: 32px;
+  }
+  .header3R {
+    margin-right: 0px;
+    max-width: 335px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 52px;
+    box-shadow: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
+    margin-left: 20px;
+    margin-top: 34px;
+  }
+  .hedprt3r {
+    display: flex;
+    cursor: pointer;
+  }
+  .header3a {
+    margin-right: 26px;
+    margin-top: 34px;
+    max-width: 335px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 52px;
+    box-shadow: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
+  }
+  .header3b {
+    margin-left: 20px;
+    margin-top: 56px;
+    max-width: 335px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 52px;
+    box-shadow: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
+  }
+  .hedprt3b {
+    display: flex;
+    cursor: pointer;
+  }
+  .layoutG {
+    display: none;
+  }
+  .layoutH {
+    display: none;
+  }
+  .htxt2a {
+    max-width: 375px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+    padding-top: 24px;
+  }
+  .layouthtexts {
+    margin-left: 0px;
+  }
+  .htxt1 {
+    max-width: 375px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    padding-top: 50px;
+  }
+  .htxt4 {
+    max-width: 375px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+    font-style: italic;
+  }
+  .maindivcardsh {
+    max-width: 375px;
+    width: 100%;
+    padding-left: 0px;
+    /* padding-right: 102px; */
+    display: flex;
+    gap: 24px;
+    padding-top: 106px;
+    padding-bottom: 0px;
+  }
+  .Hcard1A {
+    max-width: 295px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(21, 21, 30, 0.3);
+    border-radius: 24px;
 
-  font-style: italic;
-}
-.maindivlayoutg3 {
-  display: flex;
-  flex-direction: column;
- padding-left: 20px; 
-  padding-top: 80px;
-  row-gap: 30px;
-}
-.maindivlayoutg {
-  max-width: 375px;
-  width: 100%;
-display: flex;
-flex-direction: column;
-}
-.layoutGres {
-  max-width: 375px;
-  width: 100%;
+    padding-left: 24px;
+  }
+  .cardhtxt1 {
+    max-width: 263px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .cardhtxt2 {
+    max-width: 263px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montrealhifdsh;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    padding-top: 18px;
+    padding-bottom: 44px;
+  }
+  .hcardimg1 {
+    padding-top: 24px;
+    max-width: 85px;
+    width: 100%;
+  }
+  .layoutHres {
+    max-width: 375px;
+    width: 100%;
+    background-image: url(images/sectionhres.png);
+    min-height: 662px;
+    background-position: center;
+    background-repeat: no-repeat;
 
-  background-image: url(images/secgrespon2.pnujug); 
-  background-position: center;
-  min-height: 812px;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 48px;
-}
-.layoutg1 {
-  background-image: url(images/secgrespon2.png);
-  min-height: 812px;
-  background-position: center;
-}
-.layoutgtxtab {
-  display: none;
-}
-.gtxtres{
-  max-width: 375px;
-  font-family: PP Neue Montreal;
-font-size: 12px;
-font-weight: 400;
-line-height: 16.8px;
-text-align: center;
-color: white;
-opacity: 50%;
-padding-top: 56px;
-padding-bottom: 32px;
-
-}
-.header3R {
-  margin-right: 0px;
-  max-width: 335px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 52px;
-  box-shadow: rgba(255, 255, 255, 0.1);
-  box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
-  margin-left: 20px;
-  margin-top: 34px;
-}
-.hedprt3r {
-  display: flex;
-  cursor: pointer;
-}
-.header3a {
-
-margin-right: 26px;
-  margin-top: 34px;
-  max-width: 335px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 52px;
-  box-shadow: rgba(255, 255, 255, 0.1);
-  box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
-}
-.header3b {
-  margin-left: 20px;
-  margin-top: 56px;
-  max-width: 335px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 52px;
-  box-shadow: rgba(255, 255, 255, 0.1);
-  box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
-}
-.hedprt3b {
-  display: flex;
-  cursor: pointer;
-}
-.layoutG{
-  display: none;
-}
-.layoutH{
-  display: none;
-}
-.htxt2a{
-  max-width:375px ;
-  width: 100%;
-  font-family: PP Neue Montreal;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.03em;
-text-align: center;
-color: white;
-padding-top: 24px;
-
-}
-.layouthtexts {
-  
-  margin-left: 0px;
-}
-.htxt1 {
-  max-width: 375px;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22.4px;
-  text-align: center;
-  color: white;
-  opacity: 50%;
-  padding-top: 50px;
-}
-.htxt4 {
-  max-width:375px ;
-  width: 100%;
-  font-family: PP Neue Montreal;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.03em;
-text-align: center;
-color: white;
-  font-style: italic;
-}
-.maindivcardsh {
-  max-width: 375px;
-  width: 100%;
-  padding-left: 0px;
-  /* padding-right: 102px; */
-  display: flex;
-  gap: 24px;
-  padding-top: 106px;
-  padding-bottom: 0px;
-}
-.Hcard1A {
-  max-width: 295px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(21, 21, 30, 0.3);
-  border-radius: 24px;
-
-  padding-left: 24px;
-}
-.cardhtxt1 {
-  max-width: 263px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  
-}
-.cardhtxt2 {
-  max-width: 263px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montrealhifdsh;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.6px;
-  text-align: left;  
-  padding-top: 18px;
-  padding-bottom: 44px;
-}
-.hcardimg1 {
-  padding-top: 24px;
-  max-width: 85px;
-  width: 100%;
-}
-.layoutHres {
-  max-width: 375px;
-  width: 100%;
-  background-image: url(images/sectionhres.png);
-  min-height: 662px;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 64px;
-}
-.header4a{
-  margin-top: 16px;
-  max-width: 335px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 52px;
-  box-shadow: rgba(255, 255, 255, 0.1);
-  box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
-  margin-left: 20px;
-  
-}
-    .ftxt4a{
-      display: none;
-    }
-    .cardI2 {
-      display: flex;
-      flex-direction: column;
-      min-height: 00px;
-      justify-content: space-between;
-      padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+  }
+  .header4a {
+    margin-top: 16px;
+    max-width: 335px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 52px;
+    box-shadow: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
+    margin-left: 20px;
+  }
+  .ftxt4a {
+    display: none;
+  }
+  .cardI2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 00px;
+    justify-content: space-between;
+    padding-left: 0px;
   }
   .layoutIimg1 {
     max-width: 1170px;
@@ -6589,460 +6538,447 @@ color: white;
     padding-left: 0px;
     padding-top: 38px;
     cursor: pointer;
-}
-.txtI2a {
-  max-width: 335px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  text-align: center;
-}
-.txtI2b {
-  max-width: 335px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  text-align: center;
-}  
-.pcrespbd{
-color: white;
-font-family: PP Neue Montreal;
-font-size: 12px;
-font-weight: 400;
-line-height: 16.8px;
-text-align: center;
-max-width: 335px;
-width: 100%;
-opacity: 50%;
-padding-top: 56px;
-padding-bottom: 34px;
+  }
+  .txtI2a {
+    max-width: 335px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .txtI2b {
+    max-width: 335px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .pcrespbd {
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    max-width: 335px;
+    width: 100%;
+    opacity: 50%;
+    padding-top: 56px;
+    padding-bottom: 34px;
+  }
+  .layoutIRes {
+    max-width: 375px;
+    width: 100%;
 
-}
-.layoutIRes{
-  max-width: 375px;
-  width: 100%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .layoutIimg1 {
+    max-width: 335px;
+    width: 100%;
+    padding-left: 0px;
+    cursor: pointer;
+    padding-top: 38px;
+  }
+  .txtI3 {
+    max-width: 335px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color: white;
+  }
+  .txtI4 {
+    max-width: 335px;
+    width: 100%;
+    color: rgba(163, 163, 163, 1);
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
 
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-
-}
-.layoutIimg1 {
-  max-width: 335px;
-  width: 100%;
-  padding-left: 0px;
-  cursor: pointer;
-  padding-top: 38px;
-}
-.txtI3 {
-  max-width: 335px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 28.8px;
-  letter-spacing: -0.03em;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 16px;
-  color: white;
-}
-.txtI4 {
-  max-width:335px;
-  width: 100%;
-  color: rgba(163, 163, 163, 1);
-  font-family: PP Neue Montreal;
-font-size: 14px;
-font-weight: 400;
-line-height: 19.6px;
-text-align: center;
-
-  opacity: 50%;
-
-}
-.layoutI{
-  display:  none;
-}
-.Jtxt1 {
-  max-width: 186px;
-  width: 100%;
-  color: white;
-  opacity: 50%;
-  font-family: PP Neue Montreal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22.4px;
-  text-align: left;
-  padding-top: 50px;
-  margin-left: 0px;
-}
-.Jtxta {
-  max-width: 375px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.txt4Jmain {
-  max-width: 375px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 0px;
-
-}
+    opacity: 50%;
+  }
+  .layoutI {
+    display: none;
+  }
+  .Jtxt1 {
+    max-width: 186px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 0px;
+  }
+  .Jtxta {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .txt4Jmain {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+  }
 
   .Jtxt1 {
-      max-width: 375px;
-      width: 100%;
-      color: white;
-      opacity: 50%;
-      font-family: PP Neue Montreal;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 16.8px;
-      text-align: center;
-      
-      padding-top: 56px;
-      margin-left: 0px;
-  
+    max-width: 375px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
 
-}
-.Jtxt2 {
-  max-width: 375px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  text-align: center;
-  
-  color: white;
-}
-.Jtxt3 {
-  color: white;
+    padding-top: 56px;
+    margin-left: 0px;
+  }
+  .Jtxt2 {
+    max-width: 375px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
 
- 
-  font-style: italic;
-  max-width: 375px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.03em;
-  text-align: center;
+    color: white;
+  }
+  .Jtxt3 {
+    color: white;
 
-}
-.Jtxt4 {
-  max-width: 335px;
-  width: 100%;
-  color: white;
-  opacity: 50%;
-  font-family: PP Neue Montreal;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.6px;
-  letter-spacing: -0.02em;
-  text-align: center;
-padding-top: 27px;
-  margin-right: 0px;
-}
-.jmaincarddiv {
-  max-width: 350px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding-bottom: 54px;
-  padding-top: 32px;
-  margin-left: 20px;
-}
-.jcard1 {
-  max-width: 335px;
-  width: 100%;
-  background: rgba(21, 21, 30, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-margin-left: 0px;
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-}
-.jcard2 {
-  max-width: 335px;
-  width: 100%;
-  background: rgba(21, 21, 30, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
-  padding-top: 16px;
-  cursor: pointer;
- 
-  padding-bottom: 22px;
-  display: flex;
-  align-items: center;
-}
-.layoutjimg2 {
-  width: 100%;
-margin-left: 16px;
-  padding-top: 8px;
-  max-width: 62px;
-}
-.cardJtxt1 {
-  max-width: 256px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-font-size: 24px;
-font-weight: 400;
-line-height: 0px;
-text-align: left;
+    font-style: italic;
+    max-width: 375px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .Jtxt4 {
+    max-width: 335px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-top: 27px;
+    margin-right: 0px;
+  }
+  .jmaincarddiv {
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 54px;
+    padding-top: 32px;
+    margin-left: 20px;
+  }
+  .jcard1 {
+    max-width: 335px;
+    width: 100%;
+    background: rgba(21, 21, 30, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  .jcard2 {
+    max-width: 335px;
+    width: 100%;
+    background: rgba(21, 21, 30, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding-top: 16px;
+    cursor: pointer;
 
-  padding-left: 16px;
-  padding-top: 0px;
-}
-.layoutJ {
-  max-width: 1280px;
-  width: 100%;
-  background-image: url(images/sectionjimg2.png);
-  min-height: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  border: 0.1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 44px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 65px;
-}
-.layoutk{
-  display: none;
-}
-.layoutkmaincard1 {
-  max-width: 375px;
-  min-height: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 56px;
-  padding-left:20px;
-  padding-bottom: 0px;
-}
-.ktxt5 {
-  padding-top: 24px;
-  max-width: 335px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 38.4px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  
-}
-.layoutkcard3 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 61px;
-  padding-right: 0px;
-  padding-left: 20px;
-  padding-bottom: 0px;
-}
-.mainlayoute {
-  max-width: 244px;
-  width: 100%;
-  display: flex;
-  gap: 32px;
-  padding-top: 30px;
-  margin-left: 70px;
-  /* padding-bottom: 84px; */
-}
-.ktxt4 {
-  max-width: 149px;
-  width: 100%;
-  color: white;
-  opacity: 50%;
-  font-family: PP Neue Montreal;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
+    padding-bottom: 22px;
+    display: flex;
+    align-items: center;
+  }
+  .layoutjimg2 {
+    width: 100%;
+    margin-left: 16px;
+    padding-top: 8px;
+    max-width: 62px;
+  }
+  .cardJtxt1 {
+    max-width: 256px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: left;
 
-}
-.ktxt1 {
-  max-width: 186px;
-  width: 100%;
-  color: white;
-  opacity: 50%;
-  font-family: PP Neue Montreal;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
+    padding-left: 16px;
+    padding-top: 0px;
+  }
+  .layoutJ {
+    max-width: 1280px;
+    width: 100%;
+    background-image: url(images/sectionjimg2.png);
+    min-height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+  }
+  .layoutk {
+    display: none;
+  }
+  .layoutkmaincard1 {
+    max-width: 375px;
+    min-height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 56px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+  }
+  .ktxt5 {
+    padding-top: 24px;
+    max-width: 335px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .layoutkcard3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 61px;
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+  }
+  .mainlayoute {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    padding-top: 30px;
+    margin-left: 70px;
+    /* padding-bottom: 84px; */
+  }
+  .ktxt4 {
+    max-width: 149px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+  }
+  .ktxt1 {
+    max-width: 186px;
+    width: 100%;
+    color: white;
+    opacity: 50%;
+    font-family: PP Neue Montreal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+  }
+  .maincard2 {
+    padding-left: 20px;
+    padding-top: 57px;
+  }
+  .ktxt3 {
+    max-width: 301px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    cursor: pointer;
 
-}
-.maincard2 {
-  padding-left: 20px;
-  padding-top: 57px;
-}
-.ktxt3 {
-  max-width: 301px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.6px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  cursor: pointer;
-  
-  color: white;
-  opacity: 90%;
-  padding-bottom: 21px;
-  padding-top: 21px;
-}
-.kcard2 {
-  max-width: 375px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
+    color: white;
+    opacity: 90%;
+    padding-bottom: 21px;
+    padding-top: 21px;
+  }
+  .kcard2 {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
 
-.txtl3 {
-  max-width: 66px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  
-}
-.maindivcardl1 {
-  padding-left: 0px;
-  padding-top: 78px;
-  padding-bottom: 100px;
-}
-.maindivl34 {
-  max-width: 335px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
+  .txtl3 {
+    max-width: 66px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+  .maindivcardl1 {
+    padding-left: 0px;
+    padding-top: 78px;
+    padding-bottom: 100px;
+  }
+  .maindivl34 {
+    max-width: 335px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.txtl5 {
-  max-width: 301px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.2px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  margin-left: 16px;
-  padding-bottom: 16px;
-  padding-top: 16px;
+  .txtl5 {
+    max-width: 301px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-left: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+  .maindivl5 {
+    max-width: 301px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .maindivl6 {
+    max-width: 301px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .txtl6 {
+    max-width: 311px;
+    width: 100%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-align: left;
 
-}
-.maindivl5 {
-  max-width: 301px;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.maindivl6 {
-  max-width: 301px;
-  display: flex;
-  justify-content: space-between;
-}
-.txtl6 {
-  max-width: 311px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.03em;
-  text-align: left;
+    text-align: left;
+    padding-bottom: 21px;
+    padding-top: 21px;
+  }
+  .maindivl7 {
+    max-width: 335px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .maindivcardl1 {
+    padding-left: 20px;
+    padding-top: 78px;
+    padding-bottom: 100px;
+  }
+  .ltxt7 {
+    color: white;
+    max-width: 303px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    margin-left: 16px;
+    opacity: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 16px;
+  }
+  .txtl1 {
+    max-width: 375px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 47.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
 
-  text-align: left;
-  padding-bottom: 21px;
-  padding-top: 21px;
-}
-.maindivl7 {
-  max-width: 335px;
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.maindivcardl1 {
-  padding-left: 20px;
-  padding-top: 78px;
-  padding-bottom: 100px;
-}
-.ltxt7 {
-  color: white;
-  max-width: 303px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  margin-left: 16px;
-  opacity: 50%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding-bottom: 16px;
-}
-.txtl1 {
-  max-width: 375px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 47.6px;
-  letter-spacing: -0.03em;
-  text-align: center;
-  
-  color: white;
-  padding-top: 0px;
-}
+    color: white;
+    padding-top: 0px;
+  }
 
-.txtl2 {
-  font-family: PP Neue Montreal;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 57.6px;
-  letter-spacing: -0.03em;
-  text-align: center;
-}
+  .txtl2 {
+    font-family: PP Neue Montreal;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
   .layoutL {
     max-width: 375px;
     width: 100%;
-    min-height:  350px;
+    min-height: 350px;
     margin-left: auto;
     margin-right: auto;
-  
-   border: none;
+
+    border: none;
     margin-top: 100px;
     background-image: url(images/sectionjimgres.png);
     background-position: top;
@@ -7052,91 +6988,91 @@ text-align: left;
   .mbordordiv {
     padding-left: 0px;
     padding-right: 0px;
-}
-.maincardofM {
-  max-width: 375px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  /* padding-left: 102px; */
-  /* padding-right: 102px; */
-  padding-top: 40px;
+  }
+  .maincardofM {
+    max-width: 375px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 102px; */
+    /* padding-right: 102px; */
+    padding-top: 40px;
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.maincardM23 {
-  max-width: 350px;
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  padding-bottom: 32px;
-}
-.Mmaincard1 {
-  max-width: 375px;
-  width: 100%;
-  min-height: 159px;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  padding-bottom: 32px;
-  display: none;
-}
-.mtxt9 {
-  max-width: 1719px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.2px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: white;
-  opacity: 50%;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 20px;
-}
-.cardm3 {
-  max-width: 156px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding-top: 32px;
-}
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .maincardM23 {
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .Mmaincard1 {
+    max-width: 375px;
+    width: 100%;
+    min-height: 159px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-bottom: 32px;
+    display: none;
+  }
+  .mtxt9 {
+    max-width: 1719px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+  }
+  .cardm3 {
+    max-width: 156px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 32px;
+  }
 
-.maincardM23 {
-  max-width: 375px;
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  padding-bottom: 32px;
-  margin-left: 20px;
-}
-.mtxt1 {
-  max-width: 89px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 26.4px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  color: white;
-  padding-left: 20px;
-}
-.cardm12 {
-  max-width: 203px;
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-}
-.layoutM{
-  display: none;
-}
-.mainlayouteaa {
-  display: none;
-}
+  .maincardM23 {
+    max-width: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-bottom: 32px;
+    margin-left: 20px;
+  }
+  .mtxt1 {
+    max-width: 89px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+  }
+  .cardm12 {
+    max-width: 203px;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+  }
+  .layoutM {
+    display: none;
+  }
+  .mainlayouteaa {
+    display: none;
+  }
 }
