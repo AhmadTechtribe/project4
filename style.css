@@ -5429,6 +5429,14 @@ mtxt3 {
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
 }
+@media (min-width: 1281px) and (max-width: 1919px) {
+  .layout1resimg{
+    display: none;
+  }
+  .header2a{
+    display: none;
+  }
+}
 
 
 @media (min-width: 1921px) and (max-width: 2346px) {
@@ -7081,3 +7089,4 @@ mtxt3 {
     display: none;
   }
 }
+
