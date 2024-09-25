@@ -174,7 +174,7 @@ html, body {
 }
 
 .txtc {
-  font-family: Denton Condensed Test;
+
   font-size: 88px;
   font-style: italic;
   font-weight: 100;
@@ -200,6 +200,13 @@ html, body {
   padding-bottom: 22px;
   /* padding-left: -90px; */
 }
+.maindivtxtca{
+display: flex;
+max-width: 528px;
+width: 100%;
+gap: 20px;
+}
+
 .body2 {
   max-width: 704px;
   width: 100%;
@@ -415,11 +422,12 @@ html, body {
   max-width: 24px;
   width: 100%;
 }
-.mainbdyab {
+.mainbdyabc {
   max-width: 273px;
   width: 100%;
   display: flex;
   gap: 52px;
+  padding-top: 32px;
   padding-left: 102px;
   padding-bottom: 42px;
 }
@@ -561,7 +569,8 @@ html, body {
   font-weight: 400;
   line-height: 19.6px;
   text-align: left;
-  font-family: serif;
+  font-style: italic;
+
 }
 .layoutctxt11 {
   max-width: 50px;
@@ -638,6 +647,13 @@ html, body {
   padding-top: 24px;
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(60px);
+
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .maincontainer4 {
@@ -653,6 +669,10 @@ html, body {
   padding-bottom: 24px;
   padding-top: 24px;
 
+backdrop-filter: blur(60px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
   opacity: 20px;
 }
 .maincontainer5 {
@@ -667,6 +687,9 @@ html, body {
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
+  backdrop-filter: blur(60px);
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
 }
 .maincontainer6 {
   max-width: 312px;
@@ -843,6 +866,21 @@ html, body {
   /* font-family: sans-serif; */
   font-size: 145.77px;
   font-weight: 400;
+  line-height: 145.77px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: white;
+  opacity: 50%;
+  
+  padding-top: 266px;
+}
+.italic {
+  max-width: 825.07px;
+  width: 100%;
+  font-family: Denton Condensed Test;
+  font-size: 145.77px;
+  font-style: italic;
+  font-weight: 100;
   line-height: 145.77px;
   letter-spacing: -0.02em;
   text-align: center;
@@ -1025,12 +1063,12 @@ html, body {
   background-position: center;
 }
 .layoutF {
-  background-image: url(images/cardF1.svg);
+  background-image: url(images/layoutfres.png);
   max-width: 1920px;
   width: 100%;
   min-height: 1000px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 
 
   margin-left: auto;
@@ -1044,7 +1082,7 @@ html, body {
   font-size: 72px;
   font-weight: 400;
   line-height: 86.4px;
-  letter-spacing: -0.03em;
+  letter-spacing: -5px;
   text-align: left;
   color: white;
 }
@@ -1234,6 +1272,10 @@ html, body {
   display: flex;
   padding-left: 24px;
   margin-right: 20px;
+  backdrop-filter: blur(110px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
   flex-direction: column;
 }
 .card3 {
@@ -1354,7 +1396,7 @@ justify-content: center;
   letter-spacing: -0.02em;
 }
 .maindivlayoutg {
-  max-width: 1785px;
+  max-width: 1818px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -1399,7 +1441,7 @@ justify-content: center;
 
 .htxt2 {
   max-width: 624px;
-  /* padding-top: 32px; */
+  padding-top: 32px;
   width: 100%;
   color: white;
   font-family: serif;
@@ -1426,19 +1468,22 @@ justify-content: center;
   width: 100%;
 }
 .htxt4 {
-  max-width: 624px;
-  /* font-family: serif; */
+
+  font-family: Denton Condensed Test;
   font-size: 72px;
   font-style: italic;
   font-weight: 100;
   line-height: 86.4px;
-  letter-spacing: -0.03em;
-  /* text-align: left; */
+  letter-spacing: -8px;
+  text-align: left;
+  
 
   color: white;
 }
 .layouthtexts {
-  padding-left: 102px;
+max-width: 624px;
+width: 100%;
+  margin-left: 102px;
 }
 .cardhtxt1 {
   max-width: 508px;
@@ -1627,6 +1672,9 @@ justify-content: center;
   letter-spacing: -0.03em;
   text-align: left;
   color: white;
+  text-shadow: 0px 4px 20px 0px rgba(255, 255, 255, 0.45);
+
+  
 }
 .Jtxt3 {
   color: white;
@@ -1646,6 +1694,9 @@ justify-content: center;
 }
 .layoutj1 {
   padding-top: 50px;
+
+
+
 }
 .Jtxt4 {
   max-width: 417px;
@@ -1653,7 +1704,7 @@ justify-content: center;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 22.4px;
   letter-spacing: -0.02em;
@@ -2738,6 +2789,20 @@ margin-bottom: 35px;
   }
 }
 @media (min-width: 769px) and (max-width: 1280px) {
+  .layoutF {
+    background-image: url(images/layoutfres2.png);
+    max-width: 1280px;
+    width: 100%;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-position: top;
+  
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  
   .layoutBa {
     display: none;
   }
@@ -2762,6 +2827,12 @@ margin-bottom: 35px;
     color: white;
     opacity: 50%;
   }
+  .maindivtxtca{
+    display: flex;
+    max-width: 432px;
+    width: 100%;
+    gap: 10px;
+    }
 
   .hedtxt {
     max-width: 235px;
@@ -2830,6 +2901,20 @@ margin-bottom: 35px;
     bottom: -0.6%;
     opacity: 0.2;
   }
+  .layoutC {
+    margin-top: 50px;
+   
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url(images/layoutcres1.png);
+    min-height: 768px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+  }
 
   .bodyimg4 {
     max-width: 81.24vw;
@@ -2844,9 +2929,11 @@ margin-bottom: 35px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 54px;
+    gap: 35px;
     /* position: absolute; */
-    top: 53%;
+    top: 38%;
+    margin-left: 13px;
+    margin-right: 13px;
   }
   .maincontainer6 {
     max-width: 272px;
@@ -2889,6 +2976,33 @@ margin-bottom: 35px;
     padding-top: 24px;
     opacity: 20px;
   }
+  .layoutctxt1 {
+    max-width: 825.07px;
+    width: 100%;
+    /* font-family: sans-serif; */
+    font-size: 145.77px;
+    font-weight: 400;
+    line-height: 145.77px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+  opacity: 100%; 
+    padding-top: 150px;
+}
+  .italic {
+    max-width: 825.07px;
+    width: 100%;
+    font-family: Denton Condensed Test;
+    font-size: 145.77px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 145.77px;
+    letter-spacing: -11px;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+    padding-top: 208px;
+}
   .maincontainer1 {
     max-width: 272px;
     width: 100%;
@@ -2902,6 +3016,7 @@ margin-bottom: 35px;
     padding-bottom: 24px;
     padding-top: 24px;
     opacity: 20px;
+    margin-top: 59px;
   }
   .container1 {
     max-width: 224px;
@@ -3248,18 +3363,7 @@ margin-bottom: 35px;
     padding-bottom: 24px;
     cursor: pointer;
   }
-  .layoutF {
-    background-image: url(images/cardF1.svg);
-    max-width: 1920px;
-    width: 100%;
-    min-height: 768px;
-    background-repeat: no-repeat;
-    background-position: top;
-  
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-  }
+
   .Gtxt1 {
     color: white;
     max-width: 616px;
@@ -3767,7 +3871,9 @@ margin-bottom: 35px;
     justify-content: space-between;
   }
   .layouthtexts {
-    padding-left: 92px;
+    max-width: 624px;
+    width: 100%;
+    margin-left: 92px;
   }
   .txtl6 {
     max-width: 377px;
@@ -3804,18 +3910,7 @@ margin-bottom: 35px;
     padding-bottom: 40px;
     padding-left: 102px;
   }
-  .layoutF {
-    background-image: url(images/cardF1.svg);
-    max-width: 1920px;
-    width: 100%;
-    min-height: 100px;
-    background-repeat: no-repeat;
-    background-position: top;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-  }
+ 
   .bdytxt1 {
     max-width: 186px;
     width: 100%;
@@ -3928,7 +4023,7 @@ margin-bottom: 35px;
   color: white;
 }
 .txtc {
-  font-family: Denton Condensed Test;
+
 font-size: 72px;
 font-style: italic;
 font-weight: 100;
@@ -3953,6 +4048,33 @@ text-align: left;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
+
+  .italic {
+    font-family: Denton Condensed Test;
+    font-size: 102px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 102px;
+    letter-spacing: -4px;
+    text-align: center;
+    opacity: 100%;
+    
+}
+
+  .layoutctxt1 {
+    max-width: 600px;
+    width: 100%;
+    /* font-family: sans-serif; */
+    font-family: PP Neue Montreal;
+    font-size: 102px;
+    font-weight: 400;
+    line-height: 102px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+    padding-top: 80px;
+}
   .containerNAV1 {
     padding-top: 20px;
     max-width: 728px;
@@ -4029,6 +4151,12 @@ text-align: left;
     box-shadow: rgba(255, 255, 255, 0.1);
     box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
   }
+  .maindivtxtca{
+    display: flex;
+    max-width: 432px;
+    width: 100%;
+    gap: 10px;
+    }
   .hedtxt5 {
     max-width: 160px;
     width: 100%;
@@ -4220,6 +4348,10 @@ text-align: left;
     padding-bottom: 24px;
     padding-top: 24px;
     margin-left: 20px;
+    backdrop-filter: blur(60px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
     margin-top: -40px;
   }
   .gridmainb {
@@ -4241,6 +4373,10 @@ text-align: left;
     padding-bottom: 24px;
     padding-top: 24px;
     margin-top: -130%;
+    backdrop-filter: blur(60px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
     height: fit-content;
   }
   .layoutC {
@@ -4259,20 +4395,7 @@ text-align: left;
     /* position: relative;
   overflow: hidden; */
   }
-  .layoutctxt1 {
-    max-width: 600px;
-    width: 100%;
-    /* font-family: sans-serif; */
-    font-family: PP Neue Montreal;
-    font-size: 102px;
-    font-weight: 400;
-    line-height: 102px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: white;
-    opacity: 50%;
-    padding-top: 80px;
-  }
+ 
   .layoutctxt4 {
     max-width: 302px;
     width: 100%;
@@ -4707,7 +4830,7 @@ text-align: left;
     /* padding-left: 70px; */
   }
   .layouthtexts {
-    padding-left: 20px;
+    margin-left: 20px;
   }
   .htxt2a {
     padding-top: 1px;
@@ -5171,6 +5294,19 @@ padding-left: 0px;
     justify-content: space-between;
     padding-bottom: 32px;
   }
+  .card1 {
+    max-width: 358px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    display: flex;
+    padding-left: 24px;
+    backdrop-filter: blur(50px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
+    flex-direction: column;
+}
   .layoutJ {
     display: none;
   }
@@ -5211,7 +5347,7 @@ padding-left: 0px;
     font-style: italic;
   }
   .txtc {
-    font-family: Denton Condensed Test;
+
     font-size: 72px;
     font-style: italic;
     font-weight: 100;
@@ -5252,6 +5388,37 @@ padding-left: 0px;
     .layoutMA{
       display: none;
     }
+    .layoutF {
+      background-image: url(images/3layoutf.png);
+      max-width: 768px;
+      width: 100%;
+      min-height: 768px;
+      background-repeat: no-repeat;
+      
+
+
+ 
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      background-position:center;
+      padding-top: 150px;
+ 
+     
+    }
+    .ftxt4b {
+      max-width: 237px;
+      width: 100%;
+      color: white;
+      font-family: PP Neue Montreal;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+      text-align: left;      
+      opacity: 90%;
+      padding-top: 20px;
+  }
 }
 @media (min-width: 1921px) and (max-width: 2346px) {
   .layouthtextsResponsive{
@@ -5371,7 +5538,7 @@ display: none;
     font-style: italic;
   }
   .txtc {
-    font-family: ;
+
     font-size: 48px;
     font-style: italic;
     font-weight: 100;
@@ -6057,18 +6224,24 @@ display: none;
     color: white;
   }
   .layoutF {
-    background-image: url(images/section6res.png);
+    background-image: url(images/3reslayoutf.png);
     max-width: 1920px;
     width: 100%;
-    min-height: 870px;
+    min-height: 872px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 340px;
    
-    margin-left: auto;
-    margin-right: auto;
+
     margin-top: 65px;
    
   }
+  .maindivtxtca {
+    display: flex;
+    max-width: 228px;
+    width: 100%;
+    gap: 5px;
+}
   .card1 {
     max-width: 295px;
     width: 100%;
@@ -6078,8 +6251,11 @@ display: none;
     padding-right: 16px;
     padding-left: 16px;
     flex-direction: column;
-    z-index: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(110px);
+
+    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+    
+  
 
   }
   .layoutgtxt12 {
@@ -6301,7 +6477,8 @@ padding-top: 24px;
 
 }
 .layouthtexts {
-  padding-left: 0px;
+  
+  margin-left: 0px;
 }
 .htxt1 {
   max-width: 375px;
