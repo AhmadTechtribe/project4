@@ -2849,7 +2849,9 @@ text-align: left;
     text-align: center;
     opacity: 100%;
   }
-
+  .layouthtextsResponsive {
+    display:block;
+  }
   .layoutctxt1 {
     max-width: 600px;
     width: 100%;
@@ -3020,6 +3022,17 @@ text-align: left;
     max-width: 728px;
     padding-top: 265px;
   }
+  .body1 {
+    max-width: 704px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+  
+    padding-top: 90px;
+    gap: 20px;
+    margin: 0px;
+    padding-bottom: 22px;
+}
   .layoutB {
     max-width: 768px;
     background-image: url(images/body\ img\ 3.png);
@@ -3620,7 +3633,7 @@ text-align: left;
     margin-left: 20px;
   }
   .htxt2a {
-    padding-top: 1px;
+    
     max-width: 387px;
     padding-top: 64px;
     width: 100%;
@@ -3657,9 +3670,10 @@ text-align: left;
     text-align: left;
     font-style: italic;
   }
-  .htxt1 {
+  .htxt1{
     display: none;
   }
+  
   .Hcard1A {
     max-width: 331px;
     width: 100%;
