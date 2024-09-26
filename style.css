@@ -354,10 +354,10 @@ body {
 }
 
 .bdytxt1 {
-  max-width: 186px;
+  max-width: 197px;
   width: 100%;
   opacity: 50%;
-  font-family: sans-serif;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -1101,7 +1101,7 @@ body {
   line-height: 22.4px;
   text-align: left;
   color: white;
-  letter-spacing: 3px;
+  letter-spacing: 1Px;
   opacity: 50%;
 }
 .ftxt3a {
@@ -1378,7 +1378,7 @@ body {
   display: flex;
   gap: 73px;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 .Gtxt4 {
   max-width: 491px;
@@ -1423,7 +1423,7 @@ body {
 }
 
 .htxt1 {
-  max-width: 131px;
+  max-width: 139px;
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -1655,7 +1655,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   margin-top: 100px;
 }
 .Jtxt1 {
-  max-width: 186px;
+  max-width: 196px;
   width: 100%;
   color: white;
   opacity: 50%;
@@ -1696,7 +1696,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   justify-content: space-between;
 }
 .layoutj1 {
-  padding-top: 50px;
+  padding-top: 24px;
 }
 .Jtxt4 {
   max-width: 417px;
@@ -1791,7 +1791,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   justify-content: space-between;
 }
 .ktxt1 {
-  max-width: 186px;
+  max-width: 202px;
   width: 100%;
   color: white;
   opacity: 50%;
@@ -1869,7 +1869,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   padding-bottom: 100px;
 }
 .ktxt4 {
-  max-width: 149px;
+  max-width: 158px;
   width: 100%;
   color: white;
   opacity: 50%;
@@ -2688,7 +2688,7 @@ padding-bottom: 32PX;
   display: flex;
 }
 .nextstep{
-  max-width: 137px;
+  max-width: 162px;
   width: 100%;
   color: white;
   padding-top: 50px;
@@ -2987,10 +2987,10 @@ text-align: left;
     padding-left: 20px;
   }
   .bdytxt1 {
-    max-width: 186px;
+    max-width: 197px;
     width: 100%;
     opacity: 50%;
-    font-family: sans-serif;
+
     font-size: 16px;
     font-weight: 400;
     line-height: 22.4px;
@@ -4227,6 +4227,9 @@ text-align: left;
 .nextstep{
   display: none;
 }
+.layoutka{
+margin-top: 100px;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
@@ -4692,7 +4695,7 @@ text-align: left;
     text-align: left;
   }
   .layoutnimg3 {
-    max-width: 235px;
+    max-width: 311px;
     width: 100%;
     color: white;
     opacity: 50%;
@@ -4701,6 +4704,7 @@ text-align: left;
     font-weight: 400;
     line-height: 22.4px;
     z-index: 30px;
+    letter-spacing: -2px;
   }
 
   .mainlayoutN34 {
@@ -5233,7 +5237,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     margin-left: 0px;
   }
   .Jtxt1 {
-    max-width: 196px;
+    max-width: 233px;
     width: 100%;
     color: white;
     opacity: 50%;
@@ -5433,10 +5437,10 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
 
   .bdytxt1 {
-    max-width: 186px;
+    max-width: 197px;
     width: 100%;
     opacity: 50%;
-    font-family: sans-serif;
+  
     font-size: 16px;
     font-weight: 400;
     line-height: 22.4px;
@@ -5579,7 +5583,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     color: white;
     opacity: 50%;
     padding-top: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
   }
 }
 @media (min-width: 1281px) and (max-width: 1919px) {
@@ -5609,6 +5613,22 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 
 
 @media (max-width: 375px) {
+  .hedtxt5 {
+    max-width: 225px;
+    width: 100%;
+    font-family: sans-serif;
+    font-family: PP Neue Montreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 1);
+    padding-left: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    opacity: 70%;
+  }
   .ftxt4b{
     display: none;
   }
@@ -5831,13 +5851,13 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
   }
   .bdytxt1 {
-    max-width: 186px;
+    max-width: 167px;
     width: 100%;
     opacity: 50%;
-    font-family: sans-serif;
-    font-size: 16px;
+
+    font-size: 12px;
     font-weight: 400;
-    line-height: 22.4px;
+    line-height: 16.6px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin-left: 0px;
@@ -5861,6 +5881,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     width: 100%;
     display: flex;
     gap: 52px;
+    padding-top: 30px;
     padding-left: 0px;
     padding-bottom: 42px;
   }
@@ -5873,7 +5894,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     display: flex;
     gap: 42px;
     padding-left: 0px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 0px;
   }
   .bodyb {
@@ -5883,6 +5904,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 69px;
   }
   .Resmaintxt2 {
     max-width: 375px;
@@ -5908,7 +5930,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     min-height: 700px;
     background-repeat: no-repeat;
     background-position: bottom;
-    margin-top: 46px;
+    margin-top: 100px;
 
     margin-left: auto;
     margin-right: auto;
@@ -5977,7 +5999,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-top: 0px;
   }
   .layoutC {
-    margin-top: 110px;
+    margin-top: 150px;
 
     margin-left: auto;
     margin-right: auto;
@@ -6149,7 +6171,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     border-radius: 14px;
   }
   .layoutNtxt1 {
-    padding-top: 50px;
+    padding-top: 20px;
     max-width: 304px;
     width: 100%;
     font-family: PP Neue Montreal;
@@ -6219,15 +6241,17 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     background-image: url(images/section5res.png);
     background-position: bottom;
     background-repeat: no-repeat;
-
+    /* background-size: 332px 436px; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 65px;
+    margin-top: 150px;
   }
   .layoutnimg2 {
-    max-width: 375px;
+    max-width: 335px;
     width: 100%;
+    margin-left: auto;
     margin-top: 110px;
+    margin-right: auto;
   }
   .card3 {
     display: none;
@@ -6243,7 +6267,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-top: 49px;
   }
   .ftxtA {
-    padding-top: 56px;
+    padding-top: 6px;
     padding-left: 0px;
   }
   .maindivAB {
@@ -6321,7 +6345,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-top: 24px;
   }
   .ftxtB {
-    padding-top: 55px;
+    padding-top: 95px;
     padding-left: 69px;
     padding-right: 0px;
   }
@@ -6376,8 +6400,9 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     width: 100%;
     min-height: 872px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 340px;
+    background-position:center;
+
+    background-size: 410px 363px;
 
     margin-top: 65px;
   }
@@ -6473,7 +6498,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-left: 54px;
     padding-top: 19px;
     padding-bottom: 19px;
-    opacity: 50%;
+    opacity: 70%;
   }
   .layoutgtxtab {
     max-width: 335px;
@@ -6545,7 +6570,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     font-size: 12px;
     font-weight: 400;
     line-height: 16.8px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     text-align: center;
     color: white;
     opacity: 50%;
@@ -6623,7 +6648,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     opacity: 50%;
     letter-spacing: 2px;
     padding-top: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 0px;
   }
   .htxt4 {
     max-width: 375px;
@@ -6648,7 +6673,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-bottom: 0px;
   }
   .Hcard1A {
-    max-width: 295px;
+    max-width: 310px;
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(21, 21, 30, 0.3);
@@ -6676,7 +6701,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     line-height: 19.6px;
     text-align: left;
     padding-top: 18px;
-    padding-bottom: 44px;
+    padding-bottom: 50px;
   }
   .hcardimg1 {
     padding-top: 24px;
@@ -6753,8 +6778,9 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     width: 100%;
     opacity: 50%;
     padding-top: 56px;
-    letter-spacing: 2px;
-    padding-bottom: 34px;
+    letter-spacing: 
+    0px;
+    padding-bottom: 20px;
   }
   .layoutIRes {
     max-width: 375px;
@@ -6944,11 +6970,10 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     min-height: 100px;
     background-position: center;
     background-repeat: no-repeat;
-    border: 0.1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 44px;
+
     margin-left: auto;
     margin-right: auto;
-    margin-top: 65px;
+    margin-top: 105px;
     background-size: 400px 400px;
   }
   .layoutk {
@@ -6994,7 +7019,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     /* padding-bottom: 84px; */
   }
   .ktxt4 {
-    max-width: 149px;
+    max-width: 159px;
     width: 100%;
     color: white;
     opacity: 50%;
@@ -7005,7 +7030,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     text-align: left;
   }
   .ktxt1 {
-    max-width: 186px;
+    max-width: 202px;
     width: 100%;
     color: white;
     opacity: 50%;
@@ -7116,7 +7141,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   .maindivcardl1 {
     padding-left: 20px;
     padding-top: 78px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   .ltxt7 {
     color: white;
@@ -7160,10 +7185,10 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     min-height: 350px;
     margin-left: auto;
     margin-right: auto;
-
+background-size: 507px;
     border: none;
-    margin-top: 100px;
-    background-image: url(images/sectionjimgres.png);
+    margin-top: 150px;
+    background-image: url(images/last.png);
     background-position: top;
     background-repeat: no-repeat;
     padding-bottom: 50px;
@@ -7224,6 +7249,12 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     gap: 16px;
     padding-top: 32px;
   }
+  .limg1{
+    max-width: 24px;
+  }
+  .lastimg1{
+    max-width: 24px;
+  }
 
   .maincardM23 {
     max-width: 335px;
@@ -7231,7 +7262,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: start;
     flex-direction: column;
-    padding-bottom: 32px;
+    padding-bottom: 12px;
     margin-left: 20px;
   }
   .mtxt1 {
@@ -7248,15 +7279,16 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .cardm12 {
     max-width: 203px;
-    display: flex;
-    align-items: center;
+    
     padding-top: 32px;
   }
   .layoutM {
     display: none;
   }
   .mainlayouteaa {
-    display: none;
+    display: flex;
+    gap: 60px;
+    padding-top: 30PX;
   }
   .kcard2a {
     max-width:335px;
@@ -7266,5 +7298,11 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     gap: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-}
+  .layoutka{
+    margin-top:  100px;
+  }
+  .last12{
+    padding-top: 26px;
+  }
+  }
 
