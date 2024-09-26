@@ -1556,7 +1556,8 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: center;
+  margin-left: 102px;
+ 
 }
 .txtI1 {
   max-width: 134px;
@@ -5061,6 +5062,14 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 
   }
+  .layoutI {
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 100px;
+
+
+    margin-left: 94px;
+}
   .layoutIimg1 {
     max-width: 702px;
     width: 100%;
