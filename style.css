@@ -5667,7 +5667,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   .txtb {
     font-family: sansserif;
     font-family: PP Neue Montreal;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 500;
     line-height: 48px;
     letter-spacing: -0.03em;
@@ -5715,28 +5715,33 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     /* padding-left: -90px; */
   }
   .body2 {
-    max-width: 335px;
+    max-width:288px;
     width: 100%;
     display: flex;
     white-space: nowrap;
-    margin: 0 auto;
+    margin: 0px;
     margin-top: 0px;
-    margin-right: auto;
+    margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: auto;
+    margin-left: 20px;
     gap: 12px;
     justify-content: center;
   }
-  .body1 {
-    max-width: 335px;
+  .text1{
+    max-width: 261px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    padding-top: 42px;
-    gap: 11px;
-    margin: 0px;
   }
+    .body1 {
+      max-width: 271px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      padding-top: 42px;
+      gap: 5px;
+      margin-left: 26px;
+  }
+  
   .header1 {
     display: flex;
     justify-content: space-between;
@@ -6307,7 +6312,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-top: 24px;
   }
   .ftxtB {
-    padding-top: 97px;
+    padding-top: 55px;
     padding-left: 69px;
     padding-right: 0px;
   }
