@@ -5609,6 +5609,9 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 
 
 @media (max-width: 375px) {
+  .ftxt4b{
+    display: none;
+  }
   .nav2 {
     display: none;
   }
@@ -6201,6 +6204,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     font-weight: 400;
     line-height: 16.8px;
     text-align: center;
+    padding-bottom: 24px;
   }
   .maindivimg34 {
     max-width: 232px;
@@ -6223,7 +6227,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   .layoutnimg2 {
     max-width: 375px;
     width: 100%;
-    margin-top: 142px;
+    margin-top: 110px;
   }
   .card3 {
     display: none;
@@ -6541,11 +6545,12 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     font-size: 12px;
     font-weight: 400;
     line-height: 16.8px;
+    letter-spacing: 2px;
     text-align: center;
     color: white;
     opacity: 50%;
     padding-top: 56px;
-    padding-bottom: 32px;
+    padding-bottom: 22px;
   }
   .header3R {
     margin-right: 0px;
@@ -6616,6 +6621,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     text-align: center;
     color: white;
     opacity: 50%;
+    letter-spacing: 2px;
     padding-top: 50px;
     letter-spacing: 2px;
   }
@@ -6638,7 +6644,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     /* padding-right: 102px; */
     display: flex;
     gap: 24px;
-    padding-top: 106px;
+    padding-top: 96px;
     padding-bottom: 0px;
   }
   .Hcard1A {
@@ -6699,9 +6705,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
     margin-left: 20px;
   }
-  .ftxt4a {
-    display: none;
-  }
+ 
   .cardI2 {
     display: flex;
     flex-direction: column;
@@ -6749,6 +6753,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     width: 100%;
     opacity: 50%;
     padding-top: 56px;
+    letter-spacing: 2px;
     padding-bottom: 34px;
   }
   .layoutIRes {
@@ -6944,6 +6949,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     margin-left: auto;
     margin-right: auto;
     margin-top: 65px;
+    background-size: 400px 400px;
   }
   .layoutk {
     display: none;
@@ -7030,7 +7036,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     padding-top: 21px;
   }
   .kcard2 {
-    max-width: 375px;
+    max-width: 335px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -7251,6 +7257,14 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .mainlayouteaa {
     display: none;
+  }
+  .kcard2a {
+    max-width:335px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
 
