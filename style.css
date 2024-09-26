@@ -1093,7 +1093,7 @@ body {
   opacity: 90%;
 }
 .ftxt3 {
-  max-width: 155px;
+  max-width: 311px;
   width: 100%;
   font-family: sans-serif;
   font-size: 16px;
@@ -1101,6 +1101,7 @@ body {
   line-height: 22.4px;
   text-align: left;
   color: white;
+  letter-spacing: 3px;
   opacity: 50%;
 }
 .ftxt3a {
@@ -1399,7 +1400,7 @@ body {
   display: flex;
   flex-direction: column;
   /* padding-right: 102px; */
-  padding-top: 275px;
+  padding-top: 235px;
   row-gap: 30px;
 }
 .layoutgtxt12 {
@@ -1506,6 +1507,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(21, 21, 30, 0.3);
   border-radius: 24px;
+  backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   padding-left: 24px;
   /* margin-left: 102px; */
 }
@@ -1515,7 +1519,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(21, 21, 30, 0.3);
   border-radius: 24px;
+  backdrop-filter: blur(30px);
 
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   padding-left: 24px;
 }
 .Hcard12 {
@@ -1525,6 +1531,10 @@ body {
   background: rgba(21, 21, 30, 0.3);
   border-radius: 24px;
   padding-left: 24px;
+  backdrop-filter: blur(30px);
+
+box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .maindivcardsh {
@@ -1570,6 +1580,7 @@ body {
   letter-spacing: -0.03em;
   text-align: left;
 }
+
 .txtI2b {
   /* font-family: serif; */
   font-size: 72px;
@@ -1585,6 +1596,7 @@ body {
   width: 100%;
   display: flex;
   gap: 5px;
+  flex-direction: column;
   padding-top: 93px;
 }
 
@@ -2596,7 +2608,10 @@ mtxt3 {
   max-width: 1248px;
   width: 100%;
   margin-top:32px;
-  backdrop-filter: blur(46.24999237060547px);
+  backdrop-filter: blur(110px);
+
+  box-shadow: 0px 38.13px 43.33px 0px rgba(0, 0, 0, 0.5);
+  
 
 
 
@@ -2657,10 +2672,34 @@ mtxt3 {
   padding-top: 0px;
   justify-content: flex-end;
 }
+.breakdown{
+  opacity: 50%;
+  color: white;
+  font-family: PP Neue Montreal;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+padding-bottom: 32PX;
+
+}
+.layout{
+  display: flex;
+}
 .nextstep{
+  max-width: 137px;
+  width: 100%;
   color: white;
   padding-top: 50px;
-  padding-left: 102px;
+  margin-left: 102px;
+  opacity: 50%;
+  font-family: PP Neue Montreal;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: 2px;
+text-align: left;
+
 }
 @media (min-width: 1920px) {
   .ftxt3a {
@@ -2988,6 +3027,7 @@ mtxt3 {
     /* min-height: 700px; */
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 600px 600px;
     margin-top: 48px;
 
     /* max-width: 1920px;
@@ -4248,7 +4288,7 @@ mtxt3 {
   }
 
   .ftxt3a {
-    max-width: 235px;
+    max-width: 255px;
     width: 100%;
     font-family: PP Neue Montreal;
     font-size: 16px;
@@ -4257,6 +4297,7 @@ mtxt3 {
     text-align: left;
     color: white;
     opacity: 50%;
+    letter-spacing: 2.5px;
   }
   .maindivtxtca {
     display: flex;
@@ -4346,7 +4387,16 @@ mtxt3 {
     background-position: bottom;
     overflow: hidden;
   }
-
+  .breakdown {
+    opacity: 50%;
+    color: white;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    padding-bottom: 20PX;
+}
   
   .maincontainersoflayoutc {
     max-width: 1280px;
@@ -5031,7 +5081,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     width: 100%;
     display: flex;
     gap: 5px;
-    padding-top: 93px;
+    padding-top: 80px;
   }
   .txtI3 {
     max-width: 312px;
@@ -5048,7 +5098,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     flex-direction: column;
     justify-content: space-between;
     min-height: 11px;
-    padding-left: 20px;
+    padding-left: 50px;
   }
   .txtIcd {
     display: flex;
@@ -5159,7 +5209,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     margin-left: 0px;
   }
   .Jtxt1 {
-    max-width: 186px;
+    max-width: 196px;
     width: 100%;
     color: white;
     opacity: 50%;
@@ -5170,6 +5220,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     text-align: left;
     padding-top: 50px;
     margin-left: 94px;
+    letter-spacing: 2px;
   }
   .ktxt3 {
     max-width: 520px;
@@ -5493,6 +5544,18 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 
     color: white;
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
+  }
+  .htxt1 {
+    max-width: 375px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+    padding-top: 50px;
+    letter-spacing: 2px;
   }
 }
 @media (min-width: 1281px) and (max-width: 1919px) {
@@ -6520,6 +6583,7 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     color: white;
     opacity: 50%;
     padding-top: 50px;
+    letter-spacing: 2px;
   }
   .htxt4 {
     max-width: 375px;
