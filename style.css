@@ -1304,7 +1304,7 @@ body {
   margin-top: 100px;
 }
 .layoutg1 {
-  background-image: url(/images/layoutdimg1.svg);
+  background-image: url(images/layoutdimg1.svg);
   min-height: 1000px;
 }
 .Gtxt1 {
@@ -7310,125 +7310,262 @@ background-size: 507px;
   }
   }
 
-  @media (min-width: 769px) and (max-width:1080px){
-    
-      .body1 {
-          max-width: 501px;
-          width: 100%;
-          display: flex;
-          padding-bottom: 16px;
-          /* justify-content: center; */
-          align-items: left;
-          padding-top: 80px;
-          gap: 20px;
-          margin-left: auto;
-          margin-right: auto;
-      }
-      .header1 {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 30px;
-        padding-left: 20px;
-    }
-    .hedtxt {
-      max-width: 195px;
+  @media (min-width: 1281px) and (max-width:1700px){
+    .maincontainersoflayoutc {
+      max-width: 1482px;
       width: 100%;
-      color: rgba(255, 255, 255, 1);
-      opacity: 50%;
-      cursor: pointer;
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 17.2px;
-      text-align: left;
+      inset: 0;
+      /* top: 200px !important; */
+      height: fit-content;
+      margin-left: 80px;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 312px 312px 312px 312px;
+      gap: 78px;
+      position: absolute;
+      top: 1%;
   }
-   .maincontainer6{
-    display: none;
-   }
-   .hedprt3 {
+  .Ecards12 {
+    max-width: 1542px;
+    width: 100%;
     display: flex;
-    cursor: pointer;
-    height: 60px;
-}
-.hedtxt5 {
-  max-width: 225px;
-  font-family: sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 22px;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
-  padding-left: 24px;
-  padding-top: 19px;
-  padding-bottom: 19px;
-  opacity: 50%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 .layoutI {
   max-width: 1920px;
   width: 100%;
   margin-top: 100px;
-  padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  justify-content: center;
-}
-.cardI2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 11px;
-  padding-left: 0px;
-}
-card3 {
-  max-width: 356px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  display: none;
-}
-.cardofFlayout {
-  max-width: 1280px;
-  display: flex;
-  justify-content: center;
-  padding-right: 0px;
-  gap: 70px;
-  padding-top: 70px;
-  padding-bottom: 64px;
-}
-.ftxtA {
-  padding-top: 64px;
-  padding-left: 21px;
+  padding-left: 02px;
 }
 .ftxtB {
   padding-top: 50px;
-  padding-right: 0px;
+  padding-right: 102px;
+  display: none;
 }
-.jcard2 {
-  max-width: 191px;
+.card1part2 {
+  max-width: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1part4 {
+  max-width: 460px;
   width: 100%;
-  background: rgba(21, 21, 30, 0.3);
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  cursor: pointer;
+}
+
+.card3 {
+  max-width: 460px;
+  width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
-  padding-top: 30px;
-  padding-bottom: 22px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-direction: column;
+  /* background: rgba(0, 0, 0, 0.01); */
 }
-.cardJtxt1 {
-  /* max-width: 154px; */
+.card2 {
+  max-width: 460px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  padding-left: 24px;
+  margin-right: 20px;
+  backdrop-filter: blur(110px);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+.card2 {
+  max-width: 460px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  padding-left: 24px;
+  margin-right: 20px;
+  backdrop-filter: blur(110px);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+
+.card1 {
+  max-width: 460px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  display: flex;
+  padding-left: 24px;
+  flex-direction: column;
+}
+.card1part4 {
+  max-width: 413px;
+  width: 100%;
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  cursor: pointer;
+}
+.card1part2 {
+  max-width: 408px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layoutgtxt12 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 284px;
+}
+.Gtxt5 {
+  max-width: 400px;
+  width: 100%;
+  color: white;
+  opacity: 50%;
+  font-family: serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.Gtxt4 {
+  max-width: 491px;
+  width: 100%;
+  color: white;
+  font-family: PP Neue Montreal;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: -0.02em;
+}
+.maindivlayoutg {
+  max-width: 1401px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Gtxt1 {
+  color: white;
+  max-width: 858px;
+  width: 100%;
+  font-family: serif;
+  font-size: 148px;
+  font-weight: 400;
+  line-height: 187px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.Gtxt2 {
+  font-family: serif;
+  font-size: 144px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 187px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+  font-style: italic;
+}
+.ftxt3a {
+  max-width: 235px;
   width: 100%;
   font-family: PP Neue Montreal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 28.8px;
+  line-height: 22.4px;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+  display: none;
+}
+.cardI2 {
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.txtI2a {
+  max-width: 337px;
+  width: 100%;
+  color: white;
+  /* font-family: serif; */
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
   text-align: left;
 }
-.layoutjimg2 {
-  max-width: 48px;
+.txtI2a {
+  max-width: 153px;
   width: 100%;
-  margin-left: 24px;
-  /* padding-top: 32px; */
+  color: white;
+  /* font-family: serif; */
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
-.jcard1 {
-  max-width: 191px;
+.txtI4 {
+  max-width: 307px;
+  width: 100%;
+  color: rgba(163, 163, 163, 1);
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  opacity: 50%;
+  text-align: left;
+}
+.Hcard12 {
+  max-width: 423px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  padding-left: 24px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+}
+.Hcard1 {
+  max-width: 423px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  padding-left: 24px;
+  /* margin-left: 102px; */
+}
+.Hcard1A {
+  max-width: 423px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(21, 21, 30, 0.3);
+  border-radius: 24px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  padding-left: 24px;
+}
+.jcard2 {
+  max-width: 318px;
   width: 100%;
   background: rgba(21, 21, 30, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -7436,295 +7573,65 @@ card3 {
   padding-top: 30px;
   padding-bottom: 22px;
   cursor: pointer;
-  margin-left: 40px;
-}
-.Jtxta {
-  max-width: 1006px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.maincontainer7{
-  display: none;
-}
-.maincontainersoflayoutc {
-  max-width: 1080px;
-  width: 100%;
-  inset: 0;
-  /* top: 100px !important; */
-  height: fit-content;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 35px;
-  /* position: absolute; */
-  top: 38%;
-  margin-left: 61px;
-  margin-right: 56px;
-}
-
-  .card3 {
-      max-width: 356px;
-      width: 100%;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 24px;
-      display: flex;
-      flex-direction: column;
-      display: none;
-  }
-  .layoutkmaincard1 {
-    max-width: 780px;
-    min-height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-bottom: 60px;
-}
-
-  .maindivcardl1 {
-      padding-left: 20px;
-      padding-top: 79px;
-      padding-bottom: 100px;
-  }
-  
-    .maindivl34 {
-        max-width: 983px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-      .maindivl7 {
-          max-width: 983px;
-          display: flex;
-          justify-content: space-between;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-      }
-      .mbordordiv {
-        padding-left: 24px;
-        padding-right: 94px;
-    }
-    .jmaincarddiv {
-      max-width: 1067px;
-      width: 100%;
-      display: flex;
-      gap: 16px;
-      justify-content: center;
-      padding-bottom: 54px;
-      padding-top: 85px;
-  }
-  Jtxt1 {
-    max-width: 233px;
-    width: 100%;
-    color: white;
-    opacity: 50%;
-    font-family: PP Neue Montreal;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-    text-align: left;
-    padding-top: 50px;
-    margin-left: 60px;
-    letter-spacing: 2px;
-}
-.txt4Jmain {
-  max-width: 1020px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 350px;
-}
-.Hcard1 {
-  max-width: 270px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(21, 21, 30, 0.3);
-  border-radius: 24px;
   backdrop-filter: blur(30px);
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
-.cardhtxt1 {
-  max-width: 290px;
+.jcard1 {
+  max-width: 318px;
   width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 28.8px;
-  text-align: left;
-}
-.cardhtxt2 {
-  padding-left: 10px;
-  max-width: 305px;
-  width: 100%;
-  color: white;
-  font-family: PP Neue Montreal;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 19.6px;
-  text-align: left;
-  padding-top: 18px;
-  padding-bottom: 24px;
-}
-.Hcard12 {
-  padding-left: 10px;
-  max-width: 287px;
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(21, 21, 30, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 24px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  margin-left: 0px;
+  cursor: pointer;
   backdrop-filter: blur(30px);
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
-.Hcard1A {
-  padding-left: 10px;
-  max-width: 291px;
+.layoutIimg1 {
+  max-width: 1066px;
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(21, 21, 30, 0.3);
-  border-radius: 24px;
-  backdrop-filter: blur(30px);
-  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
+  padding-left: 0px;
+  cursor: pointer;
+  padding-top: 121px;
 }
-.italic {
-  max-width: 455px;
-  width: 100%;
-  font-family: Denton Condensed Test;
-  font-size: 132px;
-  font-style: italic;
-  font-weight: 100;
-  line-height: 145.77px;
-  letter-spacing: -11px;
-  text-align: center;
-  color: white;
-  opacity: 100%;
-  padding-top: 208px;
-}
-.layoutctxt1 {
-  max-width: 825.07px;
-  width: 100%;
-  /* font-family: sans-serif; */
-  font-size: 132.77px;
-  font-weight: 400;
-  line-height: 145.77px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: white;
-  opacity: 100%;
-  padding-top: 150px;
-}
-.hedtxt2{
-  display: none;
-}
-.mtxt9 {
-  max-width: 1092px;
-  width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.2px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: white;
-  opacity: 50%;
-  padding-top: 32px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-}
-
-  .layoutIimg1 {
-      max-width: 486px;
-      width: 100%;
-      padding-left: 0px;
-      padding-top: 80px;
-      min-height: 417px;
-      cursor: pointer;
-  }
-  .ktxt5 {
-    padding-top: 65px;
-    max-width: 468px;
-    width: 100%;
-    color: white;
-    font-family: PP Neue Montreal;
-    font-size: 34px;
-    font-weight: 400;
-    line-height: 60.48px;
-    letter-spacing: -0.03em;
-    text-align: left;
-}
-.layoutkcard3 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  padding-right: 0px;
+.maindivcardl1 {
+  padding-left: 75px;
+  padding-top: 79px;
   padding-bottom: 100px;
 }
-.layoutk {
-  max-width: 1011px;
+.maindivl34 {
+  max-width: 1359px;
   width: 100%;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: space-between;
 }
-.mbordordiv {
-  padding-left: 24px;
-  padding-right: 2px;
+.maindivl7 {
+  max-width: 1359px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.etxt1 {
-  max-width: 415px;
-  font-family: serif;
-  font-family: PP Neue Montreal;
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 57.6px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  color: white;
-}
-.etxt2 {
-  max-width: 452px;
-  font-family: Denton Condensed Test;
-  font-size: 32px;
-  font-style: italic;
-  font-weight: 100;
-  line-height: 57.6px;
-  letter-spacing: -0.03em;
-  text-align: left;
-  color: white;
-}
-
-  .layoutecard2 {
-      max-width: 452px;
-      width: 100%;
-      padding-top: 60px;
-      margin-right: 20px;
-  
-  }
-  .etxt3 {
-    padding-top: 19px;
-    max-width: 325px;
-    width: 100%;
-    /* font-family: serif; */
-    font-family: PP Neue Montreal;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25.2px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: white;
-    opacity: 50%;
-}
-.jmaincarddiv {
-  max-width: 775px;
+.mainlayoutN34 {
+  max-width: 1340px;
   width: 100%;
   display: flex;
-  gap: 16px;
-  justify-content: center;
-  padding-bottom: 54px;
-  padding-top: 85px;
+  padding-top: 0px;
+  justify-content: flex-end;
 }
+.Ecards12 {
+  max-width: 1428px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+  }
+  @media (min-width: 1281px) and (max-width:1080px){
+    .maincontainer6{
+      display: none;
+    }
+  }
