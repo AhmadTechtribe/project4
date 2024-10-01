@@ -8209,6 +8209,10 @@ background-size: 507px;
     }
   }
   @media (min-width: 540px) and (max-width:700px){
+       
+       
+       
+
     .Hcard12 {
       max-width: 331px;
       width: 100%;
@@ -8420,7 +8424,7 @@ background-size: 507px;
   flex-direction: column;
 }
 .txtf1 {
-  padding-top: 64px;
+  padding-top: 4px;
   max-width: 737px;
   font-family: PP Neue Montreal;
   font-size: 42px;
@@ -8475,9 +8479,9 @@ background-size: 507px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -50px;
+  margin-top: 0px;
   background-position: center;
-  padding-top: 150px;
+  padding-top: 0px;
 }
 .txtf2 {
   font-size: 42px;
@@ -8699,7 +8703,8 @@ ftxtA {
 
 
   }
-  @media (min-width: 540px) and (max-width:640px){   
+  @media (min-width: 540px) and (max-width:640px){
+       
      .outerborder {
     display: flex;
     align-items: center;
@@ -8849,6 +8854,7 @@ ftxtA {
     
   }
   @media (min-width: 400px) and (max-width:541px){
+    
     .mtxt2 {
       /* max-width: 63px; */
       width: 100%;
@@ -8979,11 +8985,11 @@ ftxtA {
 .layoutN {
   max-width: 375px;
   width: 100%;
-  min-height: 690px;
+  min-height: 590px;
   background-image: url(images/section5res.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  /* background-size: 332px 436px; */
+  background-size: 332px 436px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
@@ -9060,8 +9066,20 @@ ftxtA {
   flex-direction: column;
   justify-content: space-between;
 }
+.layoutF {
+  background-image: url(images/3layoutf.png);
+  max-width: 768px;
+  width: 100%;
+  min-height: 768px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  background-position: center;
+  padding-top: -100px;
+}
 .txtf1 {
-  padding-top: 64px;
+  padding-top: 0px;
   max-width: 737px;
   font-family: PP Neue Montreal;
   font-size: 42px;
@@ -9262,6 +9280,25 @@ etxt3 {
 }
 }
 @media (min-width: 376px) and (max-width:500px){
+  .cardemain {
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 00px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.layoutF {
+  background-image: url(images/3layoutf.png);
+  max-width: 768px;
+  width: 100%;
+  min-height: 768px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  background-position: center;
+  padding-top: 0px;
+}
   .hedtxt2{
     display: none;
   }
