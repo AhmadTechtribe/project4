@@ -8658,12 +8658,12 @@ mtxt3 {
   }
   .layoutB {
     max-width: 768px;
-    background-image: url(images/bodyimg3.png);
+    background-image: url(images/nospacesec2.png);
     background-size: 728px;
     /* min-height: 700px; */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px 500px;
+    background-size: 790px;
     margin-top: 48px;
   }
   .bodyimg4 {
@@ -9436,12 +9436,12 @@ mtxt3 {
   }
   .layoutB {
     max-width: 768px;
-    background-image: url(images/bodyimg-3.png);
+            background-image: url(images/nospacesec2.png);
     background-size: 728px;
     /* min-height: 700px; */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 429px 399px;
+    background-size: 488px 616px;
     margin-top: 48px;
   }
   .bodyimg4 {
