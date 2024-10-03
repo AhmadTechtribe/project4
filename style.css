@@ -8922,6 +8922,14 @@ ftxtA {
   }
   @media (min-width: 400px) and (max-width:541px){
     
+    .txtIcda {
+      max-width: 702px;
+      width: 100%;
+      display: flex;
+      padding-left: 0px;
+      justify-content: space-between;
+      flex-direction: column;
+  }
     .layoutM{
       display: none;
     }
@@ -9348,6 +9356,28 @@ etxt3 {
   padding-left: 40px;
   padding-right: 40px;
 }
+.txtI3 {
+  max-width: 727px;
+  width: 100%;
+  font-family: PP Neue Montreal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  color: white;
+}
+.txtI4 {
+  max-width: 727px;
+  width: 100%;
+  color: rgba(163, 163, 163, 1);
+  font-family: PP Neue Montreal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+  opacity: 50%;
+  padding: 20px 40px 30px 40px;
+}
 }
 @media (min-width: 376px) and (max-width:500px){
   .hedtxt2{
@@ -9426,6 +9456,24 @@ etxt3 {
     padding-left: 20px;
     padding-right: 20px;
     flex-direction: column;
+}
+.layoutB {
+  max-width: 768px;
+  background-image: ;
+  background-size: 728px;
+  /* min-height: 700px; */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 471px 412px;
+  margin-top: 48px;
+}
+.layoutg3 {
+  max-width: 402px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
 }
 .hedtxt {
   max-width: 390px;
