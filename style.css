@@ -4230,6 +4230,7 @@ text-align: left;
 margin-top: 100px;
 }
 }
+
 @media (min-width: 769px) and (max-width: 1280px) {
   .mainbody {
     
@@ -5596,6 +5597,8 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     display: none;
   }
 }
+
+
 @media (min-width: 1921px) and (max-width: 2346px) {
   .layouthtextsResponsive {
     display: none;
@@ -5609,6 +5612,9 @@ box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     display: none;
   }
 }
+
+
+
 @media (max-width: 375px) {
   .hedtxt5 {
     max-width: 225px;
@@ -7303,6 +7309,7 @@ background-size: 507px;
   }
 
   }
+
   @media (min-width: 1281px) and (max-width:1700px){
     .maincontainersoflayoutc {
       max-width: 1482px;
@@ -8209,10 +8216,6 @@ background-size: 507px;
     }
   }
   @media (min-width: 540px) and (max-width:700px){
-       
-       
-       
-
     .Hcard12 {
       max-width: 331px;
       width: 100%;
@@ -8424,7 +8427,7 @@ background-size: 507px;
   flex-direction: column;
 }
 .txtf1 {
-  padding-top: 4px;
+  padding-top: 64px;
   max-width: 737px;
   font-family: PP Neue Montreal;
   font-size: 42px;
@@ -8479,9 +8482,9 @@ background-size: 507px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: -50px;
   background-position: center;
-  padding-top: 0px;
+  padding-top: 150px;
 }
 .txtf2 {
   font-size: 42px;
@@ -8703,8 +8706,7 @@ ftxtA {
 
 
   }
-  @media (min-width: 540px) and (max-width:640px){
-       
+  @media (min-width: 540px) and (max-width:640px){   
      .outerborder {
     display: flex;
     align-items: center;
@@ -8855,19 +8857,6 @@ ftxtA {
   }
   @media (min-width: 400px) and (max-width:541px){
     
-    .mtxt2 {
-      /* max-width: 63px; */
-      width: 100%;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 19.2px;
-      letter-spacing: -0.02em;
-      text-align: left;
-      color: white;
-      opacity: 50%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
     .layoutM{
       display: none;
     }
@@ -8989,10 +8978,22 @@ ftxtA {
   background-image: url(images/section5res.png);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 332px 436px;
+  /* background-size: 332px 436px; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
+}
+.layoutF {
+  background-image: url(images/3layoutf.png);
+  max-width: 768px;
+  width: 100%;
+  min-height: 768px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  background-position: center;
+  padding-top: 106px;
 }
 .maindivlayoutg3 {
   display: flex;
@@ -9066,20 +9067,8 @@ ftxtA {
   flex-direction: column;
   justify-content: space-between;
 }
-.layoutF {
-  background-image: url(images/3layoutf.png);
-  max-width: 768px;
-  width: 100%;
-  min-height: 768px;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  background-position: center;
-  padding-top: -100px;
-}
 .txtf1 {
-  padding-top: 0px;
+  padding-top: 64px;
   max-width: 737px;
   font-family: PP Neue Montreal;
   font-size: 42px;
@@ -9259,7 +9248,7 @@ background-color: rgba(0, 0, 0, 0.5);
   margin-left: auto;
   margin-right: auto;
   background-image: url(images/bodyimg6.svg);
-  min-height: 855px;
+  min-height: 705px;
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -9280,25 +9269,6 @@ etxt3 {
 }
 }
 @media (min-width: 376px) and (max-width:500px){
-  .cardemain {
-    max-width: 1920px;
-    width: 100%;
-    margin-top: 00px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.layoutF {
-  background-image: url(images/3layoutf.png);
-  max-width: 768px;
-  width: 100%;
-  min-height: 768px;
-  background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  background-position: center;
-  padding-top: 0px;
-}
   .hedtxt2{
     display: none;
   }
@@ -9416,31 +9386,6 @@ etxt3 {
 
 }
 @media (min-width: 376px) and (max-width:399px){
-  .Gtxta {
-    max-width: 616px;
-    color: white;
-    max-width: 759px;
-    width: 100%;
-    font-family: PP Neue Montreal;
-    font-size: 46px;
-    font-weight: 400;
-    line-height: 61.6px;
-    letter-spacing: -0.03em;
-    text-align: center;
-}
-
-  .ktxt4 {
-    max-width: 158px;
-    width: 100%;
-    color: white;
-    opacity: 50%;
-    font-family: PP Neue Montreal;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22.4px;
-    text-align: left;
-    padding-top: 30PX;
-}
   .txta {
     font-family: sans-serif;
     font-family: PP Neue Montreal;
