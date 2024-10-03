@@ -1,11 +1,216 @@
 @font-face {
-  font-family: "montreal";
-  src: url("./fonts/fonts/montreal/NeueMontreal-Regular.otf");
+  font-family: "Denton Condensed Test";
+  src: url("/fonts/denton/woff/DentonCondensed-ThinItalic.woff2")
+      format("woff2"),
+    url("/fonts/denton/woff/DentonCondensed-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
+
 @font-face {
-  font-family: "denton";
-  src: url("./fonts/fonts/montreal/PPNeueMontreal-Bold.woff");
+  font-family: "Denton Test";
+  src: url("/fonts/denton/woff/Denton-ThinItalic.woff2") format("woff2"),
+    url("/fonts/denton/woff/Denton-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
+
+
+@font-face {
+  font-family: 'Denton Condensed Test';
+  src: url('DentonCondensed-ThinItalic.woff2') format('woff2'),
+      url('DentonCondensed-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('Denton-ThinItalic.woff2') format('woff2'),
+      url('Denton-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('/fonts/montreal/woff/NeueMontreal-Regular.woff2') format('woff2'),
+      url('/fonts/montreal/woff/NeueMontreal-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Book.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Book.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Book.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
+      url('PPNeueMontreal-SemiBolditalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
 html,
 body {
   background: #000;
@@ -171,7 +376,7 @@ body {
 }
 
 .txtb {
-  font-family: Denton Condensed Test;
+  font-family: "Denton Condensed Test";
   font-size: 88px;
   font-style: italic;
   font-weight: 100;
@@ -183,6 +388,7 @@ body {
 }
 
 .txtc {
+  font-family: "Denton Condensed Test";
   font-size: 88px;
   font-style: italic;
   font-weight: 100;
@@ -257,7 +463,7 @@ body {
   width: 100%;
   color: rgba(255, 255, 255, 1);
   opacity: 50%;
-  /* font-family: sans-serif;  */
+  font-family: "PP Neue Montreal"; 
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
@@ -335,7 +541,7 @@ body {
 
 .hedtxt5 {
   max-width: 225px;
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 22px;
@@ -365,7 +571,7 @@ body {
   max-width: 197px;
   width: 100%;
   opacity: 50%;
-
+font-family: "PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -386,7 +592,7 @@ body {
 .bdytxt4 {
   max-width: 102px;
   width: 100%;
-  /* font-family: sans-serif; */
+  font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -395,18 +601,19 @@ body {
   color: rgba(255, 255, 255, 1);
   font-style: italic;
   cursor: pointer;
+  Rotation:-0;
 }
 .bdytxt3 {
   max-width: 139px;
   width: 100%;
-  /* font-family: sans-serif; */
+  font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
   letter-spacing: -0.03em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
-  font-style: italic;
+
   cursor: pointer;
 }
 .mainbody2 {
@@ -454,7 +661,7 @@ body {
   margin-right: 102px;
   max-width: 390px;
   width: 100%;
-  /* font-family: sans-serif; */
+  font-family: "PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
@@ -484,7 +691,7 @@ body {
   max-width: 58px;
   color: white;
 
-  font-family: PP Neue Montreal;
+  font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
@@ -503,9 +710,9 @@ body {
   justify-content: center;
 }
 .layoutctxt3 {
-  max-width: 110px;
+  max-width: 120px;
   width: 100%;
-  font-family: serif;
+  font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
@@ -525,7 +732,7 @@ body {
   max-width: 264px;
   width: 100%;
   color: aliceblue;
-  font-family: PP Neue Montreal;
+  font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -539,20 +746,20 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .layoutctxt8 {
-  max-width: 55px;
+  max-width: 57px;
   width: 100%;
   color: white;
   opacity: 50%;
-  font-family: serif;
+  font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
   text-align: left;
 }
 .layoutctxt9 {
-  max-width: 79px;
+  max-width: 82px;
   width: 100%;
-  font-family: serif;
+  font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
@@ -866,7 +1073,7 @@ body {
 .layoutctxt1 {
   max-width: 825.07px;
   width: 100%;
-  /* font-family: sans-serif; */
+  font-family: "PP Neue Montreal";
   font-size: 145.77px;
   font-weight: 400;
   line-height: 145.77px;
@@ -880,7 +1087,7 @@ body {
 .italic {
   max-width: 825.07px;
   width: 100%;
-  font-family: Denton Condensed Test;
+  font-family: "Denton Condensed Test";
   font-size: 145.77px;
   font-style: italic;
   font-weight: 100;
@@ -956,8 +1163,8 @@ body {
 }
 .etxt1 {
   max-width: 647px;
-  font-family: serif;
-  font-size: 72px;
+  font-family: "PP Neue Montreal";
+  font-size: 70px;
   font-weight: 400;
   line-height: 86.4px;
   letter-spacing: -0.03em;
@@ -965,6 +1172,8 @@ body {
   color: white;
 }
 .etxt2 {
+  font-family: "Denton Condensed Test";
+
   font-size: 72px;
   font-style: italic;
   font-weight: 100;
@@ -978,7 +1187,7 @@ body {
   padding-top: 19px;
   max-width: 647px;
   width: 100%;
-  font-family: serif;
+  font-family:"PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 33.6px;
@@ -999,7 +1208,7 @@ body {
 .layoutetxt5 {
   max-width: 102px;
   width: 100%;
-
+  font-family:"PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -1012,7 +1221,7 @@ body {
 .layoutetxt4 {
   max-width: 139px;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -1152,7 +1361,7 @@ body {
 .card1txt1 {
   max-width: 266px;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 48px;
   font-weight: 400;
   line-height: 57.6px;
@@ -1319,15 +1528,16 @@ body {
   color: white;
   max-width: 858px;
   width: 100%;
-  font-family: serif;
-  font-size: 170px;
+
+  font-family: "PP Neue Montreal";
+  font-size: 160px;
   font-weight: 400;
   line-height: 187px;
   letter-spacing: -0.03em;
   text-align: left;
 }
 .Gtxt2 {
-  font-family: serif;
+  font-family: "Denton Condensed Test";
   font-size: 170px;
   font-style: italic;
   font-weight: 100;
@@ -1341,7 +1551,7 @@ body {
 .Gtxt3 {
   max-width: 43px;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 90px;
   font-weight: 400;
   line-height: 126px;
@@ -1354,8 +1564,8 @@ body {
   max-width: 491px;
   width: 100%;
   color: white;
-  font-family: PP Neue Montreal;
-  font-size: 32px;
+  font-family: "PP Neue Montreal";
+  font-size: 30px;
   font-weight: 400;
   line-height: 44.8px;
   letter-spacing: -0.02em;
@@ -1367,7 +1577,7 @@ body {
   width: 100%;
   color: white;
   opacity: 50%;
-  font-family: serif;
+  font-family: "PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -1392,8 +1602,8 @@ body {
   max-width: 491px;
   width: 100%;
   color: white;
-  font-family: PP Neue Montreal;
-  font-size: 32px;
+  font-family: "PP Neue Montreal";
+  font-size: 30px;
   font-weight: 400;
   line-height: 44.8px;
   letter-spacing: -0.02em;
@@ -1432,7 +1642,7 @@ body {
 
 .htxt1 {
   max-width: 139px;
-  font-family: sans-serif;
+  font-family:"PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -1447,8 +1657,8 @@ body {
   padding-top: 32px;
   width: 100%;
   color: white;
-  font-family: serif;
-  font-size: 72px;
+  font-family:"PP Neue Montreal";
+  font-size: 70px;
   font-weight: 400;
   line-height: 86.4px;
   letter-spacing: -0.03em;
@@ -1458,8 +1668,8 @@ body {
   max-width: 624px;
   width: 100%;
   color: white;
-  font-family: serif;
-  font-size: 72px;
+  font-family:"PP Neue Montreal";
+  font-size: 70px;
   font-weight: 400;
   line-height: 86.4px;
   letter-spacing: -0.03em;
@@ -1471,12 +1681,12 @@ body {
   width: 100%;
 }
 .htxt4 {
-  font-family: Denton Condensed Test;
+  font-family: "Denton Condensed Test";
   font-size: 72px;
   font-style: italic;
   font-weight: 100;
   line-height: 86.4px;
-  letter-spacing: -8px;
+letter-spacing: -3%;
   text-align: left;
 
   color: white;
@@ -1490,7 +1700,7 @@ body {
   max-width: 508px;
   width: 100%;
   color: white;
-  font-family: serif;
+  font-family:"PP Neue Montreal";
   font-size: 32px;
   font-weight: 400;
   line-height: 38.4px;
@@ -1500,13 +1710,13 @@ body {
   max-width: 508px;
   width: 100%;
   color: white;
-  font-family: PP Neue Montreal;
+  font-family:"PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
   text-align: left;
   padding-top: 18px;
-
+opacity: 50%;
   padding-bottom: 24px;
 }
 .Hcard1 {
@@ -1577,10 +1787,10 @@ body {
   opacity: 50%;
 }
 .txtI2a {
-  max-width: 337px;
+  max-width: 210px;
   width: 100%;
   color: white;
-  /* font-family: serif; */
+  font-family: "PP Neue Montreal";
   font-size: 72px;
   font-weight: 400;
   line-height: 86.4px;
@@ -1589,7 +1799,7 @@ body {
 }
 
 .txtI2b {
-  /* font-family: serif; */
+  font-family: "Denton Condensed Test";
   font-size: 72px;
   font-style: italic;
   font-weight: 100;
@@ -1676,8 +1886,8 @@ body {
 .Jtxt2 {
   max-width: 545px;
   width: 100%;
-  font-family: PP Neue Montreal;
-  font-size: 72px;
+  font-family: "PP Neue Montreal";
+  font-size: 69px;
   font-weight: 400;
   line-height: 86.4px;
   letter-spacing: -0.03em;
@@ -1696,7 +1906,7 @@ body {
   text-align: left;
 }
 .Jtxta {
-  max-width: 1450px;
+  max-width: 1818px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -1729,7 +1939,7 @@ body {
   max-width: 256px;
   width: 100%;
   color: white;
-
+  font-family: "PP Neue Montreal";
   font-size: 30px;
   font-weight: 400;
   line-height: 48px;
@@ -1789,8 +1999,8 @@ body {
 
   border-radius: 44px;
   margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 102px;
+  margin-right: 102px;
   display: flex;
   justify-content: space-between;
 }
@@ -1815,7 +2025,7 @@ body {
 .ktxt3 {
   max-width: 746px;
   width: 100%;
-
+  font-family: "PP Neue Montreal";
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -1869,7 +2079,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding-top: 50px;
-  padding-left: 102px;
+  padding-left: 0px;
   padding-bottom: 100px;
 }
 .ktxt4 {
@@ -1910,7 +2120,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  padding-right: 102px;
+  padding-right: 0px;
   padding-bottom: 100px;
 }
 .layoutL {
@@ -2094,6 +2304,7 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
   cursor: pointer;
+  font-family: "PP Neue Montreal";
 }
 .mtxt3 {
   max-width: 111px;
@@ -2104,6 +2315,7 @@ body {
   line-height: 19.2px;
   letter-spacing: -0.02em;
   text-align: left;
+  font-family: "PP Neue Montreal";
   opacity: 50%;
 }
 .mtxt3:hover {
@@ -2174,7 +2386,7 @@ mtxt3 {
   /* max-width: 463px; */
   width: 100%;
   color: white;
-  font-family: PP Neue Montreal;
+  font-family: "PP Neue Montreal";
   font-size: 48px;
   font-weight: 400;
   line-height: 57.6px;
@@ -2651,9 +2863,10 @@ mtxt3 {
   max-width: 311px;
   width: 100%;
   color: white;
-  font-family: PP Neue Montreal;
+  font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
+  padding-top: 32px;
   line-height: 28.8px;
   letter-spacing: -0.02em;
 }
@@ -2673,7 +2886,7 @@ mtxt3 {
 .breakdown {
   opacity: 50%;
   color: white;
-  font-family: PP Neue Montreal;
+  font-family: "PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
@@ -2690,11 +2903,10 @@ mtxt3 {
   padding-top: 50px;
   margin-left: 102px;
   opacity: 50%;
-  font-family: PP Neue Montreal;
+  font-family: "PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
-  letter-spacing: 2px;
   text-align: left;
 }
 
@@ -3403,7 +3615,7 @@ mtxt3 {
   .card1txt1 {
     max-width: 177px;
     width: 100%;
-    font-family: sans-serif;
+    font-family: "PP Neue Montreal";
     font-family: PP Neue Montreal;
     font-size: 32px;
     font-weight: 400;
@@ -3443,8 +3655,8 @@ mtxt3 {
 
     color: white;
     opacity: 50%;
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
+
+    font-family: "PP Neue Montreal";
     font-size: 14px;
     font-weight: 400;
     line-height: 19.6px;
@@ -3471,7 +3683,7 @@ mtxt3 {
     padding-top: 64px;
     max-width: 337px;
 
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 48px;
     font-weight: 400;
     line-height: 57.6px;
@@ -3840,7 +4052,7 @@ mtxt3 {
   .txtI3 {
     max-width: 327px;
     width: 100%;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 24px;
     font-weight: 400;
     line-height: 28.8px;
@@ -3852,7 +4064,7 @@ mtxt3 {
     max-width: 327px;
     width: 100%;
     color: rgba(163, 163, 163, 1);
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 14px;
     font-weight: 400;
     line-height: 19.6px;
@@ -4108,8 +4320,7 @@ mtxt3 {
   }
 
   .txta {
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 72px;
     font-weight: 500;
     line-height: 86.4px;
@@ -4120,8 +4331,7 @@ mtxt3 {
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
   .txta1 {
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 72px;
     font-weight: 500;
     line-height: 86.4px;
@@ -4132,8 +4342,7 @@ mtxt3 {
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
   .txtb {
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
+    font-family: "Denton Condensed Test";
     font-size: 72px;
     font-weight: 500;
     line-height: 86.4px;
@@ -4143,6 +4352,7 @@ mtxt3 {
     font-style: italic;
   }
   .txtc {
+    font-family: "Denton Condensed Test";
     font-size: 72px;
     font-style: italic;
     font-weight: 100;
@@ -4772,7 +4982,7 @@ mtxt3 {
   .card1txt1 {
     max-width: 177px;
     width: 100%;
-    font-family: sans-serif;
+    font-family: "PP Neue Montreal";
     font-size: 32px;
     font-weight: 400;
     line-height: 57.6px;
@@ -4858,8 +5068,8 @@ mtxt3 {
     color: white;
     max-width: 616px;
     width: 100%;
-    font-family: serif;
-    font-family: PP Neue Montreal;
+
+    font-family: "PP Neue Montreal";
     font-size: 100px;
     font-weight: 400;
     line-height: 110px;
@@ -5517,7 +5727,7 @@ mtxt3 {
     margin: 0 auto;
   }
   .txta {
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 72px;
     font-weight: 500;
     line-height: 86.4px;
@@ -5528,7 +5738,7 @@ mtxt3 {
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
   .txtb {
-    font-family: PP Neue Montreal;
+    font-family: "Denton Condensed Test";
     font-size: 72px;
     font-style: italic;
     font-weight: 400;
@@ -5539,6 +5749,7 @@ mtxt3 {
     color: white;
   }
   .txtc {
+    font-family: "Denton Condensed Test";
     font-size: 72px;
     font-style: italic;
     font-weight: 100;
@@ -5550,7 +5761,7 @@ mtxt3 {
     font-style: italic;
   }
   .txta1 {
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 72px;
     font-weight: 500;
     line-height: 86.4px;
@@ -5658,8 +5869,7 @@ mtxt3 {
     margin-left: 23px;
   }
   .txta {
-    font-family: sansserif;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
@@ -5670,8 +5880,7 @@ mtxt3 {
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
   .txtb {
-    font-family: sansserif;
-    font-family: PP Neue Montreal;
+    font-family: "Denton Condensed Test";
     font-size: 45px;
     font-weight: 500;
     line-height: 48px;
@@ -5681,6 +5890,7 @@ mtxt3 {
     font-style: italic;
   }
   .txtc {
+    font-family: "Denton Condensed Test";
     font-size: 48px;
     font-style: italic;
     font-weight: 100;
@@ -5690,8 +5900,7 @@ mtxt3 {
     color: white;
   }
   .txta1 {
-    font-family: sansserif;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
@@ -6128,8 +6337,8 @@ mtxt3 {
   .layoutetxt5 {
     max-width: 88px;
     width: 100%;
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
+
+    font-family: "PP Neue Montreal";
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -7437,7 +7646,8 @@ mtxt3 {
     color: white;
     max-width: 858px;
     width: 100%;
-    font-family: serif;
+
+    font-family: "PP Neue Montreal";
     font-size: 148px;
     font-weight: 400;
     line-height: 187px;
@@ -7810,7 +8020,7 @@ mtxt3 {
     margin-right: 20px;
   }
   .txta {
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 60px;
     font-weight: 500;
     line-height: 86.4px;
@@ -7820,7 +8030,7 @@ mtxt3 {
     text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
   }
   .txtb {
-    font-family: PP Neue Montreal;
+    font-family: "Denton Condensed Test";
     font-size: 60px;
     font-style: italic;
     font-weight: 400;
@@ -7830,6 +8040,7 @@ mtxt3 {
     color: white;
   }
   .txtc {
+    font-family: "Denton Condensed Test";
     font-size: 60px;
     font-style: italic;
     font-weight: 100;
@@ -7840,7 +8051,7 @@ mtxt3 {
     font-style: italic;
   }
   .txta1 {
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 62px;
     font-weight: 500;
     line-height: 86.4px;
@@ -8970,17 +9181,7 @@ mtxt3 {
     margin-left: 20px;
     margin-right: 20px;
   }
-  .header3 {
-    margin-right: 20px;
-    max-width: 279px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 52px;
-    box-shadow: rgba(255, 255, 255, 0.1);
-    box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
-    margin-left: 45px;
-    margin-top: 30px;
-  }
+
   .layoutecard1 {
     max-width: 452px;
     width: 100%;
@@ -9530,6 +9731,19 @@ mtxt3 {
   }
 }
 @media (min-width: 376px) and (max-width: 399px) {
+  .maindivtxtca {
+    display: flex;
+    max-width: 308px;
+    width: 100%;
+    gap: 10px;
+}
+  .outerborder {
+    display: flex;
+    align-items: center;
+    max-width: 153px;
+    width: 100%;
+    display: none;
+}
   .body1 {
     max-width: 704px;
     width: 100%;
@@ -9541,8 +9755,7 @@ mtxt3 {
     padding-bottom: 0px;
   }
   .txta {
-    font-family: sans-serif;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 58px;
     font-weight: 500;
     line-height: 86.4px;

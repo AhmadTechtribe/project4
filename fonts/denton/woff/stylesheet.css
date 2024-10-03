@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Denton Condensed Test';
+    src: url('DentonCondensed-ThinItalic.woff2') format('woff2'),
+        url('DentonCondensed-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Denton Test';
+    src: url('Denton-ThinItalic.woff2') format('woff2'),
+        url('Denton-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
