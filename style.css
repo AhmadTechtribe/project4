@@ -9514,9 +9514,16 @@ mtxt3 {
     margin-left: auto;
     margin-right: auto;
     background-image: url(images/bodyimg6.svg);
-    min-height: 705px;
+    min-height: 900px;
     background-repeat: no-repeat;
     background-position: bottom;
+  }
+  .cardemain {
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
   etxt3 {
     padding-top: 19px;
