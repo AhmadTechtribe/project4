@@ -1776,7 +1776,7 @@ opacity: 50%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  padding-left: 102px;
+ 
 }
 .txtI1 {
   max-width: 134px;
@@ -2002,8 +2002,9 @@ opacity: 50%;
 
   border-radius: 44px;
   margin-top: 100px;
-  margin-left: 102px;
-  margin-right: 102px;
+  margin-left: auto;
+  margin-right: auto
+  ;
   display: flex;
   justify-content: space-between;
 }
@@ -5293,7 +5294,7 @@ mtxt3 {
     width: 100%;
     margin-top: 100px;
 
-    padding-left: 94px;
+    margin-left: 94px;
   }
   .layoutIimg1 {
     max-width: 702px;
@@ -7542,13 +7543,14 @@ mtxt3 {
     margin-right: auto;
   }
   .layoutI {
-    max-width: 1920px;
+    max-width: 1700px;
     width: 100%;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    padding-left: 02px;
+    justify-content: center;
+
   }
   .ftxtB {
     padding-top: 50px;
@@ -7673,7 +7675,7 @@ mtxt3 {
     width: 100%;
 
     font-family: "PP Neue Montreal";
-    font-size: 148px;
+    font-size: 138px;
     font-weight: 400;
     line-height: 187px;
     letter-spacing: -0.03em;
@@ -7705,7 +7707,7 @@ mtxt3 {
   .cardI2 {
     display: flex;
     flex-direction: column;
-    min-height: 1000px;
+    min-height: 800px;
     justify-content: space-between;
     padding-left: 0px;
   }
@@ -7799,7 +7801,7 @@ mtxt3 {
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .layoutIimg1 {
-    max-width: 1066px;
+    max-width: 800px;
     width: 100%;
     padding-left: 0px;
     cursor: pointer;
@@ -7863,28 +7865,50 @@ mtxt3 {
     padding-right: 50px;
   }
   .layoutk {
-    max-width: 1913px;
+    max-width: 1613px;
     width: 100%;
     border-radius: 44px;
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     justify-content: space-between;
     gap: 100px;
   }
   .ktxt5 {
     padding-top: 85px;
-    max-width: 780px;
+    max-width: 620px;
     width: 100%;
     color: white;
     font-family: PP Neue Montreal;
     font-size: 59px;
     font-weight: 400;
-    line-height: 88.2px;
+    line-height: 70.2px;
     letter-spacing: -0.03em;
     text-align: left;
   }
+  .htxt4 {
+    font-family: "Denton Condensed Test";
+    font-size: 68px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 86.4px;
+    letter-spacing: -8px;
+    text-align: left;
+    color: white;
+}
+.layoutH {
+  max-width: 1920px;
+  width: 100%;
+  background-image: url(images/layouthimg1.svg);
+  min-height: 1000px;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-size: 1568px 1057px;
+}
   .layoutkcard3 {
     display: flex;
     flex-direction: column;
@@ -7893,7 +7917,7 @@ mtxt3 {
     padding-bottom: 100px;
   }
   .layoutkmaincard1 {
-    max-width: 780px;
+    max-width: 666px;
     min-height: 900px;
     display: flex;
     flex-direction: column;
@@ -7903,11 +7927,11 @@ mtxt3 {
     padding-bottom: 100px;
   }
   .layoutN {
-    background-image: url(images/ballrescrop.png);
+    background-image: url(images/ballres\ crop.png);
     max-width: 1920px;
     width: 100%;
     min-height: 1156px;
-    background-position: top;
+    background-position:top;
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
@@ -7916,6 +7940,7 @@ mtxt3 {
   .ftxt3 {
     display: block;
   }
+  
 }
 @media (min-width: 769px) and (max-width: 1080px) {
   .header1 {
