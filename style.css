@@ -333,7 +333,7 @@ body {
   width: 100%;
   color: white;
   /* padding-left: 34px; */
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 16px;
   font-weight: 400;
   line-height: 21px;
@@ -341,6 +341,7 @@ body {
 }
 .navtxt3 {
   color: white;
+  font-family: "PP Neue Montreal";
 }
 .navimg3 {
   max-width: 24px;
