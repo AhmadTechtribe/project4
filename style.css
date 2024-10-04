@@ -9140,6 +9140,18 @@ mtxt3 {
   }
 }
 @media (min-width: 400px) and (max-width: 541px) {
+  .hedtxt {
+    max-width: 180px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    /* padding-top: 27px; */
+  }
   .txtIcda {
     max-width: 702px;
     width: 100%;
@@ -9215,6 +9227,7 @@ mtxt3 {
   .layout1img {
     display: none;
   }
+  
   .layout1resimg {
     max-width: 500px;
     max-height: 502px;
@@ -9222,11 +9235,26 @@ mtxt3 {
     display: flex;
     justify-content: center;
     padding-top: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 0px;
     margin-top: 77px;
   }
-
+  .hedtxt1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "PP Neue Montreal";
+    font-weight: 400px;
+    font-size: 14px;
+    opacity: 50%;
+    cursor: pointer;
+}
+  .hedtxt11 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "PP Neue Montreal";
+    font-weight: 400px;
+    font-size: 15px;
+    opacity: 50%;
+    cursor: pointer;
+}
   .layoutecard1 {
     max-width: 452px;
     width: 100%;
@@ -9704,6 +9732,22 @@ mtxt3 {
     gap: 50px;
     align-items: center;
   }
+  .hedtxt11 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "PP Neue Montreal";
+    font-weight: 400px;
+    font-size: 14px;
+    opacity: 50%;
+    cursor: pointer;
+}
+.hedtxt1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "PP Neue Montreal";
+  font-weight: 400px;
+  font-size: 12px;
+  opacity: 50%;
+  cursor: pointer;
+}
   .hedtxt {
     max-width: 390px;
     width: 100%;
@@ -9712,7 +9756,7 @@ mtxt3 {
     cursor: pointer;
     font-size: 17px;
     font-weight: 400;
-    line-height: 16.8px;
+    line-height: 22.8px;
     text-align: center;
     /* padding-top: 27px; */
   }
