@@ -489,7 +489,7 @@ body {
 .hedprt2 {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 18px;
   cursor: pointer;
 }
 .hedprt3 {
