@@ -473,7 +473,9 @@ body {
 
 .hedtxt1 {
   color: rgba(255, 255, 255, 1);
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
+  font-weight: 400px;
+  font-size: 16px;
   opacity: 50%;
   cursor: pointer;
 }
@@ -1994,7 +1996,7 @@ opacity: 50%;
   padding-top: 85px;
 }
 .layoutk {
-  max-width: 1823px;
+  max-width: 1723px;
   width: 100%;
 
   border-radius: 44px;
@@ -3048,13 +3050,25 @@ mtxt3 {
   }
 }
 @media (min-width: 376px) and (max-width: 768px) {
+  .ftxtres {
+    max-width: 235px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+    display: none;
+  }
   .italic {
-    font-family: Denton Condensed Test;
+    font-family: "Denton Condensed Test";
     font-size: 102px;
     font-style: italic;
     font-weight: 100;
     line-height: 102px;
-    letter-spacing: -4px;
+    
     text-align: center;
     opacity: 100%;
   }
@@ -3317,7 +3331,7 @@ mtxt3 {
   .layoutctxt12 {
     max-width: 79px;
     width: 100%;
-    font-family: serif;
+    font-family: "PP Neue Montreal";
     font-size: 14px;
     font-weight: 400;
     line-height: 19.6px;
@@ -3704,7 +3718,7 @@ mtxt3 {
   }
   .ftxtB {
     padding-top: 64px;
-    padding-right: 1px;
+    padding-right: 21px;
   }
   .ftxt4a {
     max-width: 237px;
@@ -4436,6 +4450,13 @@ mtxt3 {
   }
 }
 @media (min-width: 769px) and (max-width: 1280px) {
+  .txt4Jmain {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 205px;
+  }
   .mainbody {
     width: 100%;
   }
@@ -4509,17 +4530,17 @@ mtxt3 {
     display: none;
   }
 
-  .ftxt3a {
+  .ftxtres {
     max-width: 255px;
     width: 100%;
-    font-family: PP Neue Montreal;
+    font-family: "PP Neue Montreal";
     font-size: 16px;
     font-weight: 400;
     line-height: 22.4px;
     text-align: left;
     color: white;
     opacity: 50%;
-    letter-spacing: 2.5px;
+  display: block;
   }
   .maindivtxtca {
     display: flex;
@@ -4534,10 +4555,11 @@ mtxt3 {
     color: rgba(255, 255, 255, 1);
     opacity: 50%;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 19.2px;
     text-align: left;
+    font-family: "PP Neue Montreal";
   }
   .header3 {
     /* margin-right: 102px; */
@@ -4550,7 +4572,7 @@ mtxt3 {
   }
   .hedtxt5 {
     max-width: 225px;
-    font-family: sans-serif;
+    font-family: "PP Neue Montreal";
     font-size: 24px;
     font-weight: 400;
     line-height: 22px;
@@ -4582,6 +4604,7 @@ mtxt3 {
   .bdytxt2 {
     margin-right: 102px;
     max-width: 357px;
+    font-family: "PP Neue Montreal";
     width: 100%;
     font-size: 16px;
     font-weight: 400;
@@ -4679,7 +4702,7 @@ mtxt3 {
   .layoutctxt1 {
     max-width: 825.07px;
     width: 100%;
-    /* font-family: sans-serif; */
+    font-family: "PP Neue Montreal";
     font-size: 145.77px;
     font-weight: 400;
     line-height: 145.77px;
@@ -4692,12 +4715,12 @@ mtxt3 {
   .italic {
     max-width: 825.07px;
     width: 100%;
-    font-family: Denton Condensed Test;
+    font-family: "Denton Condensed Test";
     font-size: 145.77px;
     font-style: italic;
     font-weight: 100;
     line-height: 145.77px;
-    letter-spacing: -11px;
+  
     text-align: center;
     color: white;
     opacity: 100%;
@@ -4919,8 +4942,8 @@ mtxt3 {
     justify-content: flex-end;
   }
   .txtf1 {
-    max-width: 326px;
-    font-family: PP Neue Montreal;
+    max-width: 327px;
+    font-family: "PP Neue Montreal";
     font-size: 48px;
     font-weight: 400;
     line-height: 57.6px;
@@ -5092,7 +5115,7 @@ mtxt3 {
     max-width: 368px;
     width: 100%;
     color: white;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 400;
     line-height: 33.6px;
     letter-spacing: -0.02em;
@@ -5196,7 +5219,7 @@ mtxt3 {
     font-style: italic;
     font-weight: 100;
     line-height: 57.6px;
-    letter-spacing: -0.11em;
+    letter-spacing:-1px;
     text-align: left;
   }
   .cardhtxt1 {
@@ -5283,8 +5306,8 @@ mtxt3 {
     max-width: 225px;
     width: 100%;
     color: white;
-    /* font-family: serif; */
-    font-family: PP Neue Montreal;
+    
+    font-family: "PP Neue Montreal";
     font-size: 48px;
     font-weight: 400;
     line-height: 57.6px;
@@ -5293,7 +5316,7 @@ mtxt3 {
   }
   .txtI2b {
     /* font-family: serif; */
-    font-family: PP Neue Montreal;
+    font-family: "";
     font-size: 48px;
     font-weight: 400;
     line-height: 57.6px;
@@ -5375,8 +5398,8 @@ mtxt3 {
   .layoutJ {
     max-width: 1280px;
     width: 100%;
-    background-image: url(images/layoutjimg1.svg);
-    /* min-height: 1000px; */
+    background-image: url(images/intergrateblackalgo.png);
+    min-height: 768px;
     background-position: top;
     background-repeat: no-repeat;
 
@@ -5475,7 +5498,7 @@ mtxt3 {
     width: 100%;
     color: white;
     font-family: PP Neue Montreal;
-    font-size: 48px;
+    font-size: 47px;
     font-weight: 400;
     line-height: 60.48px;
     letter-spacing: -0.03em;
@@ -5494,7 +5517,7 @@ mtxt3 {
     justify-content: space-between;
     padding-top: 50px;
     padding-left: 94px;
-    padding-bottom: 60px;
+  
   }
   .layoutkcard3 {
     display: flex;
@@ -6104,12 +6127,12 @@ mtxt3 {
     justify-content: flex-end;
   }
   .bdytxt2a {
-    max-width: 157px;
+    max-width: 158px;
     margin-right: 0px;
     width: 100%;
     padding-top: 37px;
     font-family: PP Neue Montreal;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16.8px;
     text-align: left;
@@ -6178,7 +6201,7 @@ mtxt3 {
   .layoutctxt1res {
     max-width: 375px;
     width: 100%;
-    font-family: PP Neue Montreal;
+    font-family: "Denton Condensed Test";
     font-size: 40px;
     font-weight: 400;
     line-height: 40px;
@@ -6195,12 +6218,12 @@ mtxt3 {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-image: url(images/l\astimg.png);
+
     min-height: 557px;
     background-repeat: no-repeat;
     background-position: top;
     overflow: hidden;
-    background-size: 300px 300px;
+    background-size: 398px 267px;
   }
   .maincontainer1 {
     max-width: 268px;
@@ -7414,6 +7437,7 @@ mtxt3 {
     padding-bottom: 32px;
     display: none;
   }
+
   .mtxt9 {
     max-width: 1719px;
     width: 100%;
@@ -7921,7 +7945,7 @@ mtxt3 {
     color: rgba(255, 255, 255, 1);
     opacity: 50%;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 19.2px;
     text-align: left;
