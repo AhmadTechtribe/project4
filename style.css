@@ -363,8 +363,10 @@ body {
   letter-spacing: -0.03em;
   text-align: left;
   color: white;
-  text-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.45);
+
 }
+
+
 .txta1 {
   font-family: "PP Neue Montreal";
   font-size: 88px;
@@ -402,6 +404,10 @@ body {
   max-width: 704px;
   width: 100%;
 }
+.Text1{
+  text-shadow: 0px 0px 20px  rgba(255, 255, 255, 0.45);
+
+}
 
 .body1 {
   max-width: 704px;
@@ -420,6 +426,8 @@ body {
   max-width: 528px;
   width: 100%;
   gap: 20px;
+  text-shadow: 0px 0px 20px  rgba(255, 255, 255, 0.45);
+
 }
 
 .body2 {
@@ -1101,6 +1109,7 @@ font-family: "PP Neue Montreal";
   text-align: center;
   color: white;
   opacity: 50%;
+  text-shadow: 0px 0px 14.58px  rgba(255, 255, 255, 0.45);
 
   padding-top: 266px;
 }
@@ -1115,6 +1124,7 @@ font-family: "PP Neue Montreal";
   letter-spacing: -0.02em;
   text-align: center;
   color: white;
+  text-shadow: 0px 0px 14.58px  rgba(255, 255, 255, 0.45);
   opacity: 50%;
   padding-top: 266px;
 }
@@ -1190,6 +1200,9 @@ font-family: "PP Neue Montreal";
   letter-spacing: -0.03em;
   text-align: left;
   color: white;
+  padding-top: 20px;
+  text-shadow: 0px 4px 20px  rgba(255, 255, 255, 0.45);
+
 }
 .etxt2 {
   font-family: "Denton Condensed Test";
@@ -1202,6 +1215,7 @@ font-family: "PP Neue Montreal";
   text-align: left;
   font-style: italic;
   color: white;
+  text-shadow: 0px 4px 20px  rgba(255, 255, 255, 0.45);
 }
 .etxt3 {
   padding-top: 19px;
@@ -1261,7 +1275,7 @@ font-family: "PP Neue Montreal";
   max-width: 647px;
   width: 100%;
   margin-right: 0px;
-  margin-top: 21%;
+  margin-top: 25%;
 }
 .Ecards12 {
   max-width: 1716px;
@@ -1373,6 +1387,8 @@ font-family: "PP Neue Montreal";
 .ftxtA {
   padding-top: 93px;
   padding-left: 102px;
+  text-shadow: 0px 4px 20px  rgba(255, 255, 255, 0.45);
+
 }
 .ftxtB {
   padding-top: 50px;
@@ -1646,6 +1662,8 @@ font-family: "PP Neue Montreal";
   flex-direction: column;
   padding-left: 102px;
   padding-top: 284px;
+  text-shadow: 0px 4px 20px  rgba(255, 255, 255, 0.45);
+
 }
 .layoutH {
   max-width: 1920px;
@@ -2412,6 +2430,7 @@ mtxt3 {
   font-weight: 400;
   line-height: 57.6px;
   letter-spacing: -0.03em;
+  text-shadow: 0px 0px 20px ;
   text-align: center;
   /* text-align: center; */
 }
@@ -2428,7 +2447,7 @@ mtxt3 {
   text-align: center;
 }
 .ecard2img1 {
-  max-width: 100px;
+  max-width: 120px;
   width: 100%;
 }
 .maindivNA {
@@ -2759,6 +2778,8 @@ mtxt3 {
   letter-spacing: -0.02em;
   text-align: left;
   color: white;
+
+
 }
 .layoutntxt16 {
   max-width: 235px;
@@ -2820,6 +2841,7 @@ mtxt3 {
   letter-spacing: -0.03em;
   text-align: center;
   color: white;
+  text-shadow: 0px 4px 20px  rgba(255, 255, 255, 0.45);
 }
 
 .layoutNtxt2 {
