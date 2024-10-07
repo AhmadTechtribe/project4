@@ -2918,7 +2918,7 @@ mtxt3 {
   display: flex;
 }
 .nextstep {
-  max-width: 162px;
+  max-width: 192px;
   width: 100%;
   color: white;
   padding-top: 50px;
@@ -8528,7 +8528,7 @@ justify-content: center;
   }
 
   .nextstep {
-    max-width: 162px;
+    max-width: 192px;
     width: 100%;
     color: white;
     padding-top: 50px;
