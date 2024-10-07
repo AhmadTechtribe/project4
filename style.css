@@ -3143,15 +3143,10 @@ mtxt3 {
   .hedprt2 {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 14px;
     cursor: pointer;
   }
-  .hedprt2 {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    cursor: pointer;
-  }
+  
 
   .hedtxt {
     max-width: 210px;
@@ -5843,6 +5838,10 @@ mtxt3 {
   }
 }
 @media (max-width: 375px) {
+  .layoutF {
+    padding-top: 0px;
+    min-height: 558px;
+  }
   .hedtxt5 {
     max-width: 225px;
     width: 100%;
@@ -8426,7 +8425,7 @@ justify-content: center;
   }
 
   .card3 {
-    max-width: 260px;
+    max-width: 300px;
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
@@ -8473,7 +8472,7 @@ justify-content: center;
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .card1 {
-    max-width: 260px;
+    max-width: 300px;
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
@@ -8714,6 +8713,13 @@ justify-content: center;
   }
   .layoutB{
     min-height: 500px;
+  }
+  .layoutN{
+    margin-top: 50px;
+    min-height: 1100px;
+  }
+  .ftxt4b{
+    margin-right: 20px;
   }
 }
 @media (min-width: 560px) and (max-width: 540px) {
@@ -10040,6 +10046,9 @@ justify-content: center;
   }
 }
 @media (min-width: 376px) and (max-width: 399px) {
+  .layoutF {
+    padding-top: 0px;
+  }
   .maindivtxtca {
     display: flex;
     max-width: 308px;
