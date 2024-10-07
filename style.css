@@ -7970,7 +7970,7 @@ mtxt3 {
     justify-content: space-between;
   }
   .layoutecard1 {
-    padding-left: 40px;
+    padding-left: 0px;
   }
   .layoutecard2 {
     padding-right: 20px;
@@ -8072,7 +8072,33 @@ mtxt3 {
   .ftxt3 {
     display: block;
   }
-  
+  .etxt1 {
+    max-width: 647px;
+    font-family: "PP Neue Montreal";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 86.4px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+}
+.etxt2 {
+  font-family: "Denton Condensed Test";
+  font-size: 62px;
+}
+.etxt3 {
+  padding-top: 19px;
+  max-width: 547px;
+  width: 100%;
+  font-family: "PP Neue Montreal";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+}
 }
 @media (min-width: 769px) and (max-width: 1080px) {
   .bdytxt2 {
