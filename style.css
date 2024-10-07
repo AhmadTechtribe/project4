@@ -1053,15 +1053,17 @@ font-family: "PP Neue Montreal";
   width: 100%;
 }
 .maincontainersoflayoutc {
-  max-width: 1482px;
+  max-width: 1920px;
   width: 100%;
   inset: 0;
   /* top: 200px !important; */
   height: fit-content;
-  margin-left: 180px;
+ 
   display: grid;
   grid-template-columns: 312px 312px 312px 312px;
-  gap: 78px;
+  justify-content: center;
+  gap: 70px;
+
   position: absolute;
   top: 1%;
 }
@@ -1170,7 +1172,7 @@ font-family: "PP Neue Montreal";
 .gridmainb {
   display: grid;
   row-gap: 67px;
-  margin-top: 450px;
+  margin-top: 440px;
   height: fit-content;
 }
 .etxt1 {
@@ -4457,6 +4459,7 @@ mtxt3 {
     margin-top: 100px;
   }
 }
+
 @media (min-width: 769px) and (max-width: 1280px) {
   .layout1img{
     margin-top: 93px;
@@ -4660,14 +4663,14 @@ mtxt3 {
     inset: 0;
     /* top: 100px !important; */
     height: fit-content;
-    margin: 0 auto;
+
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns:  272px 272px 272px 272px ;
     gap: 35px;
     /* position: absolute; */
     top: 38%;
-    margin-left: 13px;
-    margin-right: 13px;
+    justify-content: center;
+    
   }
   .maincontainer6 {
     max-width: 272px;
@@ -6263,7 +6266,7 @@ mtxt3 {
     gap: 78px;
     position: absolute;
     top: 5%;
-    margin-left: 53px;
+    margin-left: 0px;
   }
   .Ecards12 {
     max-width: 375px;
@@ -7565,19 +7568,104 @@ mtxt3 {
 }
 
   .maincontainersoflayoutc {
-    max-width: 1482px;
+    max-width: 1700px;
     width: 100%;
     inset: 0;
     /* top: 200px !important; */
     height: fit-content;
-    margin-left: 80px;
+ justify-content: center;
     text-align: center;
     display: grid;
     grid-template-columns: 312px 312px 312px 312px;
     gap: 20px;
     position: absolute;
     top: 1%;
+    margin-right: 20px;
+    margin-left: 20px;
   }
+  .layoutctxt1 {
+    max-width: 825.07px;
+    width: 100%;
+    font-family: "PP Neue Montreal";
+    font-size: 112.77px;
+    font-weight: 400;
+    line-height: 145.77px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    padding-top: 266px;
+}
+.maincontainer6 {
+  max-width: 290px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  /* padding-left: 24px; */
+  /* padding-bottom: 24px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.container2 {
+  padding-top: 18px;
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container1 {
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container3 {
+  padding-top: 18px;
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.layoutctxt4 {
+  max-width: 154px;
+  width: 100%;
+  color: aliceblue;
+  font-family: "PP Neue Montreal";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  padding-top: 98px;
+  padding-bottom: 16px;
+}
+.maincontainer1 {
+  max-width: 290px;
+}
+.maincontainer2 {
+  max-width: 290px;
+}
+.maincontainer3 {
+  max-width: 290px;
+}
+.maincontainer5 {
+  max-width: 290px;
+}
+.maincontainer6 {
+  max-width: 290px;
+}
+.maincontainer7 {
+  max-width: 290px;
+}
+.maincontainer4 {
+  max-width: 290px;
+}
   .Ecards12 {
     max-width: 1542px;
     width: 100%;
@@ -8233,15 +8321,19 @@ mtxt3 {
     inset: 0;
     /* top: 100px !important; */
     height: fit-content;
-    margin: 0 auto;
+justify-content: center;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 262px 262px 262px ;
     gap: 28px;
     /* position: absolute; */
     top: 20%;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+  .layoutC {
+    margin-top: 0px;
+  }
+
   .maincontainer1 {
     max-width: 272px;
     width: 100%;
@@ -8593,6 +8685,9 @@ mtxt3 {
   }
   .navbarA {
     display: block;
+  }
+  .layoutB{
+    min-height: 500px;
   }
 }
 @media (min-width: 560px) and (max-width: 540px) {
@@ -10030,7 +10125,7 @@ mtxt3 {
     margin-top: 48px;
   }
   .maincontainer1 {
-    margin-left: 50px;
+    margin-left: 60px;
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -10402,7 +10497,88 @@ mtxt3 {
     .header3 {
       margin-right: 94px;
     }
+    .maincontainersoflayoutc  {
+      max-width: 1212px;
+      width: 100%;
+      inset: 0;
+      /* top: 100px !important; */
+      height: fit-content;
+      display: grid;
+      grid-template-columns: 252px 252px 252px 252px;
+      gap: 20px;
+      /* position: absolute; */
+      top: 38%;
+    
+      justify-content: center;
+  }
 
+  .container2 {
+    padding-top: 18px;
+    max-width: 196px;
+  }
+  .container3 {
+    padding-top: 18px;
+    max-width: 197px;
+
+}
+.buton1 {
+  max-width: 73px;
+}
+.layoutctxt2 {
+  max-width: 58px;
+  color: white;
+  font-family: "PP Neue Montreal";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.6px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  opacity: 50%;
+}
+.layoutctxt3 {
+  max-width: 97px;
+  width: 100%;
+  font-family: "PP Neue Montreal";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: white;
+  opacity: 50%;
+}
+.container1 {
+  max-width: 197px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.italic {
+  max-width: 825.07px;
+  width: 100%;
+  font-family: "Denton Condensed Test";
+  font-size: 121.77px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: --200px;
+  text-align: center;
+  color: white;
+  opacity: 100%;
+  padding-top: 208px;
+}
+.layoutctxt1 {
+  max-width: 825.07px;
+  width: 100%;
+  font-family: "PP Neue Montreal";
+  font-size: 118.77px;
+  font-weight: 400;
+  line-height: 145.77px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: white;
+  opacity: 100%;
+  padding-top: 150px;
+}
 }
 @media (min-width: 1281px) and (max-width: 1600px){
   .layout1img{
