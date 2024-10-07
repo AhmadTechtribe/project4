@@ -857,6 +857,9 @@ font-family: "PP Neue Montreal";
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
+  backdrop-filter: blur(60px);
+
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
 .maincontainer3 {
   max-width: 312px;
@@ -938,6 +941,9 @@ font-family: "PP Neue Montreal";
   align-items: center;
   padding-bottom: 24px;
   padding-top: 24px;
+  backdrop-filter: blur(60px);
+
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
 .layoudimg2 {
@@ -1782,7 +1788,7 @@ opacity: 50%;
 .layoutI {
   max-width: 1920px;
   width: 100%;
-
+justify-content: center;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -1855,7 +1861,7 @@ opacity: 50%;
 .cardI2 {
   display: flex;
   flex-direction: column;
-  min-height: 1000px;
+  min-height:0px;
   justify-content: space-between;
   padding-left: 40px;
 }
@@ -5297,11 +5303,11 @@ mtxt3 {
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .layoutI {
-    max-width: 1170px;
+    max-width: 1250px;
     width: 100%;
     margin-top: 100px;
-
-    margin-left: 94px;
+justify-content: center;
+    margin-left: 4px;
   }
   .layoutIimg1 {
     max-width: 702px;
@@ -7932,7 +7938,7 @@ mtxt3 {
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .layoutIimg1 {
-    max-width: 800px;
+    max-width: 1100px;
     width: 100%;
     padding-left: 0px;
     cursor: pointer;
