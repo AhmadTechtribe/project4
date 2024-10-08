@@ -8,208 +8,23 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Denton Test";
-  src: url("/fonts/denton/woff/Denton-ThinItalic.woff2") format("woff2"),
-    url("/fonts/denton/woff/Denton-ThinItalic.woff") format("woff");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
 
 @font-face {
-  font-family: 'Denton Condensed Test';
-  src: url('DentonCondensed-ThinItalic.woff2') format('woff2'),
-      url('DentonCondensed-ThinItalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Denton Test';
-  src: url('Denton-ThinItalic.woff2') format('woff2'),
-      url('Denton-ThinItalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Neue Montreal';
-  src: url('/fonts/montreal/woff/NeueMontreal-Regular.woff2') format('woff2'),
-      url('/fonts/montreal/woff/NeueMontreal-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal Book';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Book.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Book.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal Book';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Book.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Book.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal Book';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Book.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Book.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
+  font-family: 'PP Neue Montreal thin';
   src: url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff2') format('woff2'),
       url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
-  font-display: swap;
+  
 }
-
 @font-face {
   font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
+  src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
+      url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
+
+  font-style: medium;
   font-display: swap;
 }
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
-      url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal';
-  src: url('PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
-      url('PPNeueMontreal-SemiBolditalic.woff') format('woff');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-
-
-
 
 html,
 body {
@@ -314,6 +129,8 @@ body {
   margin-left: 16px;
 }
 .navtxt1 {
+  text-shadow: 0px 0px 6.45px  rgba(255, 255, 255, 0.45);
+
   font-family: "PP Neue Montreal";
   /* font-size: 22px; */
   /* font-weight: 400; */
@@ -444,7 +261,7 @@ body {
 .border {
   max-width: 153px;
   width: 100%;
-
+opacity: 70%;
   min-height: 2px;
   background-color: rgba(255, 255, 255, 1);
 }
@@ -472,9 +289,9 @@ body {
   width: 100%;
   color: rgba(255, 255, 255, 1);
   opacity: 50%;
-  font-family: "PP Neue Montreal"; 
+  font-family: "PP Neue Montreal thin"; 
   cursor: pointer;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 19.2px;
   text-align: left;
@@ -612,7 +429,7 @@ font-family: "PP Neue Montreal";
 .bdytxt4 {
   max-width: 102px;
   width: 100%;
-  font-family: "PP Neue Montreal";
+  font-family: "PP Neue Montreal thin";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -626,7 +443,7 @@ font-family: "PP Neue Montreal";
 .bdytxt3 {
   max-width: 139px;
   width: 100%;
-  font-family: "PP Neue Montreal";
+  font-family: "PP Neue Montreal thin";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -681,7 +498,7 @@ font-family: "PP Neue Montreal";
   margin-right: 102px;
   max-width: 390px;
   width: 100%;
-  font-family: "PP Neue Montreal";
+  font-family: "PP Neue Montreal thin";
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
@@ -783,7 +600,7 @@ font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  text-align: left;
+  text-align: right;
   color: white;
 }
 
@@ -812,7 +629,7 @@ font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  text-align: left;
+  text-align: right;
   color: rgba(3, 155, 112, 1);
 }
 .container3 {
@@ -830,7 +647,7 @@ font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  text-align: left;
+  text-align:right;
   color: rgba(3, 155, 112, 1);
   /* padding-left: 24px; */
 }
@@ -1067,7 +884,8 @@ font-family: "PP Neue Montreal";
   width: 100%;
 }
 .maincontainersoflayoutc {
-  max-width: 1920px;
+ 
+  max-width: 1840px;
   width: 100%;
   inset: 0;
   /* top: 200px !important; */
@@ -1076,7 +894,7 @@ font-family: "PP Neue Montreal";
   display: grid;
   grid-template-columns: 312px 312px 312px 312px;
   justify-content: center;
-  gap: 70px;
+  gap: 78px;
 
   position: absolute;
   top: 1%;
@@ -1121,7 +939,7 @@ font-family: "PP Neue Montreal";
   font-style: italic;
   font-weight: 100;
   line-height: 145.77px;
-  letter-spacing: -0.02em;
+  
   text-align: center;
   color: white;
   text-shadow: 0px 0px 14.58px  rgba(255, 255, 255, 0.45);
@@ -1221,7 +1039,7 @@ font-family: "PP Neue Montreal";
   padding-top: 19px;
   max-width: 647px;
   width: 100%;
-  font-family:"PP Neue Montreal";
+  font-family:"PP Neue Montreal thin";
   font-size: 24px;
   font-weight: 400;
   line-height: 33.6px;
@@ -1242,7 +1060,7 @@ font-family: "PP Neue Montreal";
 .layoutetxt5 {
   max-width: 102px;
   width: 100%;
-  font-family:"PP Neue Montreal";
+  font-family:"PP Neue Montreal thin";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -1255,7 +1073,7 @@ font-family: "PP Neue Montreal";
 .layoutetxt4 {
   max-width: 139px;
   width: 100%;
-  font-family: "PP Neue Montreal";
+  font-family: "PP Neue Montreal thin";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -1411,7 +1229,7 @@ font-family: "PP Neue Montreal";
   min-height: 88px;
   color: white;
   opacity: 50%;
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 16px;
   padding-top: 16px;
   font-weight: 400;
@@ -1420,9 +1238,9 @@ font-family: "PP Neue Montreal";
 }
 .card1txt3 {
   padding-top: 18px;
-  max-width: 95px;
+  max-width: 98px;
   width: 100%;
-  font-family: serif;
+  font-family: "PP Neue Montreal";
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
@@ -1433,23 +1251,23 @@ font-family: "PP Neue Montreal";
 .card1txt4 {
   max-width: 55px;
   width: 100%;
-  /* font-family: sans-serif; */
+  font-family: "PP Neue Montreal";
   color: white;
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  text-align: left;
+  text-align: right;
 }
 .card1txt4a {
   max-width: 55px;
   width: 100%;
-  /* font-family: sans-serif; */
+  font-family: "PP Neue Montreal";
   color: rgba(3, 155, 112, 1);
 
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
-  text-align: left;
+  text-align: right;
 }
 .card1part2 {
   max-width: 513px;
@@ -1521,9 +1339,13 @@ font-family: "PP Neue Montreal";
   padding-left: 24px;
   margin-right: 0px;
   backdrop-filter: blur(110px);
+  backdrop-filter: blur(110px);
+  box-shadow: 0px 44px 50px 0px ;
+
+
 
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-
+  
   flex-direction: column;
 }
 .card3 {
@@ -1623,6 +1445,7 @@ font-family: "PP Neue Montreal";
   font-weight: 400;
   line-height: 44.8px;
   letter-spacing: -0.02em;
+  padding-top: 20px;
 
   /* z-index: 30px; */
 }
@@ -1673,6 +1496,7 @@ font-family: "PP Neue Montreal";
   line-height: 44.8px;
   letter-spacing: -0.02em;
   opacity: 50%;
+  padding-top: 20px;
 }
 .maindivlayoutg {
   max-width: 1818px;
@@ -2901,9 +2725,9 @@ mtxt3 {
   max-width: 1248px;
   width: 100%;
   margin-top: 32px;
-  backdrop-filter: blur(110px);
+  backdrop-filter: blur(20px);
 
-  box-shadow: 0px 38.13px 43.33px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 38.13px 43.33px  rgba(0, 0, 0, 0.5);
 }
 .nimg2 {
   max-width: 1920px;
@@ -2945,7 +2769,7 @@ mtxt3 {
   font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
-  padding-top: 32px;
+  padding-top: 20px;
   line-height: 28.8px;
   letter-spacing: -0.02em;
 }
@@ -6681,9 +6505,9 @@ justify-content: center;
   }
   .card1txt3 {
     padding-top: 4px;
-    max-width: 95px;
+    max-width: 98px;
     width: 100%;
-    font-family: serif;
+    font-family: "PP Neue Montreal";
     font-size: 14px;
     font-weight: 400;
     line-height: 19.6px;
