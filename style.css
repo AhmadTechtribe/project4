@@ -3850,6 +3850,7 @@ mtxt3 {
     line-height: 61.6px;
     letter-spacing: -0.03em;
     text-align: center;
+  
   }
   .Gtxtb {
     color: white;
@@ -3869,6 +3870,7 @@ mtxt3 {
   }
   .layoutgtxtab {
     padding-top: 153px;
+    text-shadow: 0px 0px 20px;
   }
 
   .maindivlayoutg3 {
@@ -3934,6 +3936,7 @@ mtxt3 {
     line-height: 57.6px;
     letter-spacing: -0.03em;
     text-align: left;
+    text-shadow: 0px 0px 9px;
   }
   .htxt3 {
     max-width: 387px;
@@ -3949,6 +3952,7 @@ mtxt3 {
   }
   .htxt4 {
     max-width: 387px;
+    text-shadow: 0px 0px 9px;
     /* padding-top: 32px; */
     width: 100%;
     color: white;
@@ -4007,18 +4011,7 @@ mtxt3 {
 
     padding-bottom: 24px;
   }
-  .layoutH {
-    max-width: 1280px;
-    width: 100%;
-    background-image: url(images/layouthimg1.svg);
-    min-height: 768px;
-    background-position: center;
-    background-repeat: no-repeat;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
-  }
   .hcardimg1 {
     padding-top: 24px;
     max-width: 85px;
@@ -4056,7 +4049,7 @@ mtxt3 {
     min-height: 735px;
     background-position: center;
     background-repeat: no-repeat;
-
+    background-size: 753px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
@@ -4075,6 +4068,7 @@ mtxt3 {
     line-height: 48px;
     letter-spacing: -0.03em;
     text-align: center;
+    text-shadow: 0px 0px 7px;
   }
   .txtI2b {
     width: 100%;
@@ -4285,7 +4279,7 @@ mtxt3 {
     width: 100%;
     color: white;
     font-family: PP Neue Montreal;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 21.6px;
     letter-spacing: -0.03em;
@@ -4546,18 +4540,7 @@ mtxt3 {
     padding-top: 79px;
     padding-bottom: 100px;
   }
-  .layoutH {
-    max-width: 1920px;
-    width: 100%;
-    background-image: url(images/layouthimg1hres.png);
-    min-height: 768px;
-    background-position: top;
-    background-repeat: no-repeat;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-  }
   .layoutF {
     background-image: url(images/layoutfres2.png);
     max-width: 1280px;
@@ -4936,7 +4919,7 @@ mtxt3 {
   .layoutecard2 {
     max-width: 452px;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 16px;
     margin-right: 78px;
   }
 
@@ -5195,6 +5178,17 @@ mtxt3 {
     text-align: left;
     padding-left: 01px;
   }
+  .Gtxt41 {
+    max-width: 368px;
+    width: 100%;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-left: 01px;
+  }
   .Gtxt5 {
     max-width: 390px;
     width: 100%;
@@ -5234,6 +5228,21 @@ mtxt3 {
     margin-top: 48px;
   }
   .Gtxt3 {
+    max-width: 38px;
+    width: 100%;
+    font-family: PP Neue Montreal;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 112px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    text-align: left;
+    color: white;
+
+    /* padding-left: 70px; */
+  }
+  .Gtxt31{
     max-width: 38px;
     width: 100%;
     font-family: PP Neue Montreal;
@@ -5878,6 +5887,18 @@ justify-content: center;
     opacity: 50%;
     padding-top: 50px;
     letter-spacing: 0px;
+  }
+  .layoutH {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url(images/hresponsive2.png);
+    min-height: 700px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 657px 805px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
   }
 }
 @media (min-width: 1281px) and (max-width: 1919px) {
