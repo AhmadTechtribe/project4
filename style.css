@@ -121,7 +121,7 @@
   font-family: 'PP Neue Montreal';
   src: url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff2') format('woff2'),
       url('/fonts/montreal/woff/PPNeueMontreal-Bold.woff') format('woff');
-  font-weight: bold;
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -139,7 +139,7 @@
   font-family: 'PP Neue Montreal';
   src: url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff2') format('woff2'),
       url('/fonts/montreal/woff/PPNeueMontreal-Medium.woff') format('woff');
-  font-weight: 500;
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
@@ -175,7 +175,7 @@
   font-family: 'PP Neue Montreal';
   src: url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
       url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff') format('woff');
-  font-weight: 600;
+  font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
@@ -193,7 +193,7 @@
   font-family: 'PP Neue Montreal';
   src: url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
       url('/fonts/montreal/woff/PPNeueMontreal-SemiBolditalic.woff') format('woff');
-  font-weight: 600;
+  font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
@@ -202,7 +202,7 @@
   font-family: 'PP Neue Montreal';
   src: url('PPNeueMontreal-SemiBolditalic.woff2') format('woff2'),
       url('PPNeueMontreal-SemiBolditalic.woff') format('woff');
-  font-weight: 600;
+  font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
@@ -1371,7 +1371,7 @@ font-family: "PP Neue Montreal";
   max-width: 311px;
   width: 100%;
   color: white;
-  font-family: serif;
+ font-family: "PP Neue Montreal";
   font-size: 24px;
   font-weight: 400;
   line-height: 28.8px;
@@ -1519,7 +1519,7 @@ font-family: "PP Neue Montreal";
   border-radius: 24px;
   display: flex;
   padding-left: 24px;
-  margin-right: 20px;
+  margin-right: 0px;
   backdrop-filter: blur(110px);
 
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
@@ -1536,6 +1536,9 @@ font-family: "PP Neue Montreal";
   padding-right: 24px;
   flex-direction: column;
   /* background: rgba(0, 0, 0, 0.01); */
+  backdrop-filter: blur(110px);
+
+  box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
 .cardofFlayout {
   max-width: 1920px;
@@ -1550,15 +1553,17 @@ font-family: "PP Neue Montreal";
 
   background-image: url(images/LAYOUTG.svg);
   background-position: center;
-  min-height: 1000px;
+  min-height: 900px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
 }
-.layoutg1 {
-  background-image: url(images/layoutdimg1.svg);
-  min-height: 1000px;
+.layoutg1 { 
+  background-image: url(images/gridsectiong.png);
+  max-width: 1875px; 
+  min-height: 953px;
+
 }
 .Gtxt1 {
   color: white;
@@ -1594,6 +1599,19 @@ font-family: "PP Neue Montreal";
   letter-spacing: -0.02em;
   text-align: left;
   color: white;
+  /* padding-left: 70px; */
+}
+.Gtxt31 {
+  max-width: 43px;
+  width: 100%;
+  font-family: "PP Neue Montreal";
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 126px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+  opacity: 30%;
   /* padding-left: 70px; */
 }
 .Gtxt4 {
@@ -1643,6 +1661,18 @@ font-family: "PP Neue Montreal";
   font-weight: 400;
   line-height: 44.8px;
   letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 1);
+}
+.Gtxt41{
+  max-width: 491px;
+  width: 100%;
+  color: white;
+  font-family: "PP Neue Montreal";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44.8px;
+  letter-spacing: -0.02em;
+  opacity: 50%;
 }
 .maindivlayoutg {
   max-width: 1818px;
@@ -1654,14 +1684,14 @@ font-family: "PP Neue Montreal";
   display: flex;
   flex-direction: column;
   /* padding-right: 102px; */
-  padding-top: 235px;
+  padding-top: 181px;
   row-gap: 30px;
 }
 .layoutgtxt12 {
   display: flex;
   flex-direction: column;
   padding-left: 102px;
-  padding-top: 284px;
+  padding-top: 250px;
   text-shadow: 0px 4px 20px  rgba(255, 255, 255, 0.45);
 
 }
@@ -1672,7 +1702,7 @@ font-family: "PP Neue Montreal";
   min-height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
-
+  background-size: 802px 1011px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -1733,6 +1763,7 @@ letter-spacing: -3%;
   max-width: 624px;
   width: 100%;
   margin-left: 102px;
+  text-shadow:0px 0px 10px;
 }
 .cardhtxt1 {
   max-width: 508px;
@@ -1743,6 +1774,7 @@ letter-spacing: -3%;
   font-weight: 400;
   line-height: 38.4px;
   text-align: left;
+  padding-top: 21px;
 }
 .cardhtxt2 {
   max-width: 508px;
@@ -1799,7 +1831,7 @@ opacity: 50%;
   /* padding-right: 102px; */
   display: flex;
   gap: 24px;
-  padding-top: 344px;
+  padding-top: 200px;
   justify-content: center;
   padding-bottom: 80px;
 }
@@ -1852,7 +1884,7 @@ justify-content: center;
   display: flex;
   gap: 5px;
   flex-direction: column;
-  padding-top: 93px;
+  padding-top: 33px;
 }
 
 .txtI3 {
@@ -1887,7 +1919,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-bottom: 133px;
+  padding-bottom: 100px;
 }
 .layoutIimg1 {
   max-width: 1170px;
@@ -1951,6 +1983,7 @@ justify-content: center;
 }
 .layoutj1 {
   padding-top: 24px;
+  text-shadow: 0px 0px 10px;
 }
 .Jtxt4 {
   max-width: 417px;
@@ -1958,7 +1991,7 @@ justify-content: center;
   color: white;
   opacity: 50%;
   font-family: PP Neue Montreal;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 22.4px;
   letter-spacing: -0.02em;
@@ -2092,7 +2125,9 @@ justify-content: center;
   gap: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
+.layout{
+  text-shadow: 0px 0px 10px;
+}
 .imgk1 {
   max-width: 24px;
   width: 100%;
@@ -2183,6 +2218,7 @@ justify-content: center;
   text-align: center;
   color: white;
   padding-top: 50px;
+  text-shadow: 0px 0px 10px ;
 }
 .txtl2 {
   font-family: Denton Condensed Test;
@@ -2822,7 +2858,7 @@ mtxt3 {
   background-image: url(images/ballres\ crop.png);
   max-width: 1920px;
   width: 100%;
-  min-height: 1400px;
+  min-height: 1200px;
   background-position: top;
   background-repeat: no-repeat;
 
