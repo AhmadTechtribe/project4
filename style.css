@@ -342,6 +342,7 @@ body {
   justify-content: space-evenly;
   cursor: pointer;
   padding-top: 0px;
+  position: relative;
 
   /* border: 1px  solid gray ; */
   /* padding-left: 15px; */
@@ -352,7 +353,8 @@ body {
   background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
 position: absolute;
 min-height: 62px;
-right: 25%;
+right: 0%;
+
 }
 .header3 {
   margin-right: 102px;
@@ -902,11 +904,7 @@ font-family: "PP Neue Montreal";
   position: absolute;
   top: 1%;
 }
-.cardgradienttop{
-  max-width: 1840px;
-  width: 100%;
-  background-image: ;
-}
+
 .layoutdimg6 {
   display: flex;
   justify-content: center;
@@ -3017,6 +3015,7 @@ mtxt3 {
     display: flex !important;
     padding-left: 20px;
     padding-right: 20px;
+    position: relative;
   }
   .navbar {
     max-width: 728px;
@@ -4351,7 +4350,7 @@ mtxt3 {
     position: absolute;
     min-height: 62px;
     right: 0%;
-    top: 43%;
+    top: 0%;
 }
 }
 
@@ -4499,7 +4498,7 @@ mtxt3 {
     background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
     position: absolute;
     min-height: 62px;
-    right: 26%;
+    right: 0%;
 }
 .hedprt2 {
   display: flex;
@@ -5786,7 +5785,7 @@ justify-content: center;
     background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
     position: absolute;
     min-height: 62px;
-    right: 29%;
+    right: 0%;
 }
 }
 @media (max-width: 375px) {
@@ -5796,7 +5795,7 @@ justify-content: center;
     background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
     position: absolute;
     min-height: 62px;
-    right: 2%;
+    right: 0%;
 }
 
 
@@ -7529,7 +7528,7 @@ justify-content: center;
     background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
     position: absolute;
     min-height: 62px;
-    right: 25%;
+    right:0%;
 }
   .card1part3 {
     max-width: 410px;
@@ -9858,7 +9857,7 @@ justify-content: center;
         position: absolute;
         min-height: 62px;
         right: 0%;
-        top: 44%;
+        top: 0%;
     }
   .txtIcda {
     max-width: 702px;
