@@ -499,7 +499,7 @@ font-family: "PP Neue Montreal";
   width: 100%;
 }
 .bdytxt2 {
-  margin-right: 102px;
+  margin-right: 90px;
   max-width: 390px;
   width: 100%;
   font-family: "PP Neue Montreal thin";
@@ -4389,7 +4389,7 @@ mtxt3 {
     background-image: url(images/layoutfres2.png);
     max-width: 1280px;
     width: 100%;
-    min-height: 1000px;
+    min-height: 700px;
     background-repeat: no-repeat;
     background-position: top;
 
@@ -4958,9 +4958,9 @@ mtxt3 {
     padding-top: 24px;
   }
   .layoutg1 {
-    background-image: url(images/gridg.png);
+    background-image: url(images/grgtrhjidg.png);
     background-position: center;
-    min-height: 1000px;
+    min-height: 700px;
   }
   .card1txt2 {
     max-width: 308px;
@@ -5077,7 +5077,7 @@ mtxt3 {
     max-width: 1280px;
     width: 100%;
 
-    background-image: url(images/pcrsponsive1280.png);
+    background-image: url(images/gettody.png);
     background-position: top;
     min-height: 768px;
     background-repeat: no-repeat;
@@ -7703,19 +7703,8 @@ justify-content: center;
     border-radius: 24px;
     display: flex;
     padding-left: 24px;
-    margin-right: 20px;
-    backdrop-filter: blur(110px);
-    box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
-    flex-direction: column;
-  }
-  .card2 {
-    max-width: 460px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 24px;
-    display: flex;
-    padding-left: 24px;
-    margin-right: 20px;
+    padding-right: 24px;
+    margin-right: 0px;
     backdrop-filter: blur(110px);
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
     flex-direction: column;
@@ -7728,6 +7717,7 @@ justify-content: center;
     border-radius: 24px;
     display: flex;
     padding-left: 24px;
+    padding-right: 24px;
     flex-direction: column;
   }
   .card1part4 {
@@ -7818,9 +7808,9 @@ justify-content: center;
   .cardI2 {
     display: flex;
     flex-direction: column;
-    min-height: 800px;
+    min-height: 600px;
     justify-content: space-between;
-    padding-left: 0px;
+    padding-left: 40px;
   }
   .txtI2a {
     max-width: 337px;
@@ -7912,7 +7902,7 @@ justify-content: center;
     box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
   }
   .layoutIimg1 {
-    max-width: 1000px;
+    max-width: 800px;
     width: 100%;
     padding-left: 0px;
     cursor: pointer;
@@ -7949,8 +7939,19 @@ justify-content: center;
     justify-content: space-between;
   }
   .layoutecard1 {
-    padding-left: 0px;
+    padding-left: 90px;
   }
+  .ftxtA {
+    padding-top: 93px;
+    padding-left: 40px;
+    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.45);
+}
+.layouthtexts {
+  max-width: 624px;
+  width: 100%;
+  margin-left: 20px;
+  text-shadow: 0px 0px 10px;
+}
   .layoutecard2 {
     padding-right: 20px;
   }
@@ -10617,4 +10618,176 @@ justify-content: center;
   .layout1img{
   margin-top: 43px;
   }
+}
+@media (min-width: 1281px) and (max-width: 1400px){
+  .header1{
+    padding-left: 94px;
+  }
+  .hedtxt {
+    max-width: 272px;
+  }
+  .header3 {
+    margin-right: 92px;
+    max-width: 272px;
+  }
+  .hedtxt5{
+    padding-left: 35px;
+  }
+  .etxt1 {
+    max-width: 513px;
+    font-size: 52px;
+  }
+  .etxt3 {
+    padding-top: 19px;
+    max-width: 447px;
+    width: 100%;
+    font-family: "PP Neue Montreal";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.6px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    opacity: 50%;
+  }
+  .layoutecard2 {
+    max-width: 500px;
+    padding-right: 20px;
+}
+.layoutecard1 {
+  padding-left: 90px;
+}
+.mainlayoutN34 {
+  max-width: 1259px;
+}
+.ftxtA {
+  padding-top: 93px;
+  padding-left: 20px;
+  text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.45);
+}
+.Gtxt1{
+  font-size: 114px;
+}
+.Gtxt2 {
+  font-family: serif;
+  font-size: 114px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 79px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+  font-style: italic;
+}
+.gtext45 {
+  max-width: 461px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.layouthtexts {
+  max-width: 624px;
+  width: 100%;
+  margin-left: 20px;
+  text-shadow: 0px 0px 10px;
+}
+.layoutIimg1 {
+  max-width: 800px;
+  width: 100%;
+  padding-left: 0px;
+  cursor: pointer;
+  padding-top: 121px;
+}
+.cardI2 {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+.Jtxta {
+  max-width: 1241px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.layoutC {
+  margin-top: 50px;
+}
+.layoutN {
+  background-image: url(images/ballres\ crop.png);
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1156px;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+}
+.layoutF {
+  background-image: url(images/layoutfres.png);
+  max-width: 1920px;
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.layoutG {
+  max-width: 1920px;
+  width: 100%;
+  background-image: url(images/GetStartedToday.png);
+  background-position: center;
+  min-height: 900px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.layoutH {
+  max-width: 1920px;
+  width: 100%;
+  background-image: url(images/layouthimg1.svg);
+  min-height: 1000px;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-size: 1568px 1057px;
+}
+.layoutI {
+  max-width: 1700px;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.layoutk {
+  max-width: 1613px;
+  width: 100%;
+  border-radius: 44px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.layoutL {
+  max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-image: url(images/layoutlimg3.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
 }
