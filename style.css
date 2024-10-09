@@ -258,13 +258,7 @@ body {
   justify-content: center;
   /* background-image: url("Project 4 imgs/back img.svg"); */
 }
-.border {
-  max-width: 153px;
-  width: 100%;
-opacity: 70%;
-  min-height: 2px;
-  background-color: rgba(255, 255, 255, 1);
-}
+
 .outerborder {
   display: flex;
   align-items: center;
@@ -892,6 +886,7 @@ font-family: "PP Neue Montreal";
   width: 100%;
 }
 .maincontainersoflayoutc {
+  
  
   max-width: 1840px;
   width: 100%;
@@ -906,6 +901,11 @@ font-family: "PP Neue Montreal";
 
   position: absolute;
   top: 1%;
+}
+.cardgradienttop{
+  max-width: 1840px;
+  width: 100%;
+  background-image: ;
 }
 .layoutdimg6 {
   display: flex;
