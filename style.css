@@ -301,7 +301,7 @@ opacity: 70%;
   color: rgba(255, 255, 255, 1);
   font-family: "PP Neue Montreal";
   font-weight: 400px;
-  font-size: 16px;
+  font-size: 20px;
   opacity: 50%;
   cursor: pointer;
 }
@@ -317,7 +317,7 @@ opacity: 70%;
 .hedtxt3 {
   color: rgba(255, 255, 255, 1);
   opacity: 50%;
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   cursor: pointer;
 }
 .hedprt2 {
@@ -336,7 +336,7 @@ opacity: 70%;
   align-items: center;
   gap: 4px;
   color: rgba(255, 255, 255, 1);
-  font-family: sans-serif;
+  font-family: "PP Neue Montreal";
   font-size: 22px;
   cursor: pointer;
   opacity: 50%;
@@ -351,6 +351,14 @@ opacity: 70%;
 
   /* border: 1px  solid gray ; */
   /* padding-left: 15px; */
+}
+.hdrA{
+  max-width: 947px;
+  width: 100%;
+  background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
+position: absolute;
+min-height: 62px;
+right: 25%;
 }
 .header3 {
   margin-right: 102px;
@@ -4335,9 +4343,22 @@ mtxt3 {
   .layoutka {
     margin-top: 100px;
   }
+  .hdrA {
+    max-width: 768px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 19.39%, rgba(0, 0, 0, 0) 80.48%, #000000 100%);
+
+    position: absolute;
+    min-height: 62px;
+    right: 0%;
+    top: 43%;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
+  .header1{
+    padding-left: 94px;
+  }
   .layout1img{
     margin-top: 93px;
     }
@@ -4442,7 +4463,7 @@ mtxt3 {
     font-family: "PP Neue Montreal";
   }
   .header3 {
-    /* margin-right: 102px; */
+    margin-right: 94px;
     max-width: 234px;
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -4472,6 +4493,20 @@ mtxt3 {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .hdrA {
+    max-width: 600px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
+    position: absolute;
+    min-height: 62px;
+    right: 26%;
+}
+.hedprt2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+}
 
   .mainbdyab {
     max-width: 244px;
@@ -5745,8 +5780,26 @@ justify-content: center;
   .layoutMA {
     display: none;
   }
+  .hdrA {
+    max-width: 947px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
+    position: absolute;
+    min-height: 62px;
+    right: 29%;
+}
 }
 @media (max-width: 375px) {
+  .hdrA {
+    max-width: 947px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
+    position: absolute;
+    min-height: 62px;
+    right: 2%;
+}
+
+
   .layoutF {
     padding-top: 0px;
     min-height: 558px;
@@ -7470,6 +7523,25 @@ justify-content: center;
 }
 
 @media (min-width: 1281px) and (max-width: 1700px) {
+  .hdrA {
+    max-width: 847px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
+    position: absolute;
+    min-height: 62px;
+    right: 25%;
+}
+  .card1part3 {
+    max-width: 410px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 16px;
+  }
+  .card1txt4{
+    text-align: left;
+  }
   .bodyimg4 {
     max-width: 1300px;
     width: 100%;
@@ -9779,6 +9851,15 @@ justify-content: center;
 
 }
 @media (min-width: 376px) and (max-width: 460px) {
+  .hdrA {
+        max-width: 768px;
+        width: 100%;
+        background-image: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 19.39%, rgba(0, 0, 0, 0) 80.48%, #000000 100%);
+        position: absolute;
+        min-height: 62px;
+        right: 0%;
+        top: 44%;
+    }
   .txtIcda {
     max-width: 702px;
     width: 100%;
