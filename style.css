@@ -485,7 +485,7 @@ font-family: "PP Neue Montreal";
   gap: 52px;
   padding-top: 32px;
   padding-left: 102px;
-  padding-bottom: 64px;
+  padding-bottom: 60px;
 }
 .bodyimg3 {
   position: absolute;
@@ -4384,6 +4384,9 @@ mtxt3 {
     padding-top: 79px;
     padding-bottom: 100px;
   }
+  .ftxt3a {
+    display: block;
+}
 
   .layoutF {
     background-image: url(images/layoutfres2.png);
@@ -5292,7 +5295,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding-bottom: 58px;
+    padding-bottom: 5px;
   }
   .txtI4 {
     max-width: 312px;
@@ -5766,7 +5769,11 @@ justify-content: center;
   .header2a {
     display: none;
   }
+  .ftxt3a {
+    display: none;
+  }
 }
+
 @media (min-width: 1921px) and (max-width: 2346px) {
   .layouthtextsResponsive {
     display: none;
@@ -5774,7 +5781,7 @@ justify-content: center;
   .ftxtB {
     padding-top: 50px;
     padding-right: 102px;
-    display: none;
+   
   }
   .layoutMA {
     display: none;
@@ -7666,7 +7673,7 @@ justify-content: center;
   .ftxtB {
     padding-top: 50px;
     padding-right: 102px;
-    display: none;
+   
   }
   .card1part2 {
     max-width: 460px;
@@ -8146,18 +8153,13 @@ justify-content: center;
     line-height: 19.2px;
     text-align: left;
   }
-  .layoutI {
-    max-width: 930px;
-    width: 100%;
-    margin-top: 100px;
-    padding-left: 0px;
-  }
+  
   .cardI2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 11px;
-    padding-left: 0px;
+    padding-left: 40px;
     padding-right: 20px;
   }
   .txtI2a {
@@ -9251,7 +9253,7 @@ justify-content: center;
     background-size: 871px 888px;
   }
 }
-@media (min-width: 768px) and (max-width: 1919px) {
+@media (min-width: 1600px) and (max-width: 1919px) {
   .ftxt3a {
     display: none;
   }
@@ -10504,6 +10506,9 @@ justify-content: center;
   }
 }
 @media (min-width: 1281px) and (max-width: 1440px){
+  .ftxt3a {
+    display: none;
+  }
   .header1 {
     display: flex;
     justify-content: space-between;
@@ -10615,6 +10620,9 @@ justify-content: center;
 }
 }
 @media (min-width: 1281px) and (max-width: 1600px){
+  .ftxt3a {
+    display: none;
+  }
   .layout1img{
   margin-top: 43px;
   }
