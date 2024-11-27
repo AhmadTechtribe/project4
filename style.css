@@ -45,7 +45,7 @@ body {
 }
 
 .layoutB {
-  background-image: url(images/body\ img\ 3.png);
+  background-image: url(images/tailwind-1.png);
   min-height: 700px;
   background-repeat: no-repeat;
   background-position: top;
@@ -58,7 +58,6 @@ body {
 }
 .layoutC {
   margin-top: 100px;
-
   max-width: 1920px;
   width: 100%;
   margin-left: auto;
@@ -265,14 +264,21 @@ body {
   max-width: 153px;
   width: 100%;
 }
-.images1 {
+.border{
+  align-items: center;
+  max-width: 153px;
+  width: 100%;
+  border: 0.1px solid white;
+
+}
+/* .images1 {
   position: relative;
 }
 .images2 {
   position: absolute;
   padding-right: 60px;
   /* bottom: -370px; */
-}
+
 .projectimage {
   width: 100%;
   display: flex;
@@ -343,17 +349,15 @@ body {
   cursor: pointer;
   padding-top: 0px;
   position: relative;
-
-  /* border: 1px  solid gray ; */
-  /* padding-left: 15px; */
 }
+
 .hdrA{
   max-width: 947px;
   width: 100%;
   background-image: linear-gradient(90deg, #000000 9.4%, rgba(0, 0, 0, 0) 30.3%, rgba(0, 0, 0, 0) 76.47%, #000000 91.77%);
 position: absolute;
 min-height: 62px;
-right: 0%;
+
 
 }
 .header3 {
@@ -362,7 +366,6 @@ right: 0%;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 52px;
-  box-shadow: rgba(255, 255, 255, 0.1);
   box-shadow: 0px -4px 30px 0px rgba(255, 255, 255, 0.1) inset;
 }
 .arrow1 {
@@ -442,7 +445,7 @@ font-family: "PP Neue Montreal";
   color: rgba(255, 255, 255, 1);
 
   cursor: pointer;
-  Rotation:-0;
+
 }
 .bdytxt3 {
   max-width: 139px;
@@ -524,10 +527,10 @@ font-family: "PP Neue Montreal";
   justify-content: center;
 }
 
-.layoutctxt2 {
+/* .layoutctxt2 {
   max-width: 313px;
   width: 100%;
-}
+} */
 .layoutctxt2 {
   max-width: 58px;
   color: white;
@@ -629,7 +632,6 @@ font-family: "PP Neue Montreal";
 .layoutctxt11 {
   max-width: 50px;
   width: 100%;
-  /* font-family: serif; */
   font-size: 14px;
   font-weight: 400;
   line-height: 19.6px;
@@ -660,8 +662,6 @@ font-family: "PP Neue Montreal";
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
-  /* padding-left: 24px; */
-  /* padding-bottom: 24px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -771,7 +771,6 @@ font-family: "PP Neue Montreal";
   padding-bottom: 24px;
   padding-top: 24px;
   backdrop-filter: blur(60px);
-
   box-shadow: 0px 44px 50px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -967,6 +966,7 @@ font-family: "PP Neue Montreal";
 }
 .mainlayoutD {
   max-width: 1920px;
+  
   width: 100%;
 }
 .maindivofpag4 {
@@ -1513,7 +1513,6 @@ font-family: "PP Neue Montreal";
 .maindivlayoutg3 {
   display: flex;
   flex-direction: column;
-  /* padding-right: 102px; */
   padding-top: 181px;
   row-gap: 30px;
 }
@@ -1657,8 +1656,7 @@ opacity: 50%;
 .maindivcardsh {
   max-width: 1920px;
   width: 100%;
-  /* padding-left: 102px; */
-  /* padding-right: 102px; */
+
   display: flex;
   gap: 24px;
   padding-top: 200px;
@@ -2262,8 +2260,6 @@ mtxt3 {
   max-width: 1716px;
   display: flex;
   justify-content: space-between;
-  /* padding-left: 102px; */
-  /* padding-right: 102px; */
   padding-top: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -2288,7 +2284,6 @@ mtxt3 {
 }
 
 .layoutntxt1 {
-  /* max-width: 463px; */
   width: 100%;
   color: white;
   font-family: "PP Neue Montreal";
@@ -2298,7 +2293,7 @@ mtxt3 {
   letter-spacing: -0.03em;
   text-shadow: 0px 0px 20px ;
   text-align: center;
-  /* text-align: center; */
+ 
 }
 .layoutntxt2 {
   /* max-width: 463px; */
@@ -2742,7 +2737,7 @@ mtxt3 {
   justify-content: center;
 }
 .layoutnimg3 {
-  max-width: 235;
+  max-width: 235px;
   width: 100%;
   color: white;
   opacity: 50%;
@@ -3312,7 +3307,7 @@ mtxt3 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(images/bodyimg6.svg);
+    background-image: url(images/tailwind5.png);
     min-height: 1094px;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -4411,9 +4406,9 @@ mtxt3 {
   }
 
   .layoutB {
-    background-image: url(images/layoutbres2.png);
+    background-image: url(images/tailwind-2.png);
     background-position: top;
-    background-size: 500px 600px;
+    /* background-size: 500px 600px; */
   }
   .bodyimg4 {
     max-width: 91.24vw;
@@ -4537,7 +4532,6 @@ mtxt3 {
   }
   .layoutC {
     margin-top: 50px;
-
     max-width: 1920px;
     width: 100%;
     margin-left: auto;
@@ -4564,13 +4558,10 @@ mtxt3 {
     max-width: 1280px;
     width: 100%;
     inset: 0;
-    /* top: 100px !important; */
     height: fit-content;
-
     display: grid;
     grid-template-columns:  272px 272px 272px 272px ;
     gap: 35px;
-    /* position: absolute; */
     top: 38%;
     justify-content: center;
     
@@ -4648,8 +4639,6 @@ mtxt3 {
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    /* padding-left: 24px; */
-    /* padding-bottom: 24px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -4722,14 +4711,13 @@ mtxt3 {
   }
   .etxt1 {
     max-width: 452px;
-    font-family: serif;
-    font-family: PP Neue Montreal;
     font-size: 48px;
     font-weight: 400;
     line-height: 57.6px;
     letter-spacing: -0.03em;
     text-align: left;
     color: white;
+    font-family: PP Neue Montreal;
   }
   .etxt2 {
     max-width: 452px;
@@ -4747,16 +4735,15 @@ mtxt3 {
     padding-top: 19px;
     max-width: 452px;
     width: 100%;
-    /* font-family: serif; */
-    font-family: PP Neue Montreal;
+
     font-size: 18px;
     font-weight: 400;
     line-height: 25.2px;
     letter-spacing: -0.02em;
     text-align: left;
-
     color: white;
     opacity: 50%;
+    font-family: PP Neue Montreal;
   }
   .mainlayoute {
     max-width: 244px;
@@ -5138,7 +5125,6 @@ mtxt3 {
   }
   .htxt3 {
     max-width: 460px;
-    /* padding-top: 32px; */
     width: 100%;
     color: white;
     font-family: PP Neue Montreal;
@@ -5211,8 +5197,6 @@ mtxt3 {
   .maindivcardsh {
     max-width: 1280px;
     width: 100%;
-    /* padding-left: 102px; */
-    /* padding-right: 102px; */
     display: flex;
     gap: 24px;
     padding-top: 156px;
@@ -5416,8 +5400,6 @@ justify-content: center;
   .ktxt3 {
     max-width: 520px;
     width: 100%;
-    font-family: PP Neue Montreal;
-    font-family: PP Neue Montreal;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
@@ -5427,6 +5409,7 @@ justify-content: center;
     padding-bottom: 21px;
     padding-top: 21px;
     cursor: pointer;
+    font-family: PP Neue Montreal;
   }
   .kcard2 {
     max-width: 468px;
